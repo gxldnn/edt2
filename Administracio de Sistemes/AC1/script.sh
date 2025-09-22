@@ -10,6 +10,7 @@ function menu(){
     echo "7. omprovar si dues cadenes de text són iguals o diferents"
     echo "8. Comprovar si una condició es compleix amb una lògica combinada (AND / OR):"
     echo "9. Comprovar si un fitxer o directori existeix amb negació"
+    echo "0. Sortir"
 }
 
 # 1. Comprovar si un fitxer o directori existeix:
@@ -20,6 +21,8 @@ function comprovar_fitxer_o_directori(){
         else
             echo "El fitxer $input NO existeix!!"
     fi
+
+    ls -l "$input"
 }
 
 # 2. Comprovar si el fitxer és llegible, escrivible o executable:
@@ -39,10 +42,12 @@ function comprovar_permisos(){
         resposta+=" Escritura"
     fi
     echo "$resposta"
+    ls -l "$input"
+
 }
 
 
-# 3. Comprovar si el fitxer no està buit
+# 3. Comprovar si el fitxer noi la  està buit
 function comprovar_no_buit(){
     read -p "Quin fitxer vols comprobar?: " input
     if [ -s "$input" ]; then
@@ -51,6 +56,8 @@ function comprovar_no_buit(){
             echo "El fitcher \"$input\" esta vuit!!"
 
     fi
+    ls -l "$input"
+
 }
 
 # 4. Comprovar si un fitxer és regular o un directori:
@@ -62,6 +69,8 @@ function comprovar_tipus(){
             echo "El fitcher \"$input\" es un directori!!"
 
     fi
+    ls -l "$input"
+
 }
 
 # 5. Comprovar si dos nombres són iguals, diferents, majors o menors:
@@ -76,6 +85,8 @@ function comprovar_numeros(){
     else
         echo "El numero $input es mes petit que $input2"
     fi
+    ls -l "$input"
+
 }
 
 # 6. Comprovar si una cadena de text està buida o no:
@@ -87,6 +98,8 @@ function comprovar_cadena(){
             echo "El misatge del usuari te contigut i es: $input"
 
     fi
+    ls -l "$input"    
+
 }
 
 # 7. Comprovar si dues cadenes de text són iguals o diferents:
@@ -100,6 +113,7 @@ function comprovar_textes(){
         else
             echo "El misatge del usuari te contigut i es: $input"
     fi
+    ls -l "$input"
 }
 
 # 8. Comprovar si una condició es compleix amb una lògica combinada (AND / OR):
@@ -116,6 +130,7 @@ function comprovar_logica(){
     else
         echo "No s existeix ningun arxiu ni directori amb aquests noms"
     fi
+    ls -l "$input"
 }
 
 # 9. Negar una condició amb !:
@@ -127,6 +142,7 @@ function comprovar_negacio(){
             echo "El fitxer si existeix!!"
 
     fi
+    ls -l "$input"
 }
 
 
@@ -211,6 +227,11 @@ while true; do
                 break
 
 
+            ;;
+            0)  
+                clear 
+                echo -e "Has salido del programa coorectamente\n" # guapo ferran
+                exit 0
             ;;
 
             *)
