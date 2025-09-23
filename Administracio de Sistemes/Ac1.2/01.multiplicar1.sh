@@ -22,3 +22,4 @@ echo ""
 for i in ${nums[@]}; do
     echo -e "$nummenos * $i = $(($i * $nummenos))" 
 done
+
