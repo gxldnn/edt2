@@ -1,5 +1,4 @@
 #!/bin/bashz
-
 read -p "Digues la extensio dels arxius que vols buscar! : " ext
 
 ls -lx | grep ".$ext" > llistat.txt
