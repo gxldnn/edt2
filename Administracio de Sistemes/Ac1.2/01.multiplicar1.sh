@@ -4,8 +4,9 @@ read -p "Digues un numero per a mostrar la seva taula de multiplicar : " num
 
 nums=(0 1 2 3 4 5 6 7 8 9)
 
-if  [ $num = 0 ]; then
-    echo "El numero es zero, la seva taula es = 0 tot jejejej"
+if  [ $num = 0 ] || [ -z "$num" || ! "$num" =~ ^[0-9]+$ ]]; then
+
+    echo "El numero es zero o invalid, la seva taula es = 0 tot jejejej"
     exit 0
 fi
 
