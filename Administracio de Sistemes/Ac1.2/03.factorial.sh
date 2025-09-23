@@ -1,0 +1,18 @@
+#!/bin/bash
+
+read -p "Digues un numero per a mostrar el seu factorial "!" : " num
+
+
+if ! [[ "$num" =~ ^[0-9]+$ ]] || [ "$num" -le 0 ]; then ## mirar si es text 0 si es major que 0
+    echo "Numero invalid o zero."
+    exit 0
+fi
+
+savenum=$num # Guardem el valor del input del usuari
+
+result=1
+while [ $num -ne 0 ]; do # Mentres num no sigui 0 fes:
+    result=$(($result * $num)) 
+    (( num-- ))
+done
+echo "El factorial de $savenum es $result"
