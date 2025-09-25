@@ -3,4 +3,4 @@
 <!ATTLIST nom dni CDATA "46412273K">
 <!ATTLIST colors color ("blau" | "verd" | "groc") #IMPLIED>
 <!ELEMENT descripcio EMPTY>
-<!ELEMENT colors EMPTY>
+<!ELEMENT colors EMPTY>asd
