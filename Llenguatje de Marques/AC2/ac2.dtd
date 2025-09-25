@@ -1,1 +1,1 @@
-<!ELEMENT principal (nom,des)>
+<!ELEMENT principal (nom,descripcio,color)>
