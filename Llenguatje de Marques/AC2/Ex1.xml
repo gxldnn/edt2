@@ -1,4 +1,4 @@
-<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+<!DOCTYPE cataleg SYSTEM "Ex1.dtd">
 <cataleg>
     <llibre id="L1">
         <titol>1984</titol>
