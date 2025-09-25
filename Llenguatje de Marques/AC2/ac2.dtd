@@ -1,7 +1,6 @@
 <!ELEMENT principal (nom,descripcio,colors)>
 <!ELEMENT nom (#PCDATA)>
 <!ATTLIST nom dni CDATA "46412273K">
-<!ELEMENT colors EMPTY>
 <!ATTLIST colors color ("blau"|"verd"|"groc") #REQUIRED>
 <!ELEMENT descripcio EMPTY>
 <!ELEMENT colors EMPTY>
