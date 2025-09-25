@@ -1,4 +1,6 @@
-!DOC
+<!DOCTYPE cataleg [
+    <!ELEMENT cataleg (#PCDATA)>
+]>
 <cataleg>
     <llibre id="L1">
         <titol>1984</titol>
