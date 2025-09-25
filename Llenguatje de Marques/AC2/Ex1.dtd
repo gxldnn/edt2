@@ -3,6 +3,9 @@
 <!ELEMENT titol (#PCDATA)>
 
 
+
+
+
 <!--Atribut obligatori: id de <llibre> (únic).
 • <cataleg> pot contenir més d’un <llibre>.
 • <titol>, <autor>, <any>, <editorial> són obligatoris i només 1 cada
