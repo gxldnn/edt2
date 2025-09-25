@@ -2,4 +2,4 @@
 <!ELEMENT nom (nom,descripcio,color)>
 <!ELEMENT descripcio (nom,descripcio,color)>
 <!ELEMENT colors (nom,descripcio,color)>
-<!ELEMENT nom dni CDATA "46">
+<!ELEMENT nom dni CDATA "464122">
