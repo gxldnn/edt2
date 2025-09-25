@@ -1,1 +1,1 @@
-<!ELEMENT cataleg (llibre+)>
+<!ELEMENT cataleg (l)>
