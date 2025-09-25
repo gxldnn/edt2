@@ -4,6 +4,7 @@
 !<!ELEMENT autor (#PCDATA)>
 <!ELEMENT any (#PCDATA)>
 <!ELEMENT editorial (#PCDATA)>
+<!ELEMENT categories (categoria+)?>
 
 
 
