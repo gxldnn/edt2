@@ -1,5 +1,5 @@
 <!ELEMENT agenda (contacte+)>
-<>
+<!ELE>
 
 <!--Atribut obligatori: id de <contacte> (únic).
 • <agenda> pot contenir més d’1 <contacte>.
