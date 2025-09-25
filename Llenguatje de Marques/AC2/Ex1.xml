@@ -1,5 +1,5 @@
 <cataleg>
-    <llibre >
+    <llibre id="L1">
         <titol>1984</titol>
         <autor>George Orwell</autor>
         <any>1949</any>
