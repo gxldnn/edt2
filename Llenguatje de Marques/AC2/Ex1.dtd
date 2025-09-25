@@ -1,5 +1,5 @@
 <!DOCTYPE cataleg [
-<!ELEME>
+<!ELEMENT cataleg (llibre+)>
 <!ELEMENT llibre (titol, autor, any, editorial, categories)>
 <!ELEMENT cataleg (llibre+)>
 <!ELEMENT titol (#PCDATA)>
