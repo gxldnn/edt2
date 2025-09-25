@@ -1,5 +1,5 @@
 <!DOCTYPE cataleg [
-    <!ELEMENT cataleg (#PCDATA)>
+    <!ELEMENT cataleg (SYSTEM)>
 ]>
 <cataleg>
     <llibre id="L1">
