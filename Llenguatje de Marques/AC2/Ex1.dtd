@@ -1,5 +1,5 @@
 <!ELEMENT cataleg (llibre+)>
-<!ELEMENT llibre ,titol, autor, any, editorial, categories)>
+<!ELEMENT llibre (titol, autor, any, editorial, categories)>
 <!ELEMENT titol (#PCDATA)>
 <!ELEMENT autor (#PCDATA)>
 <!ELEMENT any (#PCDATA)>
