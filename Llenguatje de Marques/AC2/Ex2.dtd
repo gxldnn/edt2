@@ -1,3 +1,9 @@
 <!ELEMENT agenda (contacte+)>
 
-<!>
+<!--Atribut obligatori: id de <contacte> (únic).
+• <agenda> pot contenir més d’1 <contacte>.
+• <nom> és obligatori i únic dins <contacte>.
+• <telefon> pot aparèixer 1 o més vegades amb atribut tipus només “mò-
+bil”, “fix” o “feina”.
+1
+• <email> és opcional (0 o 1).-->
