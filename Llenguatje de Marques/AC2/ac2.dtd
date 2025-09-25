@@ -1,1 +1,1 @@
-<>
+<!ELEMENT element-name (#PCDATA)>
