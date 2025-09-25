@@ -1,6 +1,6 @@
 <!ELEMENT agenda (contacte+)>
 <!ELEMENT contacte (nom, telefon+, email?)>
-<!ATTLIST id type ID #REQUIRED>
+<!ATTLIST contacte id ID #REQUIRED>
 
 
 <!--Atribut obligatori: id de <contacte> (únic).
