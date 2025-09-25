@@ -1,1 +1,13 @@
 
+<cataleg>
+<llibre id="L1">
+<titol>1984</titol>
+<autor>George Orwell</autor>
+<any>1949</any>
+<editorial>Secker & Warburg</editorial>
+<categories>
+<categoria>Distopia</categoria>
+<categoria>Política</categoria>
+</categories>
+</llibre>
+</cataleg>
