@@ -1,6 +1,6 @@
 <!ELEMENT cataleg (llibre+)>
 <!ELEMENT llibre (titol, autor, any, editorial, categories)>
-<!ATTLIST llibre id type ID #REQUIRED>
+<!ATTLIST llibre id type ID>
 <!ELEMENT titol (#PCDATA)>
 <!ELEMENT autor (#PCDATA)>
 <!ELEMENT any (#PCDATA)>
