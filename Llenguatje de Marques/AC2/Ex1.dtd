@@ -4,4 +4,4 @@
     <!ELEMENT cataleg (llibre+)>
     <!ELEMENT titol (#PCDATA)>
             
-        ]
+]
