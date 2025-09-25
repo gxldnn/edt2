@@ -1,5 +1,5 @@
 <!DOCTYPE cataleg [
-    <!ELEMENT cataleg (SYSTEM)>
+    <!ELEMENT cataleg (SYSTEM>
 ]>
 <cataleg>
     <llibre id="L1">
