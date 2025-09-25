@@ -1,4 +1,4 @@
-<!DOCTYPE cataleg SYSTEM "Ex2.dtd">
+<!DOCTYPE agenda SYSTEM "Ex2.dtd">
 <agenda>
     <contacte id="C1">
         <nom>Anna Puig</nom>
@@ -7,4 +7,3 @@
         <email>anna@example.com</email>
     </contacte>
 </agenda>
-
