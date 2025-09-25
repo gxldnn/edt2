@@ -3,6 +3,8 @@
 <!ATTLIST contacte id ID #REQUIRED>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT telefon (#PCDATA)>
+<!ATTLIST telefon tipus (mòbil | fix | feina) #REQUIRED>
+<!ELEMENT email (#PCDATA)>
 
 
 
