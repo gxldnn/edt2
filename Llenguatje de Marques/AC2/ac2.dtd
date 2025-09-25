@@ -2,4 +2,3 @@
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT descripcio EMPTY>
 <!ELEMENT colors EMPTY>
-<!ATTLIST nom dni CDATA "46412273K">
