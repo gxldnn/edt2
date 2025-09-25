@@ -3,4 +3,3 @@
 <!ELEMENT llibre (titol, autor, any, editorial, categories)>
 <!ELEMENT titol (#PCDATA)>
             
-]>
