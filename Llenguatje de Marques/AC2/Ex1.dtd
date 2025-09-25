@@ -1,2 +1,2 @@
 <!DOCTYPE cataleg [
-    <!ELEMENT llibre (titol, autor, any, editorial, categories>
+    <!ELEMENT llibre (titol, autor, any, editorial, categories)>
