@@ -1,1 +1,1 @@
-<!ELEMENT  (#PCDATA)>
+<!ELEMENT principal (#PCDATA)>
