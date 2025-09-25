@@ -2,6 +2,8 @@
 <!ELEMENT llibre (id+,titol, autor, any, editorial, categories)>
 <!ELEMENT titol (#PCDATA)>
 !<!ELEMENT autor (#PCDATA)>
+<!ELEMENT any (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
 
 
 
