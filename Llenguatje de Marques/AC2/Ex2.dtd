@@ -2,6 +2,7 @@
 <!ELEMENT contacte (nom, telefon+, email?)>
 <!ATTLIST id ID #REQUIRED>
 
+
 <!--Atribut obligatori: id de <contacte> (únic).
 • <agenda> pot contenir més d’1 <contacte>.
 • <nom> és obligatori i únic dins <contacte>.
