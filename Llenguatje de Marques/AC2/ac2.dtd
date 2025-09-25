@@ -1,1 +1,1 @@
-<!ELEMENT principal (#PCDATA)>
+<!ELEMENT principal (nom,des)>
