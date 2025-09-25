@@ -6,7 +6,7 @@
 <!ELEMENT any (#PCDATA)>
 <!ELEMENT editorial (#PCDATA)>
 <!ELEMENT categories (categoria+)>
-!<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
 
 
 
@@ -15,7 +15,7 @@
 <!--Atribut obligatori: id de <llibre> (únic).
 • <cataleg> pot contenir més d’un <llibre>.
 • <titol>, <autor>, <any>, <editorial> són obligatoris i només 1 cada
-un.
+un
 • <categories> és opcional (0 o 1).
 • <categoria> dins <categories> pot aparèixer 1 o més vegades si
 <categories> està present> -->
