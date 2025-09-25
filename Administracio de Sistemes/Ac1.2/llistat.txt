@@ -1,1 +1,0 @@
-00.explica.codi.sh  01.multiplicar1.sh	03.factorial.sh  10.extensio.fitxer.sh
