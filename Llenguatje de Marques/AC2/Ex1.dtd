@@ -3,16 +3,5 @@
 
     <!ELEMENT cataleg (llibre+)>
     <!ELEMENT titol (#PCDATA)>
-    <!ELEMENT autor (#PCDATA)>
-        
-    <!ELEMENT any (#PCDATA)>
-    <!ELEMENT editorial (#PCDATA)>
-    <!ELEMENT categories (categoria+)>
-        
-        
-    <!ELEMENT categoria (#PCDATA)>
-        <!ATTLIST categoria tipus CDATA "general">
-        <!ATTLIST any edicio CDATA "1a">
-        <!ATTLIST autor nacionalitat CDATA "desconeguda">
             
         ]
