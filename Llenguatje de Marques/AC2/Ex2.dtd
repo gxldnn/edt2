@@ -2,7 +2,7 @@
 <!ELEMENT contacte (nom, telefon+, email?)>
 <!ATTLIST contacte id ID #REQUIRED>
 <!ELEMENT nom (#PCDATA)>
-<!ELEMENT telefon>
+<!ELEMENT telefon >
 
 
 <!--Atribut obligatori: id de <contacte> (únic).
