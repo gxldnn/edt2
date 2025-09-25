@@ -1,5 +1,5 @@
 <!ELEMENT principal (nom,descripcio,color)>
 <!ELEMENT nom (nom,descripcio,color)>
 <!ELEMENT descripcio (nom,descripcio,color)>
-<!ELEMENT descripcio (nom,descripcio,color)>
+<!ELEMENT colors (nom,descripcio,color)>
 <!ELEMENT descripcio (nom,descripcio,color)>
