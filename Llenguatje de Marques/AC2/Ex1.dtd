@@ -1,20 +1,8 @@
 <!ELEMENT cataleg (llibre+)>
-<!ELEMENT llibre (titol, autor, any, editorial, categories)>
+<!ELEMENT llibre (titol, autor, any, editorial)>
 <!ATTLIST llibre id ID #REQUIRED>
+
 <!ELEMENT titol (#PCDATA)>
 <!ELEMENT autor (#PCDATA)>
 <!ELEMENT any (#PCDATA)>
 <!ELEMENT editorial (#PCDATA)>
-<!ELEMENT categories (categoria?)>
-
-
-
-
-
-<!--Atribut obligatori: id de <llibre> (únic).
-• <cataleg> pot contenir més d’un <llibre>.
-• <titol>, <autor>, <any>, <editorial> són obligatoris i només 1 cada
-un.
-• <categories> és opcional (0 o 1).
-• <categoria> dins <categories> pot aparèixer 1 o més vegades si
-<categories> està present> -->
