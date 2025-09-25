@@ -1,3 +1,3 @@
 <!ELEMENT principal (nom,descripcio,color)>
-<!ELEMENT principal (nom,descripcio,color)>
+<!ELEMENT pr (nom,descripcio,color)>
 <!ELEMENT principal (nom,descripcio,color)>
