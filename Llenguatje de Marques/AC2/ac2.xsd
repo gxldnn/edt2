@@ -1,4 +1,3 @@
-
   <xs:element name="principal">
     <xs:complexType>
       <xs:sequence>
