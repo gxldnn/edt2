@@ -4,17 +4,7 @@
 
 flagtype=""
 
-read -p "Introdueix un fitxer o directori per a o veure (tambe si vols, la seva ruta): " input
-if [ -f "$input" ]; then 
-    flagtype="arxiu"
-    action="llegir"
-elif [ -d "$input" ]; then
-    flagtype="directori"
-    action="veure"
-else
-    echo "El arxiu o directori no existeix!!"
-    exit 1
-fi
+
 
 function compactar(){
 
@@ -49,7 +39,7 @@ function compactar(){
 function descompacta(){
     read  -p "Digues el nom d'un arxiu tar.gz o el seu path sencer: " $input
     tar -zxf $input
-    
+
 
 }
 
