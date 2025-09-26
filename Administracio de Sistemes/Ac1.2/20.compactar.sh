@@ -34,6 +34,7 @@ function compactar(){
 
 function descompacta(){
     read  -p "Digues el nom d'un arxiu tar.gz o el seu path sencer: " $input
+    if 
     tar -zxf $input
 
 
