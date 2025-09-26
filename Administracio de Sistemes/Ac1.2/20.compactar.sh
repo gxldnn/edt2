@@ -47,7 +47,7 @@ function descompacta(){
     fi
 }
 
-function start(){}
+function start(){
     read -p "Introdueix un fitxer o directori per a o veure (tambe si vols, la seva ruta): " input
     if [ -f "$input" ]; then 
         flagtype="arxiu"
@@ -60,6 +60,7 @@ function start(){}
         exit 1
     fi
 }
+
 function menu(){
     echo "1. Veure/Leer el contingut del $flagtype"
     echo "2. Comprimir el $flagtype"
