@@ -70,6 +70,7 @@ function menu(){
 }
 menu
 while true; do
+    menu
     case $option in
         1)
             compactar
