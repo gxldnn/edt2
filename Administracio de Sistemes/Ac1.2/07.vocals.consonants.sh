@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 clear
 read -p “Introdueix una paraula: ” paraula
 read -p “Introdueix la longitud: ” longitud
