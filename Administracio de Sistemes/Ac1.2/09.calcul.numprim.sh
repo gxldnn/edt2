@@ -1,21 +1,32 @@
 #!/bin/bash
 
-read -p "Indica un numero per a comprovar si es prim o no: " num
-read -p ""
-count=0
+read -p "Indica un primer numero per al interval: " num1
+read -p "Indica un segon numero per al interval: " num2
 
 
+primlist=()
 
+if [ $num1 -gt $num2 ];then
+        topnum=$num1
+        lownum=$num2
+    else
+        topnum=$num2
+        lownum=$num1
+fi
 
-
-for((i=$num; i!=$numtop; i--)); do
-    if [ $(($num % $i)) -eq 0 ]; then # Si la divisio no es exaxcta "-eq 0" no es compta
-        (( count++ ))
+for((i=$topnum; i!=$lownum; i--)); do
+    addcount=0
+    for((j=1; j<i; j++)); do
+        if [ $(($topnum % $i)) -eq 0 ]; then # Si la divisio no es exaxcta "-eq 0" no es compta
+            addcount=$((addcount+1))            
+        fi
+        if [ $addcount -gt 2 ]; then # Si el numero te mes de 2 divisors no es primer
+            break
+        fi
+    done
+    if [ $addcount -le 2 ]; then # Si el numero te 2 o menys divisors es primer
+        primlist+=($i)
     fi
 done
 
-if [ $count = 2 ]; then
-    echo "El numero es prim"
-else
-    echo "El numero no es prim"
-fi
+echo "Los numeros primos son: ${primlist[@]}"
