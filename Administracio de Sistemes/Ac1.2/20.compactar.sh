@@ -27,7 +27,7 @@ function compactar(){
             cat "$input"
         fi
     else
-       echo "No es $action el contingut de $flagtype" 
+       echo "No es pot $action el contingut de $flagtype" 
     fi
     echo ""
     read -p "Vols comprimir el $flagtype? (s/n): " filecomp
