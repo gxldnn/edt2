@@ -14,5 +14,5 @@
             <preu>29.50</preu>
         </producte>
     </productes>
-    <pagament>Targeta</pagament>
+<pagament tipus="Targeta"></pagament
 </comanda>
