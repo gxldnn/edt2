@@ -52,5 +52,5 @@ read -p "Introdueix un fitxer o directori o tar.gz (tambe si vols, la seva ruta)
 if [[ "$input" == *.tar.gz ]]; then
     descompacta "$input"
 else
-    compactar "$1"
+    compactar "$input"
 fi
