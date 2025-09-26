@@ -11,4 +11,5 @@ done
 if [ $count = 2 ]; then
     echo "El numero es prim"
     else
-    echo 
+    echo "El numero no es prim"
+fi
