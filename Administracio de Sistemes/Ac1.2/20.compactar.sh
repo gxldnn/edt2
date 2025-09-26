@@ -73,6 +73,7 @@ while true; do
     clear
     menu
     clear
+    start
     case $option in
         1)
             compactar
