@@ -2,8 +2,6 @@
 
 ## FLAGS, marquem unes variables com a flags per a no fer cadenes de ifs infinites
 
-flagtype=""
-
 
 
 function compactar(){
