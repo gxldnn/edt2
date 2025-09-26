@@ -59,6 +59,7 @@ else
     echo "El arxiu o directori no existeix!!"
     exit 1
 fi
+
 function menu(){
     echo "1. Veure/Leer el contingut del $flagtype"
     echo "2. Comprimir el $flagtype"
