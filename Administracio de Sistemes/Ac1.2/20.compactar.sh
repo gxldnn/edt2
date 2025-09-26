@@ -37,8 +37,9 @@ function descompacta(){
     if [ -e $input ]; then
         read "A on vols descomprimir el arxiu, path completa o relativa, no escriguis res per a guardar aqui: " pathdecomp
         if [ -z $pathdecomp ]; then 
-            
-        tar -zxf $input -C 
+            tar -zxf $input 
+        else
+
     
 
 
