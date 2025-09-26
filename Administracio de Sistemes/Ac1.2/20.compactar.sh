@@ -47,4 +47,5 @@ function descompacta(){
     fi
 }
 
-readp -p "Introdueix un fitxer o directori per a o veure (tambe si vols, la seva ruta): " input]
+readp -p "Introdueix un fitxer o directori o tar.gz (tambe si vols, la seva ruta): " input
+if
