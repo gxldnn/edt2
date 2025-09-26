@@ -5,6 +5,7 @@ read -p “Introdueix la longitud: ” longitud
 pila=0
 comptador=1
 while [ $comptador -le $longitud ]; do
+        
 aux=$(echo $paraula | cut -c $comptador)
 if [ $aux = “a” ]; then
 let pila=pila+1
