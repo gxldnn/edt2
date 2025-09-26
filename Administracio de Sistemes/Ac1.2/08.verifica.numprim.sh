@@ -9,4 +9,4 @@ for((i=$num; i!=0; i--)); do
 done
 
 if [ $count = 2 ]; then
-    echo ""
+    echo "El numero es prim"
