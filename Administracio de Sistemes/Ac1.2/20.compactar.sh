@@ -66,4 +66,23 @@ function menu(){
     echo "4. Sortir"
     read -p "Tria una opcio (1-4): " option
 }
+case $option in
+    1)
+        compactar
+    ;;
+    2)
+        compactar
+    ;;
+    3)
+        descompacta
+    ;;
+    4)
+        echo "Sortint..."
+        exit 0
+    ;;
+    *)
+        echo "Opcio no valida"
+        exit 1
+    ;;
+esac
 
