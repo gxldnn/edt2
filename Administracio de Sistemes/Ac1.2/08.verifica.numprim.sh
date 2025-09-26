@@ -10,6 +10,6 @@ done
 
 if [ $count = 2 ]; then
     echo "El numero es prim"
-    else
+else
     echo "El numero no es prim"
 fi
