@@ -47,7 +47,7 @@ function descompacta(){
     fi
 }
 
-
+functio
 read -p "Introdueix un fitxer o directori per a o veure (tambe si vols, la seva ruta): " input
 if [ -f "$input" ]; then 
     flagtype="arxiu"
