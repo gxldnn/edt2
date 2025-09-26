@@ -2,4 +2,4 @@
 
 read -p "Indica un numero per a comprovar si es prim o no: " num
 
-for((i=1; i<=numero; i++));  do
+for((i=1; i<=num; i++));  do
