@@ -72,7 +72,7 @@ function menu(){
 while true; do
     clear
     menu
-    
+    clear
     case $option in
         1)
             compactar
