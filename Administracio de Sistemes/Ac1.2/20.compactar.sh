@@ -40,6 +40,8 @@ function descompacta(){
             tar -zxf $input 
         else
             tar -zxf $input -C $pathdecomp
+            echo "Fitxer descomprès correctament a $pathdecomp"
+
         fi
     fi
 }
