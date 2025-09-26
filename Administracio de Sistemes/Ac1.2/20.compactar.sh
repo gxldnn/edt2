@@ -54,6 +54,5 @@ if [[ "$input" == *.tar.gz ]]; then
     descompacta "$1"
 else
     $1="$input"
-
     compactar "$1"
 fi
