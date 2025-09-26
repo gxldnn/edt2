@@ -59,4 +59,5 @@ else
     echo "El arxiu o directori no existeix!!"
     exit 1
 fi
+echo "
 
