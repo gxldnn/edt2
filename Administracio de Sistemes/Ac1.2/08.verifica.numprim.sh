@@ -5,3 +5,5 @@ count=0
 for((i=$num; i!=0; i--)); do
     if [ $num  % $i]
         (( count++ ))
+    else
+        continue
