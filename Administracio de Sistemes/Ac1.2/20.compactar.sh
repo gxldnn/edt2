@@ -69,6 +69,7 @@ function menu(){
     read -p "Tria una opcio (1-4): " option
 }
 menu
+while true; do
 case $option in
     1)
         compactar
