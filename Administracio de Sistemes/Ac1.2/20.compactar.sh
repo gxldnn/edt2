@@ -39,7 +39,7 @@ function descompacta(){
         if [ -z $pathdecomp ]; then 
             tar -zxf $input 
         else
-        tar -zxf $input 
+        tar -zxf $input -C 
 
 
     
