@@ -1,4 +1,4 @@
-<!ATTLIST enguany value (2025) #REQUIRED>
+<!ENTITY entity-name SYSTEM "entity-value"> enguany value (2025) #REQUIRED>
 <!ELEMENT revista (article+)>
 <!ELEMENT article (titol, autor, cos, etiquetes)>
 <!ATTLIST article id ID #REQUIRED>
