@@ -1,4 +1,4 @@
-<!ELEMENT agenda (contacte+)>
+<!ELEMENT agenda (contacte*)>
 <!ELEMENT contacte (nom, telefon+, email?)>
 <!ATTLIST contacte id ID #REQUIRED>
 <!ELEMENT nom (#PCDATA)>
