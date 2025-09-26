@@ -3,7 +3,7 @@
 read -p "Indica un numero per a comprovar si es prim o no: " num
 count=0
 for((i=$num; i!=0; i--)); do
-    if [ $(($num  % $i)) -eq 0 ]; then # Si la divisio no es exaxcta "
+    if [ $(($num  % $i)) -eq 0 ]; then # Si la divisio no es exaxcta "-eq"
         (( count++ ))
     fi
 done
