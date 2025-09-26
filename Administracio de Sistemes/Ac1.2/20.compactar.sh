@@ -41,7 +41,8 @@ function descompacta(){
         else
             tar -zxf $input -C $pathdecomp
         fi
-        
+    fi
+    
 
 
     
