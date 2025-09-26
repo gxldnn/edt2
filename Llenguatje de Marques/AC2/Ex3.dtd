@@ -1,5 +1,5 @@
 <!ELEMENT comanda (client, productes, pagament)>
-<!ATTLIST comanda num ID #NCNAME>
+<!ATTLIST comanda num ID #>
 <!ELEMENT client (nom,adreça)>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT adreça (#PCDATA)>
