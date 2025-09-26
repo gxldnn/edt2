@@ -7,3 +7,4 @@ pila=0
 comptador=1
 while [ $comptador -le $longitud ]; do
 aux=$(echo $paraula | cut -c $comptador)
+done
