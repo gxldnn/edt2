@@ -3,7 +3,7 @@
 <!ELEMENT client (nom,adreça)>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT adreça (#PCDATA)>
-<!ELEMENT productes (producte*)>
+<!ELEMENT productes (producte+)>
 <!ELEMENT producte (nom,preu)>
 <!ATTLIST producte codi ID #REQUIRED>
 <!ATTLIST producte quantitat CDATA #REQUIRED>
