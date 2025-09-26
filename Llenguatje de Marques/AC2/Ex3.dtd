@@ -10,4 +10,4 @@
 <!ELEMENT preu (#PCDATA)>
 <!ELEMENT pagament (#PCDATA)>
 <!ATTLIST pagament tipus (Efectiu|Targeta|Bizum) #REQUIRED>
-    
+        
