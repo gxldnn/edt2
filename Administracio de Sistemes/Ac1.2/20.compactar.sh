@@ -12,7 +12,7 @@ elif [ -d "$input" ]; then
     flagtype="directori"
     action="veure"
 else
-    echo "El $flagtype o directori no existeix!!"
+    echo "El arxiu o directori no existeix!!"
     exit 1
 fi
 
