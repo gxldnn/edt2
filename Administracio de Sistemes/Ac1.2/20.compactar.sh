@@ -37,6 +37,7 @@ function descompacta(){
     if [ -e $input ]; then
         read "Vols descomprimir el arxiu $input"
         tar -zxf $input
+    
 
 
 }
