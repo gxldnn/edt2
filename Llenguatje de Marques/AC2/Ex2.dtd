@@ -3,5 +3,6 @@
 <!ATTLIST contacte id ID #REQUIRED>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT telefon (#PCDATA)>
+<!ATTLIST element-name attribute-name ID #REQUIRED>
 <!ATTLIST telefon tipus CDATA #REQUIRED>
 <!ELEMENT email (#PCDATA)>
