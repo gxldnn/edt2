@@ -17,7 +17,7 @@ else
 fi
 
 function compactar(){
-        
+
     read -p "Vols $action el contingut del $flagtype? (s/n): " readfile
     if [ "$readfile" = "s" ]; then
         echo "Contingut del $flagtype $input:"
