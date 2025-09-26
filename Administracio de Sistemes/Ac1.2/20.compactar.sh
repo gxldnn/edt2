@@ -38,6 +38,7 @@ function descompacta(){
         read "A on vols descomprimir el arxiu, path completa o relativa, no escriguis res per a guardar aqui: " pathdecomp
         if [ -z $pathdecomp ]; then 
             tar -zxf $input 
+            echo "Fitxer descomprès correctament a $(pwd)/$input"
         else
             tar -zxf $input -C $pathdecomp
             echo "Fitxer descomprès correctament a $pathdecomp$input"
