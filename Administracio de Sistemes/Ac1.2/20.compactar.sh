@@ -68,6 +68,7 @@ function menu(){
     echo "4. Sortir"
     read -p "Tria una opcio (1-4): " option
 }
+menu
 case $option in
     1)
         compactar
