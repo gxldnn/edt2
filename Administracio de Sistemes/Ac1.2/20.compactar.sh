@@ -36,7 +36,7 @@ function descompacta(){
     read  -p "Digues el nom d'un arxiu tar.gz o el seu path sencer: " $input
     if [ -e $input ]; then
         read "Vols descomprimir el arxiu $input"
-    tar -zxf $input
+        tar -zxf $input
 
 
 }
