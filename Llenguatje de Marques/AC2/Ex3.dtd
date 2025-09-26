@@ -9,4 +9,4 @@
 <!ATTLIST producte quantitat CDATA #REQUIRED>
 <!ELEMENT preu (#PCDATA)>
 <!ELEMENT pagament (#PCDATA)>
-<!ATTLIST pagament tipus ID #REQUIRED>
+<!ATTLIST pagament tipus ID >
