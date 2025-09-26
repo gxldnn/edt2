@@ -8,4 +8,4 @@ for((i=$num; i!=0; i--)); do
     fi
 done
 
-if [ $c]
+if [ $count = 2]
