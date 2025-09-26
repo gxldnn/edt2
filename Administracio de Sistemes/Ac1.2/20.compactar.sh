@@ -80,6 +80,7 @@ while true; do
             compactar
         ;;
         2)
+            clear
             descompacta
         ;;
         3)
