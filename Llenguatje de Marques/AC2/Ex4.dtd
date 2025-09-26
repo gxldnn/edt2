@@ -1,5 +1,4 @@
-<!ENTITY entity-name SYSTEM "entity-value"> enguany value (2025) #REQUIRED>
-<!ELEMENT revista (article+)>
+<!ENTITY enguany "2025"><!ELEMENT revista (article+)>
 <!ELEMENT article (titol, autor, cos, etiquetes)>
 <!ATTLIST article id ID #REQUIRED>
 <!ELEMENT titol (#PCDATA)>
