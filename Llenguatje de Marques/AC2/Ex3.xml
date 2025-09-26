@@ -1,0 +1,18 @@
+<!DOCTYPE comanda SYSTEM "Ex3.dtd">
+<comanda num="C2025_001">
+    <client>
+        <nom>Maria López</nom>
+        <adreça>C/ Major 45, Barcelona</adreça>
+    </client>
+    <productes>
+        <producte codi="P1001" quantitat="2">
+            <nom>Cafetera</nom>
+            <preu>49.99</preu>
+        </producte>
+        <producte codi="P2003" quantitat="1">
+            <nom>Torradora</nom>
+            <preu>29.50</preu>
+        </producte>
+    </productes>
+    <pagament>Targeta</pagament>
+</comanda>
