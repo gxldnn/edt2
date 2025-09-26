@@ -59,5 +59,11 @@ else
     echo "El arxiu o directori no existeix!!"
     exit 1
 fi
-echo "
+function menu(){
+    echo "1. Veure/Leer el contingut del $flagtype"
+    echo "2. Comprimir el $flagtype"
+    echo "3. Descomprimir un arxiu tar.gz"
+    echo "4. Sortir"
+    read -p "Tria una opcio (1-4): " option
+}
 
