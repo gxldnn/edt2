@@ -70,11 +70,10 @@ case $option in
     1)
         compactar
     ;;
-
     2)
         descompacta
     ;;
-    4)
+    3)
         echo "Sortint..."
         exit 0
     ;;
