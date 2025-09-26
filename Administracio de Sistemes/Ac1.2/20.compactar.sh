@@ -47,7 +47,7 @@ function compactar(){
 }
 
 function descompacta(){
-    
+    read  -p "Quin "
 
 }
 
