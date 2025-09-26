@@ -6,11 +6,11 @@ function compactar(){
 
     read -p "Vols $action el contingut del $flagtype? (s/n): " readfile
     if [ "$readfile" = "s" ]; then
-        echo "Contingut del $flagtype $input:"
+        echo "Contingut del $flagtype $1:"
         if [ $action = "veure" ];then
-            ls -laF $input
+            ls -laF $1
         else
-            cat "$input"
+            cat "$1"
         fi
     else
        echo "No es pot $action el contingut de $flagtype" 
@@ -21,11 +21,11 @@ function compactar(){
         read -p "On vols guardar el $flagtype comprimit (Ruta completa)? Deixa-ho vuit per a desar al directori actual: " pathcomp
         if [ -z $pathcomp ]; then
             pathcomp="."
-            tar -czf "comprimit.tar.gz" "$input"
+            tar -czf "comprimit.tar.gz" "$1"
             echo "$flagtype comprimit creat a: $(pwd))\comprimit.tar.gz"
         else
-            tar -czf $pathcomp$input.tar.gz "$input"
-            echo "$flagtype comprimit creat a: $pathcomp/$input.tar.gz"
+            tar -czf $pathcomp$1.tar.gz "$1"
+            echo "$flagtype comprimit creat a: $pathcomp/$1.tar.gz"
         fi
     else
         echo "No es comprimira el $flagtype"
@@ -33,15 +33,15 @@ function compactar(){
 }
 
 function descompacta(){
-    read  -p "Digues el nom d'un arxiu tar.gz o el seu path sencer: " $input
-    if [ -e $input ]; then
+    read  -p "Digues el nom d'un arxiu tar.gz o el seu path sencer: " $1
+    if [ -e $1 ]; then
         read "A on vols descomprimir el arxiu, path completa o relativa, no escriguis res per a guardar aqui: " pathdecomp
         if [ -z $pathdecomp ]; then 
-            tar -zxf $input 
-            echo "Fitxer descomprès correctament a $(pwd)/$input"
+            tar -zxf $1 
+            echo "Fitxer descomprès correctament a $(pwd)/$1"
         else
-            tar -zxf $input -C $pathdecomp
-            echo "Fitxer descomprès correctament a $pathdecomp$input"
+            tar -zxf $1 -C $pathdecomp
+            echo "Fitxer descomprès correctament a $pathdecomp$1"
 
         fi
     fi
@@ -49,8 +49,8 @@ function descompacta(){
 
 read -p "Introdueix un fitxer o directori o tar.gz (tambe si vols, la seva ruta): " input
 
-if [[ "$input" == *.tar.gz ]]; then
-    descompacta "$input"
+if [[ "$1" == *.tar.gz ]]; then
+    descompacta "$1"
 else
-    compactar "$input"
+    compactar "$1"
 fi
