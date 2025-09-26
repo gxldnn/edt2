@@ -50,7 +50,7 @@ function descompacta(){
 read -p "Introdueix un fitxer o directori o tar.gz (tambe si vols, la seva ruta): " input
 
 if [[ "$input" == *.tar.gz ]]; then
-    $
+    $1 = $input
     descompacta "$1"
 else
     compactar "$1"
