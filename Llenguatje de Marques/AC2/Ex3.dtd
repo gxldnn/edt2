@@ -9,4 +9,4 @@
 <!ATTLIST producte quantitat CDATA #REQUIRED>
 <!ELEMENT preu (#PCDATA)>
 <!ELEMENT pagament (#PCDATA)>
-<!ATTLIST pagament tipus (Efectiu|Targeta|Bizum)>
+<!ATTLIST pagament tipus (Efectiu|Targeta|Bizum) #REQUIRED>
