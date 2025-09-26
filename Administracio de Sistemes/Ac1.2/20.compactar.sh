@@ -70,10 +70,8 @@ case $option in
     1)
         compactar
     ;;
+
     2)
-        compactar
-    ;;
-    3)
         descompacta
     ;;
     4)
