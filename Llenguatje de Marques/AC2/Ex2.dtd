@@ -5,5 +5,3 @@
 <!ELEMENT telefon (#PCDATA)>
 <!ATTLIST telefon tipus CDATA #REQUIRED>
 <!ELEMENT email (#PCDATA)>
-
-
