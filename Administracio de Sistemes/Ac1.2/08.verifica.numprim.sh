@@ -6,4 +6,6 @@ for((i=$num; i!=0; i--)); do
     if [ $num  % $i]
         (( count++ ))
     fi
-    
+done
+
+if 
