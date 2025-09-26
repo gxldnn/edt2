@@ -1,4 +1,4 @@
-<!ELEMENT comanda (client, productes, pagament)>
+<!ELEMENT comanda (client, productes)>
 <!ATTLIST comanda num ID #REQUIRED>
 <!ELEMENT client (nom,adreça)>
 <!ELEMENT nom (#PCDATA)>
