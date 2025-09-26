@@ -70,6 +70,7 @@ function menu(){
 }
 
 while true; do
+    clear
     menu
     case $option in
         1)
