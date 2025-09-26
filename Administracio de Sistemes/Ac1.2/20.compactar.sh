@@ -60,7 +60,4 @@ else
     exit 1
 fi
 
-
-compactar
-read -p "Presiona [ENTER] per a continuar...."
-exit 0
+case
