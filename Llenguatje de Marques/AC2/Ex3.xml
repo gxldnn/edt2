@@ -1,5 +1,5 @@
 <!DOCTYPE comanda SYSTEM "Ex3.dtd">
-<comanda num="2025_001">
+<comanda num="C2025_001">
     <client>
         <nom>Maria López</nom>
         <adreça>C/ Major 45, Barcelona</adreça>
