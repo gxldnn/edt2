@@ -47,3 +47,4 @@ function descompacta(){
     fi
 }
 
+if []
