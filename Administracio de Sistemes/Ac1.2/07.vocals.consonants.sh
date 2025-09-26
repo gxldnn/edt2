@@ -23,7 +23,6 @@ while [ $comptador -le $longitud ]; do
     else
         let pila=pila-1
     fi
-
     let comptador=comptador+1
 done
 
