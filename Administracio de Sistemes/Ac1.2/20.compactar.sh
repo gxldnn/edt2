@@ -34,7 +34,7 @@ function compactar(){
 
 function descompacta(){
     if [ -e $1 ]; then
-        read "A on vols descomprimir el arxiu, path completa o relativa, no escriguis res per a guardar aqui: " pathdecomp
+        read -p "A on vols descomprimir el arxiu, path completa o relativa, no escriguis res per a guardar aqui: " pathdecomp
         if [ -z $pathdecomp ]; then 
             tar -zxf $1 
             echo "Fitxer descomprès correctament a $(pwd)/$1"
