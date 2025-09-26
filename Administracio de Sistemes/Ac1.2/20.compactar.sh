@@ -76,6 +76,7 @@ while true; do
     start
     case $option in
         1)
+            clear
             compactar
         ;;
         2)
