@@ -51,7 +51,8 @@ main(){
     else
         read -p "L'arxiu o directori que dius no existeix o el sistema no el troba, que vols crear ara, un arxiu direcotri o res (a/d/res)" choice
         if [ $choice = a]; then
-        elfi [ $choice = d]
+        elfi [ $choice = d ];then
+        
     fi
 
 }
