@@ -30,5 +30,6 @@ for((i=$lownum; i<=$topnum; i++)); do
       
    fi
 done
+IFS""
 
 echo "Els numeros prims dins del rang $lownum - $topnum: ${primlist[@]}"
