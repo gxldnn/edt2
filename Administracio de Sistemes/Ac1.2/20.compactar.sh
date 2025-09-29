@@ -75,7 +75,7 @@ main(){
                 if [ -z $pathnew ];then
                     tar cvf "$namearxiu" -C "$(pwd)"
                 else
-                    tar cvf "$namearxiu" -C "$pathnew"
+            tar cvf "$pathcd/$nomdir.tar" -C "$(dirname "$input")" "$nomdir"
                 fi
             fi
         elif [ $choice = "d" ];then
