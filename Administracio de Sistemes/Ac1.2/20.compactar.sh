@@ -19,7 +19,7 @@ input=$(locate $name | grep -v "Trash")
 main(){
     if [ -f $input ];then
         read -p "Vols compactar aquest arxiu: $input? (s/n): " compactararxiu
-        read -p "A on el vols compactar?: "
+        read -p "A on el vols compactar?: " pathcompactararx
         if [ $compactararxiu = "s"]
             tar cvf $input -C 
 
