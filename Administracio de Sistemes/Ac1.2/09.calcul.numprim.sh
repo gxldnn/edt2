@@ -14,6 +14,7 @@ if [ $num1 -gt $num2 ];then
         lownum=$num1
 fi
 
+
 primers=0
 for((i=$lownum; i<=$topnum; i++)); do
     (( primers++ ))
