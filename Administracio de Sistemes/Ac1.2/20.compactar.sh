@@ -29,37 +29,37 @@ main(){
             fi
         fi
     fi
-if [ -f "$input" ]; then
-    read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
-    if [ "$llegir" = "s" ]; then
-        cat "$input" | less
-    fi
-
-    read -p "Vols compactar l'arxiu $input? (s/n): " compactararxiu
-    if [ "$compactararxiu" = "s" ]; then
-        read -p "A on el vols compactar? (enter per a directori actual): " pathca
-        if [ -z "$pathca" ]; then
-            pathca="$(pwd)"
+    if [ -f "$input" ]; then
+        read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
+        if [ "$llegir" = "s" ]; then
+            cat "$input" | less
         fi
-        nomfitxer="$(basename "$input")"
-        tar cvf "$pathca/$nomfitxer.tar" -C "$(dirname "$input")" "$nomfitxer"
-    fi
-
-elif [ -d "$input" ]; then
-    read -p "Vols veure el contingut del directori? (s/n): " veure
-    if [ "$veure" = "s" ]; then
-        ls -la "$input" | less
-    fi
-
-    read -p "Vols compactar aquest directori $input? (s/n): " compactardir
-    if [ "$compactardir" = "s" ]; then
-        read -p "A on el vols compactar? (enter per a directori actual): " pathcd
-        if [ -z "$pathcd" ]; then
-            pathcd="$(pwd)"
+    
+        read -p "Vols compactar l'arxiu $input? (s/n): " compactararxiu
+        if [ "$compactararxiu" = "s" ]; then
+            read -p "A on el vols compactar? (enter per a directori actual): " pathca
+            if [ -z "$pathca" ]; then
+                pathca="$(pwd)"
+            fi
+            nomfitxer="$(basename "$input")"
+            tar cvf "$pathca/$nomfitxer.tar" -C "$(dirname "$input")" "$nomfitxer"
         fi
-        nomdir="$(basename "$input")"
-        tar cvf "$pathcd/$nomdir.tar" -C "$(dirname "$input")" "$nomdir"
-    fi
+    
+    elif [ -d "$input" ]; then
+        read -p "Vols veure el contingut del directori? (s/n): " veure
+        if [ "$veure" = "s" ]; then
+            ls -la "$input" | less
+        fi
+    
+        read -p "Vols compactar aquest directori $input? (s/n): " compactardir
+        if [ "$compactardir" = "s" ]; then
+            read -p "A on el vols compactar? (enter per a directori actual): " pathcd
+            if [ -z "$pathcd" ]; then
+                pathcd="$(pwd)"
+            fi
+            nomdir="$(basename "$input")"
+            tar cvf "$pathcd/$nomdir.tar" -C "$(dirname "$input")" "$nomdir"
+        fi
 
 
     else
