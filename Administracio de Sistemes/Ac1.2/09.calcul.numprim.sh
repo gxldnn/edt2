@@ -25,7 +25,7 @@ for((i=$lownum; i<=$topnum; i++)); do
 
     if [ $count = 1 ]; then
         primlist+=("$i")
-        echo "jeje"
+        
     fi
 done
 
