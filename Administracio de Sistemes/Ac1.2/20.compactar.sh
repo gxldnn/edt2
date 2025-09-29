@@ -58,7 +58,7 @@ main(){
                 nano $namearxiu
             fi
             read -p "El vols comprimir? (s/n)" compactar
-            if [ $pathnew = "s"]; then
+            if [ $compactar = "s"]; then
                 read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathnew
                 if [ -z $pathnew ];then
                 tar cvf $input -C $(pwd)
