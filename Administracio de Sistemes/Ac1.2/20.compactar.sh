@@ -19,7 +19,8 @@ input=$(locate $name | grep -v "Trash")
 main(){
     if [ -f $input ];then
     elif [ -d $input ]; then
-    
+    else
+        echo -e
 
 }
 
