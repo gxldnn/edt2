@@ -14,6 +14,6 @@ if [ $num1 -gt $num2 ];then
         lownum=$num1
 fi
 
-
+for(())
 
 echo "Los numeros primos son: ${primlist[@]}"
