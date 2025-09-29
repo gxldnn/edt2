@@ -64,7 +64,7 @@ main(){
     else
         read -p "L'arxiu o directori que dius no existeix o el sistema no el troba, que vols crear ara, un arxiu direcotri o res (a/d/res)" choice
         if [ $choice = "a" ]; then
-            read -p "Digues el nom del nou arxiu" namearxiu
+            read -p "Digues el nom del nou arxiu: " namearxiu
             touch $namearxiu
             read -p "El vols editar ara mateix?: (s/n)" modificar
             if [ $modificar = "s" ];then
