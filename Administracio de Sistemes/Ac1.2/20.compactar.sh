@@ -72,7 +72,7 @@ main(){
             read -p "El vols comprimir? (s/n)" compactarnew
             if [ $compactarnew = "s" ]; then
                 read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathnew
-                if [ -z "$pathcd" ]; then
+                if [ -z "$pathnew" ]; then
                     pathcd="$(pwd)"
                 fi
                 namearxiu="$(basename "$namearxiu")"
