@@ -20,7 +20,7 @@ main(){
     if [ $input = *.tar.gz ];then
         read -p "Vols descomprimir aquesta arxiu?" decomp
         if [ $decomp = "s" ];then
-            read -p "A on el vols, no escriguis res per a compactarlo aqui"
+            read -p "A on el vols, no escriguis res per a compactarlo aqui " pathdecomp
             tar -zxvf -C 
     if [ -f $input ];then
         read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
