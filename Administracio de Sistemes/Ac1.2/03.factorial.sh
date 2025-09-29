@@ -14,6 +14,5 @@ result=1
 while [ $num -ne 0 ]; do # Mentres num no sigui 0 fes:
     result=$(($result * $num)) 
     (( num-- ))
-    
 done
 echo "El factorial de $savenum es $result"
