@@ -31,7 +31,7 @@ main(){
     fi
     if [ -f "$input" ];then
         read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
-        if [ $llegir = "s" ];then
+        if [ $llegir = "s"      ];then
             cat $input | less
         fi
         read -p "Vols compactar l'arxiu $input? (s/n): " compactararxiu
