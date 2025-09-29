@@ -20,7 +20,7 @@ main(){
     if [ -f $input ];then
         read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
         if [ $llegir = "s"];then
-            cat 
+            cat $input 
         read -p "Vols compactar aquest arxiu: $input? (s/n): " compactararxiu
         if [ $compactararxiu = "s"]
             read -p "A on el vols compactar?: " pathca
