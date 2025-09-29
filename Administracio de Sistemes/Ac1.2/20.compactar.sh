@@ -79,7 +79,7 @@ main(){
 
         elif [ $choice = "d" ];then
             read -p "Digues el nom del nou directoru" namedir
-            touch $namearxiu
+            mkdir -p 
             read -p "El vols editar ara mateix?: (s/n)" modificar
             if [ $modificar = "s" ];then
                 nano $namearxiu
