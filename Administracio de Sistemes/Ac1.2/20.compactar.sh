@@ -80,7 +80,6 @@ main(){
         elif [ $choice = "d" ];then
             read -p "Digues el nom del nou directoru" namedir
             mkdir -p namedir
-
         else
         fi
     fi
