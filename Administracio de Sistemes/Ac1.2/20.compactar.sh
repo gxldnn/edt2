@@ -54,8 +54,7 @@ function noexist(){
         echo "El fitxer o directori no existeix"
         exit 1
     fi
-    echo "El fitxer o directori no existeix"
-    exit 1
+
 }
 if [[ "$input" == *.tar.gz ]]; then
     descompacta "$input"
