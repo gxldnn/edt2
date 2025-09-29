@@ -3,7 +3,7 @@
 read -p "Indica un primer numero per al interval: " num1
 read -p "Indica un segon numero per al interval: " num2
 
-if [ $topmnum > 1000  || $num1]; then
+if [ $num2  > 1000  || $num1]; then
     echo "El numero maxim ha de ser menor que 1000"
     exit 1
 fi
