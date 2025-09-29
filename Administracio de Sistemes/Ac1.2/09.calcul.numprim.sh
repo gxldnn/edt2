@@ -16,7 +16,7 @@ fi
 
 
 for((i=$lownum; i<=$topnum; i++)); do
-    conunt=0
+    count=0
     for((x=2; x<=$num; x++)); do
         if [ $(($num  % $x)) -eq 0 ]; then # Si la divisio no es exaxcta "-eq 0" no es compta
             (( count++ ))
