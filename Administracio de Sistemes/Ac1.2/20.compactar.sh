@@ -33,6 +33,19 @@ main(){
         fi
 
     elif [ -d $input ]; then
+    read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
+        if [ $llegir = "s"];then
+            cat $input | less
+        fi
+        read -p "Vols compactar aquest arxiu: $input? (s/n): " compactararxiu
+        if [ $compactararxiu = "s"]
+            read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathca
+            if [ -z $pathca ];then
+                tar cvf $input -C $(pwd)
+            else
+                tar cvf $input -C $pathca
+            fi
+        fi
     else
         echo -e "El fitxer o directori no existeix"
     fi
