@@ -53,8 +53,9 @@ main(){
         if [ $choice = "a" ]; then
             read -p "Digues el nom del nou arxiu" namearxiu
             touch $namearxiu
-            read -p "El vols editar ara mateix?: (s/n)" llegir
-            
+            read -p "El vols editar ara mateix?: (s/n)" modificar
+            if
+
 
         elif [ $choice = "d" ];then
             read -p 
