@@ -57,7 +57,7 @@ main(){
             if [ $modificar = "s" ];then
                 nano $namearxiu
             fi
-            
+            read -p El 
 
 
         elif [ $choice = "d" ];then
