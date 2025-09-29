@@ -60,7 +60,6 @@ elif [ -d "$input" ]; then
         nomdir="$(basename "$input")"
         tar cvf "$pathcd/$nomdir.tar" -C "$(dirname "$input")" "$nomdir"
     fi
-fi
 
 
     else
