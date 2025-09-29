@@ -40,7 +40,7 @@ main(){
             if [ -z $pathca ];then
                 tar cvf "$input" -C $(pwd)
             else
-                tar cvf "$input" -C $pathca
+                tar cvf "$input" -C "$pathca"
             fi
         fi
 
