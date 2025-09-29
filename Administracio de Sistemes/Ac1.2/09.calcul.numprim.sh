@@ -14,7 +14,10 @@ else
     topnum=$num1
 fi
 
-if []
+if [$topmnum > 10000]; then
+    echo "El numero maxim ha de ser menor que 10000"
+    exit 1
+fi
 
 primers=0
 for((i=$lownum; i<=$topnum; i++)); do
