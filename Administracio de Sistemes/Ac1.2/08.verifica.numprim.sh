@@ -8,7 +8,7 @@ for((i=0; i>$num; i++)); do
     fi
 done
 
-if [ $count = 2 ]; then
+if [ $count = 1 ]; then
     echo "El numero es prim"
 else
     echo "El numero no es prim"
