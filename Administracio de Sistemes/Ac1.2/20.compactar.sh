@@ -49,7 +49,7 @@ main(){
         fi
 
     else
-        read -p "L'arxiu o directori que dius no existeix o el sistema no el troba, que vols crear ara, un arxiu direcotri o res (a/d/res)"
+        read -p "L'arxiu o directori que dius no existeix o el sistema no el troba, que vols crear ara, un arxiu direcotri o res (a/d/res)" choice
         if 
     fi
 
