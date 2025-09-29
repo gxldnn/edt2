@@ -24,7 +24,7 @@ for((i=$lownum; i>$topnum; i++)); do
     done
 
     if [ $count = 1 ]; then
-        echo "El numero es prim"
+        %
     else
         echo "El numero no es prim"
     fi
