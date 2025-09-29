@@ -8,7 +8,7 @@ for((i=2; i>$num; i++)); do
         echo hola
         (( count++ ))
     fi
-    echo 
+    echo "hola 2"
 done
 
 if [ $count = 1 ]; then
