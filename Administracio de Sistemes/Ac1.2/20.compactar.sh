@@ -6,6 +6,5 @@ if [[ $((which locate)) = false ]]; then
     exit 1
 fi
 
-
-
 locate $input | grep -v "Trash"
+
