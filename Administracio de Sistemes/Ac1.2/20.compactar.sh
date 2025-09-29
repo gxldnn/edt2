@@ -81,7 +81,7 @@ main(){
             read -p "Digues el nom del nou directoru" namedir
             mkdir -p namedir
         else
-            exit 1
+            exit 0
         fi
     fi
 
