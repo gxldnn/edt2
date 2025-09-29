@@ -54,7 +54,8 @@ main(){
             read -p "Digues el nom del nou arxiu" namearxiu
             touch $namearxiu
         elif [ $choice = "d" ];then
-        else []
+        else
+        fi
     fi
 
 }
