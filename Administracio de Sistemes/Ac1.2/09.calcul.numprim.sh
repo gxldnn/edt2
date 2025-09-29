@@ -6,8 +6,13 @@ read -p "Indica un segon numero per al interval: " num2
 
 primlist=()
 
-lownum=$(( num1<num2 ? num1 : num2 ))
-topnum=$(( num1>num2 ? num1 : num2 ))
+if (( num1 < num2 )); then
+    lownum=$num1
+    topnum=$num2
+else
+    lownum=$num2
+    topnum=$num1
+fi
 
 
 primers=0
