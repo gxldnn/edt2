@@ -49,7 +49,7 @@ main(){
         fi
 
     else
-        read -p "L'arxiu que dius no existi"
+        read -p "L'arxiu que"
     fi
 
 }
