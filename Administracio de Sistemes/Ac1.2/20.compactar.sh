@@ -86,5 +86,6 @@ main(){
         fi
     fi
 }
+main
 
 
