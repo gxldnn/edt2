@@ -26,7 +26,6 @@ for((i=$lownum; i>$topnum; i++)); do
     if [ $count = 1 ]; then
         primlist+=("$i")
     else
-        echo "El numero no es prim"
     fi
 done
 
