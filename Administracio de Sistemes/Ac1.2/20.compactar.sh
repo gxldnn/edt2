@@ -78,7 +78,6 @@ main(){
                     tar cvf "$namearxiu" -C "$pathnew"
                 fi
             fi
-
         elif [ $choice = "d" ];then
             read -p "Digues el nom del nou directoru" namedir
             mkdir -p namedir
