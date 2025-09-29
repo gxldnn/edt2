@@ -34,7 +34,7 @@ main(){
 
 
     elif [ -d $input ]; then
-    read -p "Vols veure el contingut del directori? (s/n): " llegir
+    read -p "Vols veure el contingut del directori? (s/n): " veure
         if [ $llegir = "s"];then
             cat $input | less
         fi
