@@ -15,6 +15,7 @@ fi
 read -p "Introdueix un fitxer o directori o tar.gz (El seu nom EXACTE): " name
 
 input=$(locate $name | grep -v "Trash")
+ehco 
 
 main(){
     if [ $input = *.tar.gz ];then
