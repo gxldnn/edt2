@@ -76,7 +76,7 @@ main(){
                     pathcd="$(pwd)"
                 fi
                 nomdir="$(basename "$input")"
-                tar cvf "$pathcd/$nomdir.tar" -C "$(dirname "$input")" "$nomdir"
+                tar cvf "$pathcd/$namearxiu.tar" -C "$(dirname "$input")" "$name"
             fi
         elif [ $choice = "d" ];then
             read -p "Digues el nom del nou directoru" namedir
