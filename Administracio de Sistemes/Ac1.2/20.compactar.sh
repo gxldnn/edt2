@@ -74,6 +74,7 @@ main(){
                     tar cvf $input -C $(pwd)
                 else
                     tar cvf $input -C $pathcd
+                fi
             fi
 
         elif [ $choice = "d" ];then
