@@ -6,6 +6,7 @@ if [[ $EUID -ne 0 ]]; then
         exit 1
     fi
 fi
+
 if [[ $((which locate)) = false ]]; then
     echo "El programa locate no esta instalat. Instal·la'l i torna-ho a provar"
     exit 1
