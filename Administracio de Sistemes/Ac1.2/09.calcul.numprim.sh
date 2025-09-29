@@ -15,6 +15,8 @@ if [ $num1 -gt $num2 ];then
 fi
 
 for((i=$lownum; i>$topnum; i++)); do
+    
+done
 
 
 echo "Los numeros primos son: ${primlist[@]}"
