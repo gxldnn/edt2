@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if []
+if [[]]
 if [[ $((which locate)) = false ]]; then
     echo "El programa locate no esta instalat. Instal·la'l i torna-ho a provar"
     exit 1
