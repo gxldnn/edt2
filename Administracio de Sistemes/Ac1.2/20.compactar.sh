@@ -49,7 +49,7 @@ main(){
         fi
 
     else
-        read -p "La'r"
+        read -p "L'arxiu que dius no existi"
     fi
 
 }
