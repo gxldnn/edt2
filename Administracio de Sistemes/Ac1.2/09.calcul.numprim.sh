@@ -32,4 +32,4 @@ for((i=$lownum; i<=$topnum; i++)); do
 done
 IFS=", "
 
-echo "Els numeros prims dins del rang $lownum - $topnum: ${primlist[*]}"
+echo "Els numeros prims dins del rang $lownum - $topnum: ${primlist[* ]}"
