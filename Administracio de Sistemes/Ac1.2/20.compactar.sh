@@ -57,7 +57,7 @@ main(){
             if [ $modificar = "s" ];then
                 nano $namearxiu
             fi
-            read -p El 
+            read -p El vols comprimir
 
 
         elif [ $choice = "d" ];then
