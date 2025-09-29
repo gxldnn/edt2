@@ -18,7 +18,7 @@ input=$(locate $name | grep -v "Trash")
 
 main(){
     if [ -f $input ];then
-    
+    elif []
 
 }
 
