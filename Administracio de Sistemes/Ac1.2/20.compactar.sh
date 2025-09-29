@@ -59,7 +59,7 @@ main(){
             fi
             read -p "El vols comprimir? (s/n)" comp
             if [ $comp = "s"]; then
-                read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathca
+                read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathnew
                 tar cvf $input
 
 
