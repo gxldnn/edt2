@@ -44,7 +44,7 @@ main(){
             if [ -z $pathcd ];then
                 tar cvf $input -C $(pwd)
             else
-                tar cvf $input -C $pathca
+                tar cvf $input -C $pathcd
             fi
         fi
 
