@@ -14,7 +14,7 @@ fi
 
 read -p "Introdueix un fitxer o directori o tar.gz (El seu nom EXACTE): " name
 
-input=$(locate $input | grep -v "Trash")
+input=$(locate $name | grep -v "Trash")
 
 compactar (){
 
