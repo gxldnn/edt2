@@ -32,6 +32,7 @@ main(){
             fi
         fi
 
+
     elif [ -d $input ]; then
     read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
         if [ $llegir = "s"];then
@@ -47,7 +48,7 @@ main(){
             fi
         fi
 
-        
+
     else
         echo -e "El fitxer o directori no existeix"
     fi
