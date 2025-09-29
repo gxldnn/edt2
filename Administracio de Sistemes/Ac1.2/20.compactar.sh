@@ -19,7 +19,7 @@ input=$(locate $name | grep -v "Trash")
 main(){
     if [ -f $input ];then
         read -p "Vols compactar aquest arxiu: $input?: " compactararxiu
-        if [ compactararxiu]
+        if [ compactararxiu = ]
 
 
     elif [ -d $input ]; then
