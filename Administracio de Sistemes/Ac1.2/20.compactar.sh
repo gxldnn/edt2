@@ -8,3 +8,4 @@ fi
 
 locate $input | grep -v "Trash"
 
+compactar (){}
