@@ -60,7 +60,7 @@ main(){
             read -p "El vols comprimir? (s/n)" pathnew
             if [ $pathnew = "s"]; then
                 read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathnew
-                if [ -z $pathcd ];then
+                if [ -z $pathnew ];then
                 tar cvf $input -C $(pwd)
             else
                 tar cvf $input -C $pathcd
