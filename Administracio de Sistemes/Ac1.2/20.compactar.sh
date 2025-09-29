@@ -78,7 +78,7 @@ main(){
             fi
 
         elif [ $choice = "d" ];then
-            read -p 
+            read -p ""
         else
         fi
     fi
