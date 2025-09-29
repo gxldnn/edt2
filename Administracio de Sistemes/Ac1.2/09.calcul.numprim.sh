@@ -28,6 +28,7 @@ for((i=$lownum; i<=$topnum; i++)); do
         primlist+=("$i")
         
     fi
+    echo primers
 done
 
 
