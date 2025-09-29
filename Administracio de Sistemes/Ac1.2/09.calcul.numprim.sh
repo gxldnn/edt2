@@ -3,6 +3,7 @@
 read -p "Indica un primer numero per al interval: " num1
 read -p "Indica un segon numero per al interval: " num2
 
+if 
 
 primlist=()
 
