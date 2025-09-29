@@ -7,6 +7,7 @@ if [ $num2 > 1000  || $num1 > 1000 ]; then
     echo "El numero maxim ha de ser menor que 1000"
     exit 1
 fi
+
 primlist=()
 
 if (( num1 < num2 )); then
