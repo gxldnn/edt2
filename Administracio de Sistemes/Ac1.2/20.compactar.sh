@@ -57,7 +57,7 @@ main(){
             if [ $modificar = "s" ];then
                 nano $namearxiu
             fi
-            read -p "El vols comprimir?"
+            read -p "El vols comprimir? (s)"
 
 
         elif [ $choice = "d" ];then
