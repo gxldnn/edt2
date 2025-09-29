@@ -53,9 +53,9 @@ main(){
         if [ $compactardir = "s"]; then
             read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathcd
             if [ -z $pathcd ];then
-                tar cvf $input -C $(pwd)
+                tar cvf "$input" -C $(pwd)
             else
-                tar cvf $input -C $pathcd
+                tar cvf $input" -C $pathcd
             fi
         fi
 
