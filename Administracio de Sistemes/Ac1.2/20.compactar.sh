@@ -21,7 +21,7 @@ main(){
         read -p "Vols compactar aquest arxiu: $input? (s/n): " compactararxiu
         read -p "A on el vols compactar?: " pathca
         if [ $compactararxiu = "s"]
-            tar cvf $input -C 
+            tar cvf $input -C $pathca
 
 
 
