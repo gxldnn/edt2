@@ -22,7 +22,7 @@ main(){
         if [ $llegir = "s"];then
             cat $input | less
         fi
-        read -p "Vols compactar aquest arxiu $input? (s/n): " compactararxiu
+        read -p "Vols compactar l'arxiu $input? (s/n): " compactararxiu
         if [ $compactararxiu = "s"]
             read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathca
             if [ -z $pathca ];then
