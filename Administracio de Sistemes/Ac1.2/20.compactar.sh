@@ -22,7 +22,9 @@ main(){
         if [ $decomp = "s" ];then
             read -p "A on el vols, no escriguis res per a compactarlo aqui " pathdecomp
             if [ $pathdecomp = "" ]
-            tar -zxvf -C $
+                tar -zxvf -C $(pwd)
+            else
+                
     if [ -f $input ];then
         read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
         if [ $llegir = "s"];then
