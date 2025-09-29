@@ -3,7 +3,10 @@
 read -p "Indica un primer numero per al interval: " num1
 read -p "Indica un segon numero per al interval: " num2
 
-
+if [ $topmnum > 1000 ]; then
+    echo "El numero maxim ha de ser menor que 1000"
+    exit 1
+fi
 primlist=()
 
 if (( num1 < num2 )); then
@@ -14,10 +17,7 @@ else
     topnum=$num1
 fi
 
-if [ $topmnum > 1000 ]; then
-    echo "El numero maxim ha de ser menor que 1000"
-    exit 1
-fi
+
 
 primers=0
 for((i=$lownum; i<=$topnum; i++)); do
