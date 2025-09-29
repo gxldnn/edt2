@@ -14,7 +14,7 @@ else
     topnum=$num1
 fi
 
-if [ $topmnum > 10000 ] ; then
+if [ $topmnum > 10000 ]; then
     echo "El numero maxim ha de ser menor que 10000"
     exit 1
 fi
