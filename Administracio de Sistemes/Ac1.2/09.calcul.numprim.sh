@@ -15,7 +15,7 @@ if [ $num1 -gt $num2 ];then
 fi
 
 for((i=$topnum; i!=$lownum; i--)); do
-    for ((i=$topnum; i!=$lownum; i--))
+    for ((i=$topnum; i!=$lownum; i--));do
         if [ $(($topnum % $i)) -eq 0 ]; then # Si la divisio no es exaxcta "-eq 0" no es compta
             addcount=$((addcount+1))            
         fi
