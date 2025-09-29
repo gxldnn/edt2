@@ -22,7 +22,7 @@ main(){
         read -p "A on el vols compactar?: " pathca
         if [ $compactararxiu = "s"]
             tar cvf $input -C $pathca
-
+        
 
 
     elif [ -d $input ]; then
