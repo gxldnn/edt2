@@ -66,7 +66,7 @@ main(){
         if [ $choice = "a" ]; then
             read -p "Digues el nom del nou arxiu: " namearxiu
             touch $namearxiu
-            read -p "El vols editar ara mateix?: (s/n)" modificar
+            read -p "El vols editar ara mateix? (s/n): " modificar
             if [ $modificar = "s" ];then
                 nano $namearxiu
             fi
