@@ -21,8 +21,7 @@ main(){
         read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
         if [ $llegir = "s"];then
             cat $input | less
-        else
-        
+        fi
         read -p "Vols compactar aquest arxiu: $input? (s/n): " compactararxiu
         if [ $compactararxiu = "s"]
             read -p "A on el vols compactar?: " pathca
