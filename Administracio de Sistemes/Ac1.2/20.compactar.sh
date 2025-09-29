@@ -50,7 +50,7 @@ read -p "Introdueix un fitxer o directori o tar.gz (tambe si vols, la seva ruta)
 
 
 function noexist(){
-    if [ ! -e $ ]; then
+    if [ ! -e $in ]; then
         echo "El fitxer o directori no existeix"
         exit 1
     fi
