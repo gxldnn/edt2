@@ -58,7 +58,8 @@ main(){
                 nano $namearxiu
             fi
             read -p "El vols comprimir? (s/n)" comp
-            if [ $comp = "s"]
+            if [ $comp = "s"]; then
+                tar
 
 
         elif [ $choice = "d" ];then
