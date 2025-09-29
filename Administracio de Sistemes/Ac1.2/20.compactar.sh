@@ -59,7 +59,7 @@ main(){
             fi
             read -p "El vols comprimir? (s/n)" comp
             if [ $comp = "s"]; then
-                tar
+                tar cvf $input
 
 
         elif [ $choice = "d" ];then
