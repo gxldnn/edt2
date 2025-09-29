@@ -72,11 +72,11 @@ main(){
             read -p "El vols comprimir? (s/n)" compactarnew
             if [ $compactarnew = "s" ]; then
                 read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathnew
-                if [ -z $pathnew ];then
-                    tar cvf "$namearxiu" -C $(pwd)
-                else
-                    tar cvf "$pathnew/$nomdir.tar" -C "$(dirname "$input")" "$nomdir"
-                fi
+                if [ -z "$pathcd" ]; then
+                pathcd="$(pwd)"
+            fi
+            nomdir="$(basename "$input")"
+            tar cvf "$pathcd/$nomdir.tar" -C "$(dirname "$input")" "$nomdir"
             fi
         elif [ $choice = "d" ];then
             read -p "Digues el nom del nou directoru" namedir
