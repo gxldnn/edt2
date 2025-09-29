@@ -29,7 +29,7 @@ main(){
             fi
         fi
     fi
-    if [ -f $input ];then
+    if [ -f "$input" ];then
         read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
         if [ $llegir = "s"];then
             cat $input | less
