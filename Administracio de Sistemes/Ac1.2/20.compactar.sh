@@ -18,7 +18,7 @@ input=$(locate $name | grep -v "Trash")
 
 main(){
     if [ -f $input ];then
-        
+        read -p "Vols llegir el conting"
         read -p "Vols compactar aquest arxiu: $input? (s/n): " compactararxiu
         if [ $compactararxiu = "s"]
             read -p "A on el vols compactar?: " pathca
