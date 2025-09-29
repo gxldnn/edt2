@@ -40,8 +40,8 @@ main(){
         fi
         read -p "Vols compactar aquest directori $input? (s/n): " compactardir
         if [ $compactardir = "s"]
-            read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathca
-            if [ -z $pathca ];then
+            read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathcd
+            if [ -z $pathcd ];then
                 tar cvf $input -C $(pwd)
             else
                 tar cvf $input -C $pathca
