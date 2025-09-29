@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Introdueix un fitxer o directori o tar.gz (El seu nom EXACTE): " input
+read -p "Introdueix un fitxer o directori o tar.gz (El seu nom EXACTE): " name
 if [[ $((which locate)) = false ]]; then
     echo "El programa locate no esta instalat. Instal·la'l i torna-ho a provar"
     exit 1
