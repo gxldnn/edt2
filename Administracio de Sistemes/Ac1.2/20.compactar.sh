@@ -17,7 +17,8 @@ read -p "Introdueix un fitxer o directori o tar.gz (El seu nom EXACTE): " name
 input=$(locate $name | grep -v "Trash")
 
 main(){
-    if [ $input = *.tar.gz ]
+    if [ $input = *.tar.gz ];then
+    
     if [ -f $input ];then
         read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
         if [ $llegir = "s"];then
