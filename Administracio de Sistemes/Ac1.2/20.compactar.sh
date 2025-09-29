@@ -65,8 +65,6 @@ main(){
             else
                 tar cvf $input -C $pathcd
             fi
-                tar cvf $input
-
 
         elif [ $choice = "d" ];then
             read -p 
