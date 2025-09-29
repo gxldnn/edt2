@@ -42,6 +42,7 @@ main(){
                 tar cvf $input -C $pathca
             fi
         fi
+        
 
 
     elif [ -d $input ]; then
