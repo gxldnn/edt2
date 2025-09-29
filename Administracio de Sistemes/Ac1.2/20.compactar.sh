@@ -22,7 +22,7 @@ function compactar(){
         if [ -z $pathcomp ]; then
             pathcomp="."
             tar -czf "comprimit.tar.gz" "$1"
-            echo "$flagtype comprimit creat a: $(pwd))\comprimit.tar.gz"
+            echo "$flagtype comprimit creat a: $(pwd)\comprimit.tar.gz"
         else
             tar -czf $pathcomp$1.tar.gz "$1"
             echo "$flagtype comprimit creat a: $pathcomp/$1.tar.gz"
