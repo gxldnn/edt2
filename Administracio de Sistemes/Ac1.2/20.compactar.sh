@@ -35,7 +35,7 @@ main(){
 
     elif [ -d $input ]; then
     read -p "Vols veure el contingut del directori? (s/n): " veure
-        if [ $llegir = "s"];then
+        if [ $veure = "s"];then
             cat $input | less
         fi
         read -p "Vols compactar aquest arxiu: $input? (s/n): " compactararxiu
