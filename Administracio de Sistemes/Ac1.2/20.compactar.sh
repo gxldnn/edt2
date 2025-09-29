@@ -21,7 +21,7 @@ main(){
         read -p "Vols descomprimir aquesta arxiu?" decomp
         if [ $decomp = "s" ];then
             read -p "A on el vols, no escriguis res per a compactarlo aqui " pathdecomp
-            if [ $pathdecomp = "" ]
+            if [ $pathdecomp = "" ]; then
                 tar -zxvf -C $(pwd)
             else
                 tar -zxvf -C $pathdecomp
