@@ -71,8 +71,8 @@ main(){
             if [ $compactarnew = "s"]; then
                 read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathnew
                 if [ -z $pathnew ];then
-                tar cvf $input -C $(pwd)
-            else
+                    tar cvf $input -C $(pwd)
+                else
                 tar cvf $input -C $pathcd
             fi
 
