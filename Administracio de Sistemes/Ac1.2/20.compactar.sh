@@ -46,6 +46,8 @@ main(){
                 tar cvf $input -C $pathca
             fi
         fi
+
+        
     else
         echo -e "El fitxer o directori no existeix"
     fi
