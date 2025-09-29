@@ -49,7 +49,7 @@ main(){
         fi
 
     else
-        echo -e "El fitxer o directori no existeix"
+        read -p "La'r"
     fi
 
 }
