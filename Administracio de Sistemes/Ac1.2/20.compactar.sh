@@ -49,7 +49,14 @@ function descompacta(){
 read -p "Introdueix un fitxer o directori o tar.gz (tambe si vols, la seva ruta): " input
 
 
-function noexist()
+function noexist(){
+    if [ ! -e $1 ]; then
+        echo "El fitxer o directori no existeix"
+        exit 1
+    fi
+    echo "El fitxer o directori no existeix"
+    exit 1
+}
 if [[ "$input" == *.tar.gz ]]; then
     descompacta "$input"
 else
