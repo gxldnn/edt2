@@ -26,6 +26,8 @@ main(){
             else
                 tar -zxvf -C $pathdecomp
             fi
+        fi
+        
     if [ -f $input ];then
         read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
         if [ $llegir = "s"];then
