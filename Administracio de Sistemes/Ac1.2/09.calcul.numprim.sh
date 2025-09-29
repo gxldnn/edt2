@@ -24,6 +24,7 @@ for((i=$topnum; i!=$lownum; i--)); do
             else
                 break
         fi
+    
 done
 
 echo "Los numeros primos son: ${primlist[@]}"
