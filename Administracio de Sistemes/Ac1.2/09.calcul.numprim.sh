@@ -15,7 +15,7 @@ else
 fi
 
 if [ $topmnum > 1000 ]; then
-    echo "El numero maxim ha de ser menor que 10000"
+    echo "El numero maxim ha de ser menor que 1000"
     exit 1
 fi
 
