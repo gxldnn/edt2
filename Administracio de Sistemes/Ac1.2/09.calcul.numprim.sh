@@ -14,7 +14,7 @@ if [ $num1 -gt $num2 ];then
         lownum=$num1
 fi
 
-for((i=$lownum; i>$topnum; i++)); done
+for((i=$lownum; i>$topnum; i++)); do
 
 
 echo "Los numeros primos son: ${primlist[@]}"
