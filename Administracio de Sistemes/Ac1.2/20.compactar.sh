@@ -75,7 +75,8 @@ main(){
                 if [ -z "$pathcd" ]; then
                     pathcd="$(pwd)"
                 fi
-                tar cvf "$pathcd/$namearxiu.tar" -C "$(basename "$namearxiu")" "$namearixu"
+                namearxiu="$(basename "$namearxiu")"
+                tar cvf "$pathcd/$namearxiu.tar" -C "$(dirname "$input")" "$namearixu"
             fi
         elif [ $choice = "d" ];then
             read -p "Digues el nom del nou directoru" namedir
