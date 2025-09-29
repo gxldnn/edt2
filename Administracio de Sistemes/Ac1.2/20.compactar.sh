@@ -34,7 +34,7 @@ main(){
 
 
     elif [ -d $input ]; then
-    read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
+    read -p "Vols veure el contingut del directori? (s/n): " llegir
         if [ $llegir = "s"];then
             cat $input | less
         fi
