@@ -75,7 +75,6 @@ main(){
                 if [ -z "$pathcd" ]; then
                     pathcd="$(pwd)"
                 fi
-                namearxiu="$(basename "$namearxiu")"
                 tar cvf "$pathcd/$namearxiu.tar" -C "$(dirname "$input")" "$namearixu"
             fi
         elif [ $choice = "d" ];then
