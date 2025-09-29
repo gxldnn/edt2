@@ -6,14 +6,8 @@ read -p "Indica un segon numero per al interval: " num2
 
 primlist=()
 
-# Asigna lownum y topnum usando una sola línea con condicional ternario
-if [ $num1 -gt $num2 ]; then
-    lownum=$num2
-    topnum=$num1
-else
-    lownum=$num1
-    topnum=$num2
-fi
+lownum=$(( num1<num2 ? num1 : num2 ))
+topnum=$(( num1>num2 ? num1 : num2 ))
 
 
 primers=0
