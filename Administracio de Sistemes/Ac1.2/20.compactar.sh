@@ -73,7 +73,7 @@ main(){
                 if [ -z $pathnew ];then
                     tar cvf $input -C $(pwd)
                 else
-                tar cvf $input -C $pathcd
+                    tar cvf $input -C $pathcd
             fi
 
         elif [ $choice = "d" ];then
