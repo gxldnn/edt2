@@ -76,7 +76,7 @@ main(){
                 if [ -z $pathnew ];then
                     tar cvf "$namearxiu" -C "$(pwd)"
                 else
-                    tar cvf "$namearxiu" -C "$pathcd"
+                    tar cvf "$namearxiu" -C "$pathnew"
                 fi
             fi
 
