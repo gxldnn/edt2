@@ -73,7 +73,7 @@ main(){
             if [ $compactarnew = "s" ]; then
                 read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathnew
                 if [ -z "$pathcd" ]; then
-                pathcd="$(pwd)"
+                    pathcd="$(pwd)"
                 fi
             nomdir="$(basename "$input")"
             tar cvf "$pathcd/$nomdir.tar" -C "$(dirname "$input")" "$nomdir"
