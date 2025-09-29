@@ -18,8 +18,6 @@ else
     topnum=$num1
 fi
 
-
-
 primers=0
 for((i=$lownum; i<=$topnum; i++)); do
     (( primers++ ))
@@ -36,6 +34,5 @@ for((i=$lownum; i<=$topnum; i++)); do
     fi
     echo $primers
 done
-
 
 echo "Los numeros primos son: ${primlist[@]}"
