@@ -80,10 +80,6 @@ main(){
         elif [ $choice = "d" ];then
             read -p "Digues el nom del nou directoru" namedir
             mkdir -p namedir
-            read -p "El vols editar ara mateix?: (s/n)" modificar
-            if [ $modificar = "s" ];then
-                nano $namearxiu
-            fi
             read -p "El vols comprimir? (s/n)" compactarnew
             if [ $compactarnew = "s"]; then
                 read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathnew
