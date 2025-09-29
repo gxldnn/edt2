@@ -18,7 +18,8 @@ input=$(locate $name | grep -v "Trash")
 
 main(){
     if [ $input = *.tar.gz ];then
-        read -p "Vols descomprimir aquesta arxiu?"
+        read -p "Vols descomprimir aquesta arxiu?" decomp
+        if []
     if [ -f $input ];then
         read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
         if [ $llegir = "s"];then
