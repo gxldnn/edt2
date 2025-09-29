@@ -32,7 +32,6 @@ main(){
             fi
         fi
 
-
     elif [ -d $input ]; then
     else
         echo -e "El fitxer o directori no existeix"
