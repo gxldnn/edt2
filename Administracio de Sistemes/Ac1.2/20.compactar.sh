@@ -55,7 +55,7 @@ main(){
             touch $namearxiu
             read -p "El vols editar ara mateix?: (s/n)" modificar
             if [ $modificar = "s" ];then
-                nano 
+                nano $name
 
 
         elif [ $choice = "d" ];then
