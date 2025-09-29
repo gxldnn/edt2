@@ -7,7 +7,7 @@ if [[ $EUID -ne 0 ]]; then
     fi
 fi
 
-if [[  $(which locate) = false ]]; then
+if ! command -v locate &>/dev/null; then
     echo "El programa locate no esta instalat. Instal·la'l i torna-ho a provar"
     exit 1
 fi
