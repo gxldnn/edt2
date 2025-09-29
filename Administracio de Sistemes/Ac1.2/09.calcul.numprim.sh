@@ -14,6 +14,7 @@ else
     topnum=$num1
 fi
 
+if
 
 primers=0
 for((i=$lownum; i<=$topnum; i++)); do
