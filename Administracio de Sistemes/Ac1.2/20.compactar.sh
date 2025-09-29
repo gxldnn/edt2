@@ -34,7 +34,7 @@ main(){
         if [ "$llegir" = "s" ]; then
             cat "$input" | less
         fi
-    
+
         read -p "Vols compactar l'arxiu $input? (s/n): " compactararxiu
         if [ "$compactararxiu" = "s" ]; then
             read -p "A on el vols compactar? (enter per a directori actual): " pathca
@@ -44,13 +44,13 @@ main(){
             nomfitxer="$(basename "$input")"
             tar cvf "$pathca/$nomfitxer.tar" -C "$(dirname "$input")" "$nomfitxer"
         fi
-    
+
     elif [ -d "$input" ]; then
         read -p "Vols veure el contingut del directori? (s/n): " veure
         if [ "$veure" = "s" ]; then
             ls -la "$input" | less
         fi
-    
+
         read -p "Vols compactar aquest directori $input? (s/n): " compactardir
         if [ "$compactardir" = "s" ]; then
             read -p "A on el vols compactar? (enter per a directori actual): " pathcd
@@ -60,7 +60,6 @@ main(){
             nomdir="$(basename "$input")"
             tar cvf "$pathcd/$nomdir.tar" -C "$(dirname "$input")" "$nomdir"
         fi
-
 
     else
         read -p "L'arxiu o directori que dius no existeix o el sistema no el troba, que vols crear ara, un arxiu direcotri o res (a/d/res)" choice
