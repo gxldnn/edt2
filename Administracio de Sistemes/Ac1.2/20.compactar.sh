@@ -20,6 +20,7 @@ main(){
     if [ -f $input ];then
         read -p "Vols compactar aquest arxiu: $input? (s/n): " compactararxiu
         if [ compactararxiu = "s"]
+            
 
 
     elif [ -d $input ]; then
