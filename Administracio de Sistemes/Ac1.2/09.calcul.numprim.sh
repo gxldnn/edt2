@@ -26,7 +26,7 @@ for((i=$lownum; i<=$topnum; i++)); do
        fi 
    done
    if [ $count = 1 ]; then
-       primlist+=("$i")
+       primlist+=(" $i")
       
    fi
 done
