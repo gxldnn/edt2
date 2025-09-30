@@ -6,6 +6,7 @@ while true; do
 
     if [ $num -eq $random ];then
         echo -e "\nHas encertat! es $random"
+        break
     else
         echo -e "\nQuina pena era $random"
     fi
