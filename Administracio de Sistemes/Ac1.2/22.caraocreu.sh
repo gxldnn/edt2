@@ -14,7 +14,8 @@ fi
 read -n 1 -p "Escull un numero entre 1 o 2: " num
 random=$(( $RANDOM % 2 ))
 
-if [ $random -eq ]
+if [ $random -eq 0 ];then 
+
 
 if [ $num -eq $random ];then
     echo -e "\nHas encertat!"
