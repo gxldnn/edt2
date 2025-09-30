@@ -5,6 +5,7 @@
 for ((i=0; i<10000; i++)); do
     random=$(( $RANDOM % 11))
     echo "$random"
+    if
     
 done
 
