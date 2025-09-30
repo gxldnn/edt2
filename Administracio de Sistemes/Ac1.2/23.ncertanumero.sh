@@ -10,4 +10,8 @@ else
     echo -e "\nQuina pena"
 fi
 
-if
+if [ $num -eq $random ];then
+    echo -e "\nHas encertat!"
+else
+    echo -e "\nQuina pena"
+fi
