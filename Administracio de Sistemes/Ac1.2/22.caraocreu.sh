@@ -8,4 +8,4 @@ if [ $num -eq $random ];then
     echo -e "Has encertat!"
 else
     echo -e "Quina pena"
-echo "$random"
+fi
