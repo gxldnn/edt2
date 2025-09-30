@@ -11,7 +11,7 @@ else
 fi
 
 if [ $num -eq $random ];then
-    echo -e "\nHas encertat!"
+    echo -e "\nHas encertat! es $random"
 else
     echo -e "\nQuina pena era $random"
 fi
