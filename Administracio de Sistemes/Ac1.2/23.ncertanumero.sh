@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#read -n 1 -p "Escull un numero entre 1 o 2: " num
+read -n 1 -p "Escull un numero entre 1 o 2: " num
 
 random=$(( $RANDOM % 10 + 1 ))
 
