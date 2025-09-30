@@ -70,13 +70,13 @@ main(){
                 nano $namearxiu
             fi
             read -p "El vols comprimir? (s/n)" compactarnew
-            if [ $compactarnew = "s" ]; then
+            if [ "$compactarnew" = "s" ]; then
                 read -p "A on el vols compactar? no escriguis res per a guardar en el directori actual: " pathnew
                 if [ -z "$pathnew" ]; then
                     pathnew="$(pwd)"
                 fi
                 namearxiu="$(basename "$namearxiu")"
-                tar -cvf "$pathnew/$namearxiu.tar" -C "$(dirname "$input")" "/$namearixu" 2>&1 /dev/null
+                tar -cvf "$pathnew/$namearxiu.tar" "$namearxiu" >/dev/null 2>&1
             fi
         elif [ $choice = "d" ];then
             read -p "Digues el nom del nou directoru" namedir
