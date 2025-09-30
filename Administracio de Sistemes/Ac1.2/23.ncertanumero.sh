@@ -3,10 +3,7 @@
 #read -n 1 -p "Escull un numero entre 1 o 2: " num
 
     random=$(( $RANDOM % 11))
-
-
-
-echo "$random"
+    echo "$random"
 
 
 
