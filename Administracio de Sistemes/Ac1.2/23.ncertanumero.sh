@@ -9,7 +9,7 @@ for ((i=0; i<10000; i++)); do
     # guardar en un fitxer i despres fer cat fitxer | sort | uniq |
     # si la cuantitat es 11, sortir del bucle
     # if --- IGNORE ---
-    
+    if
     
 done
 
