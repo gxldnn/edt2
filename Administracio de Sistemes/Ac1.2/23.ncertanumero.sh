@@ -9,3 +9,5 @@ if [ $num -eq $random ];then
 else
     echo -e "\nQuina pena"
 fi
+
+if
