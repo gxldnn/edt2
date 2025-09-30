@@ -4,10 +4,6 @@
 
 random=$(( $RANDOM % 10 + 1 ))
 
-
-
-
-
 if [ $num -eq $random ];then
     echo -e "\nHas encertat!"
 else
