@@ -2,6 +2,7 @@
 
 #read -n 1 -p "Escull un numero entre 1 o 2: " num
 
+for (())
     random=$(( $RANDOM % 11))
     echo "$random"
 
