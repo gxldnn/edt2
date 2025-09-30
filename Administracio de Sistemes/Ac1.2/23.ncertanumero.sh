@@ -9,6 +9,7 @@ while true; do
         echo -e "\nHas encertat! es $random"
         break
     else
+        clear
         echo -e "\nQuina pena era $random"
     fi
 done
