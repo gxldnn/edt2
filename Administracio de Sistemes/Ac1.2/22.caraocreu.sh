@@ -17,6 +17,8 @@ random=$(( $RANDOM % 2 ))
 if [ $random -eq 0 ];then 
     random=1
 else
+    random=2
+fi
 
 if [ $num -eq $random ];then
     echo -e "\nHas encertat!"
