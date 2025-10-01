@@ -4,5 +4,4 @@
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT telefon (#PCDATA)>
 <!ATTLIST telefon tipus (mòbil|feina|fix) #REQUIRED>
-<!ATTLIST telefon tipus CDATA #REQUIRED>
 <!ELEMENT email (#PCDATA)>
