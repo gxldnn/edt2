@@ -1,0 +1,12 @@
+<!ELEMENT comanda (client,productes,pagament) > 
+<!ATTLIST comanda num CDATA #REQUIRED>
+<!ELEMENT client (nom,adreça) > 
+<!ELEMENT adreça (#PCDATA) > 
+<!ELEMENT productes (producte+) > 
+<!ELEMENT producte (nom,preu) >
+<!ATTLIST producte codi ID #REQUIRED>
+<!ATTLIST producte quantitat CDATA #REQUIRED>
+<!ELEMENT nom (#PCDATA) > 
+<!ELEMENT preu (#PCDATA) > 
+<!ELEMENT pagament (#PCDATA) > 
+<!ATTLIST pagament tipus (Efectiu|Targeta|Bizum) #REQUIRED>

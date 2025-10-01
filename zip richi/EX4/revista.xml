@@ -1,0 +1,14 @@
+<!DOCTYPE revista SYSTEM "revista.dtd" [
+<!ENTITY enguany "2025">
+]>
+<revista>
+    <article id="A1">
+        <titol>La intel·ligència artificial avui</titol>
+        <autor>Laura Riera</autor>
+        <cos>Publicat l'any &enguany;.</cos>
+        <etiquetes>
+            <etiqueta>tecnologia</etiqueta>
+            <etiqueta>IA</etiqueta>
+        </etiquetes>
+    </article>
+</revista>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE cataleg SYSTEM "llibres.dtd">
+<cataleg>
+    <llibre id="L1">
+        <titol>1984</titol>
+        <autor>George Orwell</autor>
+        <any>1949</any>
+        <editorial> Secker &amp; Warburg </editorial>
+        <categories>
+            <categoria>Distopia</categoria>
+            <categoria>Política</categoria>
+        </categories>
+    </llibre>
+</cataleg>

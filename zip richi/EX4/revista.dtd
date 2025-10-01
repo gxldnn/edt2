@@ -1,0 +1,8 @@
+<!ELEMENT revista (article+) >
+<!ELEMENT article (titol,autor,cos,etiquetes?) > 
+<!ATTLIST article id ID #REQUIRED>
+<!ELEMENT titol (#PCDATA) > 
+<!ELEMENT autor (#PCDATA) > 
+<!ELEMENT cos (#PCDATA) >
+<!ELEMENT etiquetes (etiqueta+) > 
+<!ELEMENT etiqueta (#PCDATA) > 
