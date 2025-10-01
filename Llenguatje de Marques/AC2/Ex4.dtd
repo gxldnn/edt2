@@ -1,6 +1,6 @@
 <!ENTITY enguany "2025">
 <!ELEMENT revista (article+)>
-<!ELEMENT article (titol, autor, cos, etiquetes)>
+<!ELEMENT article (titol, autor, cos, etiquetes?)>
 <!ATTLIST article id ID #REQUIRED>
 <!ELEMENT titol (#PCDATA)>
 <!ELEMENT autor (#PCDATA)>
