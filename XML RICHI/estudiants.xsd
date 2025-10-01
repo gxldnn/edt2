@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="classe">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="estudiant" minOccurs="2" maxOccurs="2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="Joan &amp; Maria"/>
+                    <xs:enumeration value="Pere &amp; Anna"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descripcio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="Saben programar: if (a &lt; b &amp;&amp; c &gt; d) { return true; }"/>
+                    <xs:enumeration value="Entenen XML: els elements usen &lt; &gt; per delimitar"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="edat">
+                <xs:simpleType>
+                  <xs:restriction base="xs:integer">
+                    <xs:enumeration value="20"/>
+                    <xs:enumeration value="22"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="email">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="joan@university.edu"/>
+                    <xs:enumeration value="pere.anna@estudis.cat"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
