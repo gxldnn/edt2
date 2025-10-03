@@ -18,11 +18,11 @@
                         <xs:sequence>
                             <xs:element name="producte">
                                 <xs:complexType>
-                                    <xs:sw>
+                                    <xs:sequence>
                                         <xs:element name="nom"  type="xs:string"></xs:element>
                                         <xs:element name="preu" type="xs:decimal"></xs:element>
                                         <xs:element name="descompte"  type="xs:decimal"></xs:element>
-                                    </xs:simpleContent>
+                                    </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
 
