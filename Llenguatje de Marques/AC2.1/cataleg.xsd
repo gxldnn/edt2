@@ -33,6 +33,8 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
+    
     <xs:simpleType name="MonedaTipo">
         <xs:restriction base="xs:string">
             <xs:enumeration value="EUR"/>
