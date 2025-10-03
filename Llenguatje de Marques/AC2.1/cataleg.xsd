@@ -42,6 +42,13 @@
             <xs:enumeration value="GBP"/>
         </xs:restriction>
     </xs:simpleType>
+        <xs:simpleType name="MonedaTipo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="EUR"/>
+            <xs:enumeration value="USD"/>
+            <xs:enumeration value="GBP"/>
+        </xs:restriction>
+    </xs:simpleType>
 
     <xs:simpleType name="RangAny">
         <xs:restriction base="xs:integer">
