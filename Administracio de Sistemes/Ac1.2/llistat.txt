@@ -1,0 +1,8 @@
+00.explica.codi.sh	 01.multiplicar1.sh	   02.taula.multiplicar2.sh
+03.factorial.sh		 04.factorial.detallat.sh  05.case.sh
+06.case.multiplica.sh	 07.vocals.consonants.sh   08.verifica.numprim.sh
+09.calcul.numprim.sh	 10.extensio.fitxer.sh	   11.extensions.sh
+12.compta.directoris.sh  13.explica.fitxer.sh	   14.calculadora.sh
+15.data.hora.sh		 16.directoris.fitxers.sh  17.identificar.sh
+18.continguts.sh	 19.comprovar.sh	   20.compactar.sh
+21.quadrat.numero.sh	 22.caraocreu.sh	   23.ncertanumero.sh
