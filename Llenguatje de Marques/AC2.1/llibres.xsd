@@ -17,7 +17,8 @@
     </xs:complexType>
   </xs:element>
 
-  <xs:simpleType name="edatrang" >
+  <xs:simpleType name="edatrang">
+    <xs:restriction></xs:restriction>
 
   </xs:simpleType>
 </xs:schema>
