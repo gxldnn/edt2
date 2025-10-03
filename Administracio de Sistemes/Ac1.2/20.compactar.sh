@@ -45,7 +45,7 @@ main(){
                 pathca="$(pwd)"
             fi
             nomfitxer="$(basename "$input")" # agafa el nom del fitxer sense la ruta (GPT)
-            tar cvf "$pathca/$nomfitxer.tar" -C "$(dirname "$input")" "$nomfitxer"
+            tar cvf "$pathca/$nomfitxer.tar" -C "$(dirname "$input")" "$nomfitxer" # compacta el fitxer en la ruta que ha dit (GPT)
         fi
 
     elif [ -d "$input" ]; then
