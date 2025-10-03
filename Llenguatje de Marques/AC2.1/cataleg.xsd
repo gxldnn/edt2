@@ -15,9 +15,9 @@
                                 <xs:simpleContent>
                                   <xs:extension base="xs:decimal">
                                     <xs:attribute name="moneda" type="xs:string" use="required">
-                                        <xs:simpleType>
+                                        <xs:simpleType name="moneda">
                                             <xs:restriction>
-                                                
+
                                             </xs:restriction>
                                         </xs:simpleType>
                                     </xs:attribute>
