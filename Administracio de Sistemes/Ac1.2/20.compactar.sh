@@ -57,7 +57,7 @@ main(){
         read -p "Vols compactar aquest directori $input? (s/n): " compactardir  # demana si el vol compactar
         if [ "$compactardir" = "s" ]; then
             read -p "A on el vols compactar? (enter per a directori actual): " pathcd # demana on
-            if [ -z "$pathcd" ]; then
+            if [ -z "$pathcd" ]; then # si no diu res el guarda en el directori actual
                 pathcd="$(pwd)"
             fi
             nomdir="$(basename "$input")"
