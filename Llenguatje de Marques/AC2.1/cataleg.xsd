@@ -10,7 +10,7 @@
                             <xs:element name="autor" type="xs:string"/>
                             <xs:element name="any" type="RangAny"/>
                             <xs:element name="editorial" type="xs:string"/>
-                            <xs:element name="preu">
+                            <xs:element name="preu" type="">
                               <xs:complexType>
                                 <xs:simpleContent>
                                   <xs:extension base="xs:decimal">
@@ -42,7 +42,7 @@
             <xs:enumeration value="GBP"/>
         </xs:restriction>
     </xs:simpleType>
-    
+
     <xs:simpleType name="PreuRang">
         <xs:restriction base="xs:decimal">
             <xs:minInclusive value="1"></xs:minInclusive>
