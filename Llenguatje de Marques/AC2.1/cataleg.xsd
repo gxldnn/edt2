@@ -16,6 +16,7 @@
                                         <xs:attribute name="moneda" type="xs:string" use="required"/>
                                     </xs:sequence>
                                 </xs:complexType>
+                            </xs:element>
                             <xs:element name="categories" minOccurs="0" maxOccurs="1">
                                     <xs:complexType>
                                         <xs:sequence>
