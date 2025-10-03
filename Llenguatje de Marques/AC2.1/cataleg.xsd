@@ -13,7 +13,8 @@
                             <xs:element name="preu" type="xs:dateTime"/>
                             <xs:element name="categories" minOccurs="0" maxOccurs="1">
                                 <xs:complexType>
-                                    v
+                                                            <xs:attribute name="id" type="xs:string" use="required"/>
+
                                 </xs:complexType>
 
                         </xs:sequence>
