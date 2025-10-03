@@ -42,9 +42,8 @@
             <xs:enumeration value="GBP"/>
         </xs:restriction>
     </xs:simpleType>
-    
-    <xs:simpleType name="PreuRang">
-        <xs:restriction base="xs:decimal">
+    <xs:simpleType name="MonedaTipo">
+        <xs:restriction base="xs:string">
             <xs:enumeration value="EUR"/>
             <xs:enumeration value="USD"/>
             <xs:enumeration value="GBP"/>
@@ -52,9 +51,9 @@
     </xs:simpleType>
 
     <xs:simpleType name="RangAny">
-        <xs:restriction base="xs:decimal">
-            <xs:minInclusive value="1"></xs:minInclusive>
-            <xs:fractionDigits value="2"></xs:fractionDigits>
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1000"/>
+            <xs:maxInclusive value="2025"/>
         </xs:restriction>
     </xs:simpleType>
 
