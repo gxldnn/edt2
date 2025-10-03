@@ -19,7 +19,7 @@
 
   <xs:simpleType name="edatrang">
     <xs:restriction>
-      <xs:minInclusive value=""></xs:minInclusive>
+      <xs:minInclusive value="0"></xs:minInclusive>
     </xs:restriction>
 
   </xs:simpleType>
