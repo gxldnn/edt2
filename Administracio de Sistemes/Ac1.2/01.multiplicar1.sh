@@ -11,6 +11,6 @@ fi
 
 
 for i in ${nums[@]}; do
-    echo -e "$nummenos * $i = $(($i * $nummenos))" 
+    echo -e "$num * $i = $(($i * $nummenos))" 
 done
 
