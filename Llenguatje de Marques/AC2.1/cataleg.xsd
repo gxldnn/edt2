@@ -24,7 +24,7 @@
                                     <xs:sequence>
                                         <xs:element name="categoria" type="xs:string" minOccurs="0" maxOccurs="5"></xs:element>
                                     </xs:sequence>
-                                </xs:complexType>
+                                </xs:complexType>   
                             </xs:element>
                         </xs:sequence>
                         <xs:attribute name="id" type="xs:ID" use="required"/>
