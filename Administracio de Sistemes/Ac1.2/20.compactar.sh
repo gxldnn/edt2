@@ -31,7 +31,8 @@ main(){
                 pathdecomp="$pathdecomp/${name%.tar.gz}"
             fi
             mkdir -p "$pathdecomp"              # crea la carpeta
-            tar -zxvf "$input" -C "$pathdecomp" # descomprimeix dins d’aquesta carpeta
+            tar -zxvf "$input" -C "$pathdecomp"
+             # descomprimeix dins d’aquesta carpeta
         fi
         exit 0
     fi
