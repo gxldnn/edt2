@@ -48,7 +48,7 @@ main(){
             tar cvf "$pathca/$nomfitxer.tar" -C "$(dirname "$input")" "$nomfitxer" # compacta el fitxer en la ruta que ha dit (GPT)
         fi
 
-    elif [ -d "$input" ]; then
+    elif [ -d "$input" ]; then # Si és un directori
         read -p "Vols veure el contingut del directori? (s/n): " veure
         if [ "$veure" = "s" ]; then
             ls -la "$input" | less
