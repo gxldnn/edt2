@@ -37,5 +37,5 @@
             <xs:attribute name="data" type="xs:date"></xs:attribute>
         </xs:complexType>
     </xs:element>
-    <xs:simpleType name=""></xs:simpleType>
+    <xs:simpleType name="cprang"></xs:simpleType>
 </xs:schema>
