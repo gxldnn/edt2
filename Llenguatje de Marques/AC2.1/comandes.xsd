@@ -38,6 +38,8 @@
         </xs:complexType>
     </xs:element>
     <xs:simpleType name="cprang">
-        xs
+        <xs:restriction>
+            xs
+        </xs:restriction>
     </xs:simpleType>
 </xs:schema>
