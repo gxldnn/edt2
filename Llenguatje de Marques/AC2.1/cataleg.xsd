@@ -14,7 +14,8 @@
                               <xs:complexType>
                                 <xs:simpleContent>
                                   <xs:extension base="xs:decimal">
-                                    <xs:attribute name="moneda" type="xs:string" use="required"/>
+                                    <xs:attribute name="moneda" type="xs:string" use="required">
+                                    </xs:attribute>
                                     
                                   </xs:extension>
                                 </xs:simpleContent>
