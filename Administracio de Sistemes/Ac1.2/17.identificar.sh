@@ -10,7 +10,7 @@ if [[ $tecla =~ [a-zA-Z] ]]; then
     echo -e "\nLa tecla '$tecla' es una lletra."
 # Comprovar si es numero
 elif [[ $tecla =~ [0-9] ]]; then
-    echo -e "\nLa tecla '$tecla' es un numero."
+    echo -e "\nLa tecla $tecla es un numero."
 # Si no es cap de les anteriors, es caracter especial
 else
     echo -e "\nLa tecla $tecla es un caracter especial."
