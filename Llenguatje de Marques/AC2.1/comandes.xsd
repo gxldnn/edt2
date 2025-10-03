@@ -6,7 +6,7 @@
 
             </xs:sequence>
             <xs:attribute name="num" type="xs:string"></xs:attribute>
-            <xs:attribute name="data"></xs:attribute>
+            <xs:attribute name="data" type=></xs:attribute>
         </xs:complexType>
     </xs:element>
 </xs:schema>
