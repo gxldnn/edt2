@@ -82,7 +82,7 @@ main(){
                 tar -cvf "$pathnew/$namearxiu.tar" "$namearxiu" >/dev/null 2>&1 # compacta el nou arxiu en la ruta que ha dit (GPT)
             fi
         elif [ $choice = "d" ];then # si vol crear un directori
-            read -p "Digues el nom del nou directoru" namedir
+            read -p "Digues el nom del nou directoru" namedir 3 # demana el nom
             mkdir -p namedir
         else
             exit 0
