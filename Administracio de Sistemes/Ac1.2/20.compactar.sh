@@ -14,7 +14,7 @@ if ! command -v locate &>/dev/null; then
     exit 1
 fi
 
-
+# Sol·licitar el nom del fitxer o directori
 read -p "Introdueix un fitxer o directori o tar.gz (El seu nom EXACTE): " name
 sudo updatedb
 input=$(locate -r "/$name$" | grep -v "Trash")
