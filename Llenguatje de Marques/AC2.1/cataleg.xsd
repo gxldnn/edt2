@@ -8,7 +8,7 @@
                         <xs:sequence>
                             <xs:element name="titol" type="xs:string"/>
                             <xs:element name="autor" type="xs:string"/>
-                            <xs:element name="any" type="AnyType"/>
+                            <xs:element name="any" type="xs:"/>
                             <xs:element name="editorial" type="xs:string"/>
                             <xs:element name="preu" type="PreuComplexType"/>
                             <xs:element name="categories" minOccurs="0" maxOccurs="1"/> 
