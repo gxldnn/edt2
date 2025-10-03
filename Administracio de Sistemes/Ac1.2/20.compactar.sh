@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-
+# Comprovar si l'usuari té permisos d'administrador 
 if [[ $EUID -ne 0 ]]; then
     if ! sudo -v &>/dev/null; then
         echo "No tens permisos d'administrador (sudo) ni ets root."
