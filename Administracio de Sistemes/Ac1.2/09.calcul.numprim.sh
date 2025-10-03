@@ -10,6 +10,7 @@ fi
 
 primlist=()
 
+# Definim quin es el numero mes alt i quin el mes baix
 if (( num1 < num2 )); then
    lownum=$num1
    topnum=$num2
