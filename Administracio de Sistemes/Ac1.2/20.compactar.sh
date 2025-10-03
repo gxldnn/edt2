@@ -79,7 +79,7 @@ main(){
                     pathnew="$(pwd)"
                 fi
                 namearxiu="$(basename "$namearxiu")"
-                tar -cvf "$pathnew/$namearxiu.tar" "$namearxiu" >/dev/null 2>&1
+                tar -cvf "$pathnew/$namearxiu.tar" "$namearxiu" >/dev/null 2>&1 # compacta el nou arxiu en la ruta que ha dit (GPT)
             fi
         elif [ $choice = "d" ];then
             read -p "Digues el nom del nou directoru" namedir
