@@ -52,9 +52,9 @@
     </xs:simpleType>
 
     <xs:simpleType name="RangAny">
-        <xs:restriction base="xs:integer">
-            <xs:minInclusive value="1000"/>
-            <xs:maxInclusive value="2025"/>
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:fractionDigits value="2"></xs:fractionDigits>
         </xs:restriction>
     </xs:simpleType>
 
