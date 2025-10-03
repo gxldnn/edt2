@@ -20,7 +20,7 @@ else
 fi
 
 
-for((i=$lownum; i<=$topnum; i++)); do  # 
+for((i=$lownum; i<=$topnum; i++)); do  # Agafem cada numero dins del rang
    count=0
 
    for((x=2; x<=$i; x++)); do
