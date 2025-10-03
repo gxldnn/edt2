@@ -33,6 +33,7 @@ main(){
             mkdir -p "$pathdecomp"              # crea la carpeta
             tar -zxvf "$input" -C "$pathdecomp" # descomprimeix dins d’aquesta carpeta
         fi
+        exit 0
     fi
 
     if [ -f "$input" ]; then # Si és un fitxer
