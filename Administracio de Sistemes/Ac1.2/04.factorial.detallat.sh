@@ -13,8 +13,8 @@ altnum=$num  # Guardem el valor del input del usuari per a fer el detallat
 result=1
 detallat=()
 while [ $num -ne 0 ]; do # Mentres num no sigui 0 fes:
-    result=$(($result * $num))
-    detallat+=("$num") 
+    result=$(($result * $num)) # Multiplica el resultat per num
+    detallat+=("$num")  # Afegim el numero a l'array detallat
     (( num-- ))
 
 done
