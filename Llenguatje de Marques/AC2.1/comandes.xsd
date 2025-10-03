@@ -20,7 +20,7 @@
                                     <xs:sequence>
                                         <xs:element name="nom"  type="xs:string"></xs:element>
                                         <xs:element name="preu" type="preurang"></xs:element>
-                                        <xs:element name="descompte"  type="xs:decimal"></xs:element>
+                                        <xs:element name="descompte"  type="xs:decimal" minOccurs="0" maxOccurs="unbounded"></xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="codi" type="xs:ID"></xs:attribute>
                                     <xs:attribute name="quantitat" type="xs:string"></xs:attribute>
