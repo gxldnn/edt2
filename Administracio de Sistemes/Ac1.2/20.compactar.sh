@@ -28,7 +28,7 @@ main(){
             if [ $pathdecomp = "" ]; then # si no diu res el descomprimeix en el directori actual
                 tar -zxvf -C $(pwd) # descomprimeix en el directori actual
             else
-                tar -zxvf -C $pathdecomp
+                tar -zxvf -C $pathdecomp # descomprimeix en el directori que ha dit
             fi
         fi
     fi
