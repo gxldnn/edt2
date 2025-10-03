@@ -17,7 +17,7 @@
                                     <xs:attribute name="moneda" type="xs:string" use="required">
                                         <xs:simpleType name="moneda">
                                             <xs:restriction>
-                                                <xs:enumeration value=""></xs:enumeration>
+                                                <xs:enumeration value="EUR"></xs:enumeration>
                                             </xs:restriction>
                                         </xs:simpleType>
                                     </xs:attribute>
