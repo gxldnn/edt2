@@ -11,7 +11,8 @@ fi
 
 
 nummas=$(($num + 1)) # Calcula el numero mes 1 
-nummenos=$(($num - 1)) # Calcula el numero mes ¡ petit  
+nummenos=$(($num - 1)) # Calcula el numero menos 1  
+
 
 for i in ${nums[@]}; do
     echo -e "$nummas * $i = $(($i * $nummas))" 
