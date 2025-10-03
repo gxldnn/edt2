@@ -8,7 +8,7 @@
           <xs:sequence>
             <xs:element name="nom" type="xs:string"></xs:element>
             <xs:element name="edat" type="edatrang"></xs:element>
-            <xs:element name="telefon" type="telefonrang" minOccurs="1" maxOccurs="3">
+            <xs:element name="telefon" type="xs" minOccurs="1" maxOccurs="3">
               <xs:complexType>
                 <xs:attribute name="tipus" ></xs:attribute>
               </xs:complexType>
