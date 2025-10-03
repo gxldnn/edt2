@@ -18,7 +18,9 @@ else
    lownum=$num2
    topnum=$num1
 fi
-for((i=$lownum; i<=$topnum; i++)); do
+
+
+for((i=$lownum; i<=$topnum; i++)); do  # 
    count=0
 
    for((x=2; x<=$i; x++)); do
