@@ -26,7 +26,6 @@
                                     <xs:attribute name="quantitat" type="xs:string"></xs:attribute>
                                 </xs:complexType>
                             </xs:element>
-
                         </xs:sequence>
                     </xs:complexType>
 
