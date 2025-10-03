@@ -44,7 +44,7 @@
     </xs:simpleType>
     
     <xs:simpleType name="PreuRang">
-        <xs:restriction base="xs:string">
+        <xs:restriction base="xs:decimal">
             <xs:enumeration value="EUR"/>
             <xs:enumeration value="USD"/>
             <xs:enumeration value="GBP"/>
