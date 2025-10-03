@@ -29,7 +29,7 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="pagament"></xs:element>
+                <xs:element name="pagament" type:></xs:element>
                 <xs:element name="total"></xs:element>
             </xs:sequence>
             <xs:attribute name="num" type="xs:string"></xs:attribute>
