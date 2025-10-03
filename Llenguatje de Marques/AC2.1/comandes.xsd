@@ -37,6 +37,7 @@
             <xs:attribute name="data" type="xs:date"></xs:attribute>
         </xs:complexType>
     </xs:element>
+    
     <xs:simpleType name="cprang">
         <xs:restriction>
             <xs:minInclusive value="01000"></xs:minInclusive>
