@@ -6,7 +6,7 @@
                 <xs:element name="llibre" minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="titol" type="xs:string"/>
+                            <xs:element name="titol" type="xs:string" mi/>
                             <xs:element name="autor" type="xs:string"/>
                             <xs:element name="any" type="xs:integer"/>
                             <xs:element name="editorial" type="xs:string"/>
@@ -43,5 +43,5 @@
         </xs:restriction>
     </xs:simpleType>
 
-    
+
 </xs:schema>
