@@ -11,7 +11,7 @@
 			<preu>49.99</preu>
 			<descompte>10</descompte>
 		</producte>
-		<producte codi="P2003" quantitat="1">
+		<producte codi="P2003" quantitat="0">
 			<nom>Torradora</nom>
 			<preu>29.50</preu>
             <descompte>10</descompte>
