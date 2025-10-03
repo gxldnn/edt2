@@ -8,7 +8,7 @@
                         <xs:sequence>
                             <xs:element name="nom"  type="xs:string"></xs:element>
                             <xs:element name="adreça" type="xs:string"></xs:element>
-                            <xs:element name="cp" type="xs:string"></xs:element>
+                            <xs:element name="cp" type="cprang"></xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
