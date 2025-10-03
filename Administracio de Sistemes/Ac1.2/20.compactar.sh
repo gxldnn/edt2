@@ -33,7 +33,7 @@ main(){
         fi
     fi
     if [ -f "$input" ]; then # Si és un fitxer
-        read -p "Vols llegir el contingut del fitxer? (s/n): " llegir
+        read -p "Vols llegir el contingut del fitxer? (s/n): " llegir #     demana si el vol llegir
         if [ "$llegir" = "s" ]; then
             cat "$input" | less
         fi
