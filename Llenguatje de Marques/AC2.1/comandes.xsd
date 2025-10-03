@@ -9,7 +9,7 @@
                 <xs:element name="total"></xs:element>
                 <xs:element name="nom"  type="xs:string"></xs:element>
                 <xs:element name="adreça" type="xs:string"></xs:element>
-            
+                <xs:element></xs:element>
             
             </xs:sequence>
             <xs:attribute name="num" type="xs:string"></xs:attribute>
