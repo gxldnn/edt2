@@ -16,7 +16,9 @@
                                   <xs:extension base="xs:decimal">
                                     <xs:attribute name="moneda" type="xs:string" use="required">
                                         <xs:simpleType>
-                                            xs
+                                            <xs:restriction>
+                                                
+                                            </xs:restriction>
                                         </xs:simpleType>
                                     </xs:attribute>
                                     
