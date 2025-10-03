@@ -43,7 +43,7 @@
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="MonedaTipo">
-        <xs:restriction base="xs:string">
+        <xs:restriction base="xs:decimal">
             <xs:minInclusive value="1"></xs:minInclusive>
             <xs:fractionDigits value="2"></xs:fractionDigits>
         </xs:restriction>
