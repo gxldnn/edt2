@@ -59,12 +59,6 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="quantitatrang">
-        <xs:restriction base="xs:decimal">
-            <xs:minInclusive value="1"></xs:minInclusive>
-        </xs:restriction>
-    </xs:simpleType>
-    
 
 
 </xs:schema>
