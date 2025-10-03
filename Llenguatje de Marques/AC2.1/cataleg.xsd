@@ -12,7 +12,7 @@
                             <xs:element name="editorial" type="xs:string"/>
                             <xs:element name="preu" type="xs:dateTime"/>
                             <xs:element name="categories" minOccurs="0" maxOccurs="1"/>
-                            <xs:attribute>
+                        <xs:attribute name="id" type="xs:string" use="required"/>
                         </xs:sequence>
                         <xs:attribute name="id" type="xs:string" use="required"/>
                     </xs:complexType>    
