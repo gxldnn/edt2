@@ -54,7 +54,7 @@
     <xs:simpleType name="descompterang">
         <xs:restriction base="xs:integer">
             <xs:minInclusive value="1"></xs:minInclusive>
-            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:maxExclusive value="100"></xs:maxExclusive>
 
         </xs:restriction>
     </xs:simpleType>
