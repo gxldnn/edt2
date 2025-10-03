@@ -10,7 +10,7 @@ if ! [[ "$num" =~ ^[0-9]+$ ]] || [ "$num" -le 0 ]; then ## mirar si es text 0 si
 fi
 
 
-for i in ${nums[@]}; do
+for i in ${nums[@]}; do # per cada numero de la llista nums
     echo -e "$num * $i = $(($i * $num))" 
 done
 
