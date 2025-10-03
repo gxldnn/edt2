@@ -13,7 +13,7 @@
                             <xs:element name="preu" type="xs:decimal"/>                           
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:attribute na>
+                                        <xs:attribute name="">
                                     </xs:sequence>
                                 </xs:complexType>
                             <xs:element name="categories" minOccurs="0" maxOccurs="1">
