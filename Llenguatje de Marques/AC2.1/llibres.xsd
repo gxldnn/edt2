@@ -18,7 +18,7 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <
+              <xs:element name></xs:element>
             </xs:sequence>
             <xs:attribute name="id" type="xs:ID"/>
             <xs:attribute name="destacat" type="xs:boolean"/>
