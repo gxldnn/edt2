@@ -1,77 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-        <xs:element name="comanda">
-            <xs:complexType>
-                <xs:sequence>
-                    <xs:element name="client">
-                        <xs:complexType>
-                            <xs:sequence>
-                                <xs:element name="nom"  type="xs:string"></xs:element>
-                                <xs:element name="adreça" type="xs:string"></xs:element>
-                                <xs:element name="cp" type="cprang"></xs:element>
-                            </xs:sequence>
-                        </xs:complexType>
-                    </xs:element>
-                    <xs:element name="productes">
-                        <xs:complexType>
-                            <xs:sequence>
-                                <xs:element name="producte" minOccurs="1" maxOccurs="unbounded">
-                                    <xs:complexType>
-                                        <xs:sequence>
-                                            <xs:element name="nom"  type="xs:string"></xs:element>
-                                            <xs:element name="preu" type="preurang"></xs:element>
-                                            <xs:element name="descompte"  type="descompterang" minOccurs="0" maxOccurs="1"></xs:element>
-                                        </xs:sequence>
-                                        <xs:attribute name="codi" type="xs:ID"></xs:attribute>
-                                        <xs:attribute name="quantitat" type="quantitatrang"></xs:attribute>
-                                    </xs:complexType>
-                                </xs:element>
-                            </xs:sequence>
-                        </xs:complexType>
-                    </xs:element>
-                    <xs:element name="pagament" type="PagamentRang"></xs:element>
-                    <xs:element name="total" type="preurang"></xs:element>
-                </xs:sequence>
-                <xs:attribute name="num" type="xs:string"></xs:attribute>
-                <xs:attribute name="data" type="xs:date"></xs:attribute>
-            </xs:complexType>
-        </xs:element>
-
-        <xs:simpleType name="cprang">
-            <xs:restriction base="xs:integer">
-                <xs:minInclusive value="01000"></xs:minInclusive>
-                <xs:maxInclusive value="52999"></xs:maxInclusive>
-            </xs:restriction>
-        </xs:simpleType>    
-
-        <xs:simpleType name="preurang">
-            <xs:restriction base="xs:decimal">
-                <xs:minInclusive value="1"></xs:minInclusive>
-                <xs:fractionDigits value="2"></xs:fractionDigits>
-            </xs:restriction>
-        </xs:simpleType>
-        
-        <xs:simpleType name="descompterang">
-            <xs:restriction base="xs:integer">
-                <xs:minInclusive value="0"></xs:minInclusive>
-                <xs:maxExclusive value="100"></xs:maxExclusive>
-
-            </xs:restriction>
-        </xs:simpleType>
-
-        <xs:simpleType name="quantitatrang">
-            <xs:restriction base="xs:integer">
-                <xs:minInclusive value="1"></xs:minInclusive>
-            </xs:restriction>
-        </xs:simpleType>
-        
-        <xs:simpleType name="PagamentRang">
-            <xs:restriction base="xs:string">
-                <xs:enumeration value="Bizum"></xs:enumeration>
-                <xs:enumeration value="Targeta"></xs:enumeration>
-                <xs:enumeration value="Efectiu"></xs:enumeration>
-            </xs:restriction>
-        </xs:simpleType>
-
-
-    </xs:schema>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="comanda">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="client">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nom"  type="xs:string"></xs:element>
+                            <xs:element name="adreça" type="xs:string"></xs:element>
+                            <xs:element name="cp" type="cprang"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="productes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="producte" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nom"  type="xs:string"></xs:element>
+                                        <xs:element name="preu" type="preurang"></xs:element>
+                                        <xs:element name="descompte"  type="descompterang" minOccurs="0" maxOccurs="1"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="codi" type="xs:ID"></xs:attribute>
+                                    <xs:attribute name="quantitat" type="quantitatrang"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="pagament" type="PagamentRang"></xs:element>
+                <xs:element name="total" type="preurang"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="num" type="xs:string"></xs:attribute>
+            <xs:attribute name="data" type="xs:date"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="cprang">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="01000"></xs:minInclusive>
+            <xs:maxInclusive value="52999"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>    
+    <xs:simpleType name="preurang">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:fractionDigits value="2"></xs:fractionDigits>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="descompterang">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"></xs:minInclusive>
+            <xs:maxExclusive value="100"></xs:maxExclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="quantitatrang">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"></xs:minInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="PagamentRang">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Bizum"></xs:enumeration>
+            <xs:enumeration value="Targeta"></xs:enumeration>
+            <xs:enumeration value="Efectiu"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
