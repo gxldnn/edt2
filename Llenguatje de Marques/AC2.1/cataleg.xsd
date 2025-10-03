@@ -34,7 +34,7 @@
         </xs:complexType>
     </xs:element>
     <xs:simpleType name="MonedaTipo">
-        <xs:restriction base="">
+        <xs:restriction base="xs:string">
             <xs:enumeration value="EUR"/>
             <xs:enumeration value="USD"/>
             <xs:enumeration value="GBP"/>
