@@ -18,7 +18,7 @@ for i in ${nums[@]}; do
     echo -e "$nummas * $i = $(($i * $nummas))"  # for que recorre amb unnumero mes
 done
 
-echo ""
+echo "" # espaiar
 
 for i in ${nums[@]}; do
     echo -e "$nummenos * $i = $(($i * $nummenos))" 
