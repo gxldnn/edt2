@@ -43,7 +43,7 @@
         </xs:restriction>
     </xs:simpleType>
     
-    <xs:simpleType name="Preu">
+    <xs:simpleType name="PreuRang">
         <xs:restriction base="xs:string">
             <xs:enumeration value="EUR"/>
             <xs:enumeration value="USD"/>
