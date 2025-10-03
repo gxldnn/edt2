@@ -41,7 +41,7 @@ main(){
         read -p "Vols compactar l'arxiu $input? (s/n): " compactararxiu # demana si el vol compactar
         if [ "$compactararxiu" = "s" ]; then
             read -p "A on el vols compactar? (enter per a directori actual): " pathca
-            if [ -z "$pathca" ]; then
+            if [ -z "$pathca" ]; then # si no diu res el guarda en el directori actual
                 pathca="$(pwd)"
             fi
             nomfitxer="$(basename "$input")"
