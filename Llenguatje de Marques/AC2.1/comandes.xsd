@@ -65,7 +65,7 @@
         </xs:restriction>
     </xs:simpleType>
     
-    <xs:simpleType name="Pagament">
+    <xs:simpleType name="PagamentRang">
         <xs:restriction base="xs:decimal">
             <xs:minInclusive value="1"></xs:minInclusive>
         </xs:restriction>
