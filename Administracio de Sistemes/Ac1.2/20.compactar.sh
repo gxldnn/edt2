@@ -23,7 +23,7 @@ echo $input
 main(){
     if [[ "$input" == *.tar.gz ]]; then # si es un tar.gz
         read -p "Vols descomprimir aquesta arxiu?" decomp
-        if [ $decomp = "s" ];then
+        if [ $decomp = "s" ];then # si vol descomprimir
             read -p "A on el vols, no escriguis res per a compactarlo aqui " pathdecomp
             if [ $pathdecomp = "" ]; then
                 tar -zxvf -C $(pwd)
