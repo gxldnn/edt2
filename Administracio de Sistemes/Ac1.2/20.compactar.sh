@@ -38,7 +38,7 @@ main(){
             cat "$input" | less
         fi
 
-        read -p "Vols compactar l'arxiu $input? (s/n): " compactararxiu
+        read -p "Vols compactar l'arxiu $input? (s/n): " compactararxiu # demana si el vol compactar
         if [ "$compactararxiu" = "s" ]; then
             read -p "A on el vols compactar? (enter per a directori actual): " pathca
             if [ -z "$pathca" ]; then
