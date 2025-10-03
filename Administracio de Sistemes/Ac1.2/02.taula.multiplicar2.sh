@@ -10,7 +10,7 @@ if ! [[ "$num" =~ ^[0-9]+$ ]] || [ "$num" -le 0 ]; then ## mirar si es text 0 si
 fi
 
 
-nummas=$(($num + 1))
+nummas=$(($num + 1)) # Calcula el numero mes gran i el mes petit
 nummenos=$(($num - 1))
 
 for i in ${nums[@]}; do
