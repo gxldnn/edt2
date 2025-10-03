@@ -22,6 +22,7 @@
                                         <xs:element name="preu" type="xs:decimal"></xs:element>
                                         <xs:element name="descompte"  type="xs:decimal"></xs:element>
                                     </xs:sequence>
+                                    xs
                                 </xs:complexType>
                             </xs:element>
 
