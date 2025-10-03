@@ -31,7 +31,7 @@ main(){
                 tar -zxvf -C $pathdecomp # descomprimeix en el directori que ha dit
             fi
         fi
-        break
+        exit 0
     fi
     if [ -f "$input" ]; then # Si és un fitxer
         read -p "Vols llegir el contingut del fitxer? (s/n): " llegir #     demana si el vol llegir
