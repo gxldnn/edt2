@@ -10,17 +10,15 @@
                             <xs:element name="autor" type="xs:string"/>
                             <xs:element name="any" type="xs:integer"/>
                             <xs:element name="editorial" type="xs:string"/>
-<xs:element name="preu">
-  <xs:complexType>
-    <xs:simpleContent>
-      <xs:extension base="xs:decimal">
-        <xs:attribute name="moneda" type="xs:string" use="required"/>
-      </xs:extension>
-    </xs:simpleContent>
-  </xs:complexType>
-</xs:element>
-
-
+                            <xs:element name="preu">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:decimal">
+                                    <xs:attribute name="moneda" type="xs:string" use="required"/>
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
                             <xs:element name="categories" minOccurs="0" maxOccurs="1">
                                     <xs:complexType>
                                         <xs:sequence>
