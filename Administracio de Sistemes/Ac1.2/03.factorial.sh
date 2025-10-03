@@ -15,4 +15,4 @@ while [ $num -ne 0 ]; do # Mentres num no sigui 0 fes:
     result=$(($result * $num))  # Multiplica el resultat per num
     (( num-- )) # Resta 1 a num
 done
-echo "El factorial de $savenum es $result" 
+echo "El factorial de $savenum es $result" # Mostra el resultat
