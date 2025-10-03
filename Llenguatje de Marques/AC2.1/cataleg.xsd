@@ -10,7 +10,7 @@
                             <xs:element name="autor" type="xs:string"/>
                             <xs:element name="any" type="RangAny"/>
                             <xs:element name="editorial" type="xs:string"/>
-                            <xs:element name="preu" type="">
+                            <xs:element name="preu" type="PreuRang">
                               <xs:complexType>
                                 <xs:simpleContent>
                                   <xs:extension base="xs:decimal">
