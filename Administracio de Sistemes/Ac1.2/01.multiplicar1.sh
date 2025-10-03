@@ -11,6 +11,6 @@ fi
 
 
 for i in ${nums[@]}; do # per cada numero de la llista nums
-    echo -e "$num * $i = $(($i * $num))" 
+    echo -e "$num * $i = $(($i * $num))" # for que recorre amb un numero
 done
 
