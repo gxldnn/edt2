@@ -32,7 +32,7 @@ main(){
             fi
             mkdir -p "$pathdecomp"              # crea la carpeta
             tar -zxvf "$input" -C "$pathdecomp"
-             # descomprimeix dins d’aquesta carpeta
+            echo -e "" # descomprimeix dins d’aquesta carpeta
         fi
         exit 0
     fi
