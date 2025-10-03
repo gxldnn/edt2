@@ -24,7 +24,7 @@
       <xs:maxInclusive value="120"></xs:maxInclusive>   
     </xs:restriction>
   </xs:simpleType>  
-  <xs:simpleType name="edatrang">
+  <xs:simpleType name="telefonrang">
     <xs:restriction base="xs:integer">
       <xs:minInclusive value="0"></xs:minInclusive>
       <xs:maxInclusive value="120"></xs:maxInclusive>   
