@@ -18,7 +18,9 @@
                         <xs:sequence>
                             <xs:element name="producte">
                                 <xs:complexType>
-                                    xs
+                                    <xs:simpleContent>
+                                        
+                                    </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="nom"  type="xs:string"></xs:element>
