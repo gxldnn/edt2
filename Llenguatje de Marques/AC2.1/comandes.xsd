@@ -18,7 +18,7 @@
                         <xs:sequence>
                             <xs:element name="producte">
                                 <xs:complexType>
-                                    <xs:simpleContent>
+                                    <xs:sw>
                                         <xs:element name="nom"  type="xs:string"></xs:element>
                                         <xs:element name="preu" type="xs:decimal"></xs:element>
                                         <xs:element name="descompte"  type="xs:decimal"></xs:element>
