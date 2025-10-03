@@ -10,7 +10,7 @@
             <xs:element name="edat" type="edatrang"></xs:element>
             <xs:element name="telefon" type="telefonrang" minOccurs="1" maxOccurs="3">
               <xs:complexType>
-                xs
+                <xs:attribute></xs:attribute>
               </xs:complexType>
             </xs:element>
           </xs:sequence>
