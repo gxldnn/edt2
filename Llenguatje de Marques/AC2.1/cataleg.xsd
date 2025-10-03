@@ -10,7 +10,7 @@
                             <xs:element name="autor" type="xs:string"/>
                             <xs:element name="any" type="xs:integer"/>
                             <xs:element name="editorial" type="xs:string"/>
-                            <xs:element name="preu" type="xs:string">                           
+                            <xs:element name="preu" type="xs:decimal">                           
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:attribute name="moneda" type="xs:string" use="required"/>
