@@ -18,7 +18,7 @@
   </xs:element>
 
   <xs:simpleType name="edatrang">
-    <xs:restriction type="xs:integer">
+    <xs:restriction base="xs:"">
       <xs:minInclusive value="0"></xs:minInclusive>
       <xs:maxInclusive value="120"></xs:maxInclusive>   
     </xs:restriction>
