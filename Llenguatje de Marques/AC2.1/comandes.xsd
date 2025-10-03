@@ -39,7 +39,7 @@
     </xs:element>
     <xs:simpleType name="cprang">
         <xs:restriction>
-            <xs:minInclusive value="01000"></xs:minInclusive
+            <xs:minInclusive value="01000"></xs:minInclusive>
             <xs:maxInclusive value="52999"></xs:maxInclusive>
         </xs:restriction>
     </xs:simpleType>
