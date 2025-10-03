@@ -3,7 +3,7 @@
 echo "Prem una tecla i et diré què és (lletra, número o caràcter especial):"
 
 # Llegir una tecla sense mostrar-la a la pantalla
-read -n1 tecla
+read -n 1 tecla
 
 # Comprovar si és lletra
 if [[ $tecla =~ [a-zA-Z] ]]; then
