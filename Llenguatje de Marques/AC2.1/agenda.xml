@@ -7,7 +7,7 @@
         <telefon tipus="feina">934445566</telefon>
         <email>anna@example.com</email>
     </contacte>
-    <contacte id="C1" destacat="false">
+    <contacte id="C2" destacat="false">
         <nom>Pere Martí</nom>
         <edat>35</edat>
         <telefon tipus="fix">933334455</telefon>
