@@ -6,7 +6,7 @@
         <xs:element name="contacte">
          <xs:complexType>
           <xs:sequence>
-
+            
           </xs:sequence>
           <xs:attribute name="id" type="xs:ID" ></xs:attribute>
           <xs:attribute name="destacat" type="xs:boolean"></xs:attribute>
