@@ -8,7 +8,7 @@
                 <xs:element name="pagament"></xs:element>
                 <xs:element name="total"></xs:element>
                 <xs:element name="nom"  type="xs:string"></xs:element>
-                <xs:element name=""></xs:element>
+                <xs:element name="adre"></xs:element>
             
             
             </xs:sequence>
