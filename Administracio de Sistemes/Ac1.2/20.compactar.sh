@@ -44,7 +44,7 @@ main(){
             if [ -z "$pathca" ]; then # si no diu res el guarda en el directori actual
                 pathca="$(pwd)"
             fi
-            nomfitxer="$(basename "$input")"
+            nomfitxer="$(basename "$input")" # agafa el nom del fitxer sense la ruta (GPT)
             tar cvf "$pathca/$nomfitxer.tar" -C "$(dirname "$input")" "$nomfitxer"
         fi
 
