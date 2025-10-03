@@ -5,7 +5,7 @@
     <autor>George Orwell</autor>
     <any>1949</any>
     <editorial>Secker &amp; Warburg</editorial>
-    <preu moneda="EUR">15.99</preu>
+    <preu moneda="ER">15.99</preu>
     <categories>
       <categoria>Distopia</categoria>
       <categoria>Política</categoria>
