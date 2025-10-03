@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <comanda num="2025-001" data="2025-01-15">
 	<client>
-		<nom>Maria López</nom>
+	    <nom>Maria López</nom>
 		<adreça>C/ Major 45, Barcelona</adreça>
 		<cp>08001</cp>
 	</client>
