@@ -64,7 +64,7 @@ main(){
             tar cvf "$pathcd/$nomdir.tar" -C "$(dirname "$input")" "$nomdir" # compacta el directori en la ruta que ha dit
         fi
     else
-        read -p "L'arxiu o directori que dius no existeix o el sistema no el troba, que vols crear ara, un arxiu direcotri o res (a/d/res): " choice
+        read -p "L'arxiu o directori que dius no existeix o el sistema no el troba, que vols crear ara, un arxiu direcotri o res (a/d/res): " choice # demana si vol crear un arxiu o directori
         if [ $choice = "a" ]; then
             read -p "Digues el nom del nou arxiu: " namearxiu
             touch $namearxiu
