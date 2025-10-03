@@ -42,7 +42,8 @@
             <xs:enumeration value="GBP"/>
         </xs:restriction>
     </xs:simpleType>
-    <xs:simpleType name="MonedaTipo">
+    
+    <xs:simpleType name="PreuRang">
         <xs:restriction base="xs:decimal">
             <xs:minInclusive value="1"></xs:minInclusive>
             <xs:fractionDigits value="2"></xs:fractionDigits>
