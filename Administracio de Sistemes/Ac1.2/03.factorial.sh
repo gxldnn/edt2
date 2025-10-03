@@ -13,6 +13,6 @@ savenum=$num # Guardem el valor del input del usuari
 result=1
 while [ $num -ne 0 ]; do # Mentres num no sigui 0 fes:
     result=$(($result * $num))  # Multiplica el resultat per num
-    (( num-- ))
+    (( num-- )) # Resta 1 a num
 done
-echo "El factorial de $savenum es $result"
+echo "El factorial de $savenum es $result" 
