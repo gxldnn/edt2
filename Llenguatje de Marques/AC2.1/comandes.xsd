@@ -44,9 +44,9 @@
             <xs:maxInclusive value="52999"></xs:maxInclusive>
         </xs:restriction>
     </xs:simpleType>    
-    <xs:simpleType name="cprang">
+    <xs:simpleType name="preurang">
         <xs:restriction base="xs:integer">
-            <xs:minInclusive value="01000"></xs:minInclusive>
+            <xs:minInclusive value="1"></xs:minInclusive>
             <xs:maxInclusive value="52999"></xs:maxInclusive>
         </xs:restriction>
     </xs:simpleType>
