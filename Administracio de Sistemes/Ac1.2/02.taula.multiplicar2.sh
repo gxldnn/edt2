@@ -15,7 +15,7 @@ nummenos=$(($num - 1)) # Calcula el numero menos 1
 
 
 for i in ${nums[@]}; do
-    echo -e "$nummas * $i = $(($i * $nummas))" 
+    echo -e "$nummas * $i = $(($i * $nummas))"  # for que recorre amb unnumero mes
 done
 
 echo ""
