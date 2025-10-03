@@ -18,7 +18,9 @@
   </xs:element>
 
   <xs:simpleType name="edatrang">
-    <xs:restriction></xs:restriction>
+    <xs:restriction>
+      xs
+    </xs:restriction>
 
   </xs:simpleType>
 </xs:schema>
