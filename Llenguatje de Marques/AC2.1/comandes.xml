@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comanda num="2025-001" data="2025-01-15">
+<client>
+<nom>Maria López</nom>
+<adreça>C/ Major 45, Barcelona</adreça>
+<cp>08001</cp>
+</client>
+<productes>
+<producte codi="P1001" quantitat="2">
+<nom>Cafetera</nom>
+<preu>49.99</preu>
+<descompte>10</descompte>
+</producte>
+<producte codi="P2003" quantitat="1">
+<nom>Torradora</nom>
+<preu>29.50</preu>
+</producte>
+</productes>
+5
+<pagament>Targeta</pagament>
+<total>109.48</total>
+</comanda>
