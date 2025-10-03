@@ -18,6 +18,8 @@
                         <xs:sequence>
                             <xs:element name="nom"  type="xs:string"></xs:element>
                             <xs:element name="preu" type="xs:decimal"></xs:element>
+                                            <xs:element name="descompte"  type="xs:decimal"></xs:element>
+
                         </xs:sequence>
                     </xs:complexType>
 
