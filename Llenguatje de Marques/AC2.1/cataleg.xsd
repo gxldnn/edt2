@@ -42,12 +42,12 @@
             <xs:enumeration value="GBP"/>
         </xs:restriction>
     </xs:simpleType>
-<xs:simpleType name="EdatType">
-    <xs:restriction base="xs:integer">
-        <xs:minInclusive value="0"/>
-        <xs:maxInclusive value="120"/>
-    </xs:restriction>
-</xs:simpleType>
+    <xs:simpleType name="EdatType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="120"/>
+        </xs:restriction>
+    </xs:simpleType>
 
 
 </xs:schema>
