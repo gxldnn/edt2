@@ -78,7 +78,7 @@ main(){
                 if [ -z "$pathnew" ]; then # si no diu res el guarda en el directori actual
                     pathnew="$(pwd)"
                 fi
-                namearxiu="$(basename "$namearxiu")"
+                namearxiu="$(basename "$namearxiu")" # agafa el nom del fitxer sense la ruta (GPT)
                 tar -cvf "$pathnew/$namearxiu.tar" "$namearxiu" >/dev/null 2>&1 # compacta el nou arxiu en la ruta que ha dit (GPT)
             fi
         elif [ $choice = "d" ];then
