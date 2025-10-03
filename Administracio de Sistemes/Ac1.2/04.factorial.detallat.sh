@@ -9,7 +9,7 @@ if ! [[ "$num" =~ ^[0-9]+$ ]] || [ "$num" -le 0 ]; then ## mirar si es text 0 si
 fi
 
 savenum=$num # Guardem el valor del input del usuari
-altnum=$num
+altnum=$num 
 result=1
 detallat=()
 while [ $num -ne 0 ]; do # Mentres num no sigui 0 fes:
