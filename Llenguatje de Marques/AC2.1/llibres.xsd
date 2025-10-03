@@ -12,7 +12,7 @@
               <xs:complexType>
                 <xs:simpleContent>
                   <xs:extension base="xs:string">
-                    <xs:attribute name="tipus" type="telefonrang"></xs:attribute>
+                    <xs:attribute name="tipus" type="telefonrang" use="prohibited"></xs:attribute>
                   </xs:extension>
                 </xs:simpleContent>
               </xs:complexType>
