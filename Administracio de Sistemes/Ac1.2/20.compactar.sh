@@ -25,7 +25,7 @@ main(){
         read -p "Vols descomprimir aquesta arxiu?" decomp
         if [ $decomp = "s" ];then # si vol descomprimir
             read -p "A on el vols, no escriguis res per a compactarlo aqui " pathdecomp # demana on
-            if [ $pathdecomp ]; then # si no diu res el descomprimeix en el directori actual
+            if [ -z $pathdecomp ]; then # si no diu res el descomprimeix en el directori actual
                 tar -zxvf -C $(pwd) # descomprimeix en el directori actual
             else
                 tar -zxvf -C $pathdecomp # descomprimeix en el directori que ha dit
