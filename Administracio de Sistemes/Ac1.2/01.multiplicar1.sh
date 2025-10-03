@@ -9,14 +9,6 @@ if ! [[ "$num" =~ ^[0-9]+$ ]] || [ "$num" -le 0 ]; then ## mirar si es text 0 si
     exit 0
 fi
 
-nummas=$(($num + 1))
-nummenos=$(($num - 1))
-
-for i in ${nums[@]}; do
-    echo -e "$nummas * $i = $(($i * $nummas))" 
-done
-
-echo ""
 
 for i in ${nums[@]}; do
     echo -e "$nummenos * $i = $(($i * $nummenos))" 
