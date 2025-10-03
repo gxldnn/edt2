@@ -11,11 +11,11 @@
                             <xs:element name="any" type="xs:integer"/>
                             <xs:element name="editorial" type="xs:string"/>
                             <xs:element name="preu" type="xs:decimal"/>                           
-                                    <xs:complexType>
-                                        <xs:sequence>
-                                            <xs:element name="categoria" minOccurs="0"></xs:element>
-                                        </xs:sequence>
-                                    </xs:complexType>
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="categoria" minOccurs="0"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
                             <xs:element name="categories" minOccurs="0" maxOccurs="1">
                                     <xs:complexType>
                                         <xs:sequence>
