@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cataleg>
-<llibre id="L1">
-<titol>1984</titol>
-<autor>George Orwell</autor>
-<any>1949</any>
-<editorial>Secker &amp; Warburg</editorial>
-<preu moneda="EUR">15.99</preu>
-<categories>
-<categoria>Distopia</categoria>
-<categoria>Política</categoria>
-</categories>
-</llibre>
-<llibre id="L2">
-<titol>El Quixot</titol>
-<autor>Miguel de Cervantes</autor>
-<any>1605</any>
-<editorial>Francisco de Robles</editorial>
-<preu moneda="EUR">12.50</preu>
-</llibre>
+  <llibre id="L1">
+    <titol>1984</titol>
+    <autor>George Orwell</autor>
+    <any>1949</any>
+    <editorial>Secker &amp; Warburg</editorial>
+    <preu moneda="EUR">15.99</preu>
+    <categories>
+      <categoria>Distopia</categoria>
+      <categoria>Política</categoria>
+    </categories>
+  </llibre>
+
+  <llibre id="L2">
+    <titol>El Quixot</titol>
+    <autor>Miguel de Cervantes</autor>
+    <any>1605</any>
+    <editorial>Francisco de Robles</editorial>
+    <preu moneda="EUR">12.50</preu>
+  </llibre>
 </cataleg>
