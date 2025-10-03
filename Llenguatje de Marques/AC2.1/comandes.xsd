@@ -13,8 +13,9 @@
                     </xs:complexType>
                 </xs:element>
                 
-                
-                <xs:element name="productes"></xs:element>
+                <xs:element name="productes">
+                    
+                </xs:element>
                 <xs:element name="producte"></xs:element>
                 <xs:element name="pagament"></xs:element>
                 <xs:element name="total"></xs:element>
