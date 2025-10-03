@@ -6,7 +6,7 @@
                 <xs:element name="client"></xs:element>
                 <xs:element name="productes"></xs:element>
                 <xs:element name="pagament"></xs:element>
-                <xs:tot></xs:tot>
+                <xs:element></xs:element>
             </xs:sequence>
             <xs:attribute name="num" type="xs:string"></xs:attribute>
             <xs:attribute name="data" type="xs:date"></xs:attribute>
