@@ -10,7 +10,6 @@
                             <xs:element name="autor" type="xs:string"/>
                             <xs:element name="any" type="xs:integer"/>
                             <xs:element name="editorial" type="xs:string"/>
-                      <xs:attribute name="moneda" type="xs:integer" use="required"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
