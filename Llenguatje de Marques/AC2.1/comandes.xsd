@@ -4,7 +4,7 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="client"></xs:element>
-                
+                xs
                 
                 <xs:element name="productes"></xs:element>
                 <xs:element name="producte"></xs:element>
