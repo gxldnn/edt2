@@ -28,7 +28,7 @@ for((i=$lownum; i<=$topnum; i++)); do  # Agafem cada numero dins del rang
            (( count++ )) # Sumem 1 al comptador
        fi 
    done
-   if [ $count = 1 ]; then
+   if [ $count = 1 ]; then # Si el comptador es 1 es prim
        primlist+=(" $i")
       
    fi
