@@ -11,7 +11,7 @@ fi
 
 
 nummas=$(($num + 1)) # Calcula el numero mes gran i el mes petit
-nummenos=$(($num - 1))
+nummenos=$(($num - 1)) # Calcula el numero mes gran i el mes petit  
 
 for i in ${nums[@]}; do
     echo -e "$nummas * $i = $(($i * $nummas))" 
