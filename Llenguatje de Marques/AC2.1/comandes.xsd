@@ -7,7 +7,7 @@
                 <xs:element name="productes"></xs:element>
                 <xs:element name="pagament"></xs:element>
                 <xs:element name="total"></xs:element>
-                <>
+                <xs:element></xs:element>
             </xs:sequence>
             <xs:attribute name="num" type="xs:string"></xs:attribute>
             <xs:attribute name="data" type="xs:date"></xs:attribute>
