@@ -8,7 +8,7 @@
           <xs:sequence>
 
           </xs:sequence>
-          xs
+          <xs:attribute></xs:attribute>
          </xs:complexType> 
         </xs:element>
       </xs:sequence>
