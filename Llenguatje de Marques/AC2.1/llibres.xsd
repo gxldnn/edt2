@@ -12,9 +12,8 @@
               <xs:complexType>
                 <xs:simpleContent>
                   <xs:extension base="xs:string">
-                      
-                  </xs:extension>
 
+                  </xs:extension>
                 </xs:simpleContent>
               </xs:complexType>
             </xs:element>
