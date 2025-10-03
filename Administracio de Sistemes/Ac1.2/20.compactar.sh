@@ -54,7 +54,7 @@ main(){
             ls -la "$input" | less
         fi
 
-        read -p "Vols compactar aquest directori $input? (s/n): " compactardir
+        read -p "Vols compactar aquest directori $input? (s/n): " compactardir  # demana si el vol compactar
         if [ "$compactardir" = "s" ]; then
             read -p "A on el vols compactar? (enter per a directori actual): " pathcd
             if [ -z "$pathcd" ]; then
