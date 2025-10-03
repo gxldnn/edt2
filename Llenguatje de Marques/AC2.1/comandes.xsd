@@ -51,7 +51,7 @@
         </xs:restriction>
     </xs:simpleType>
     
-    <xs:simpleType name="preurang">
+    <xs:simpleType name="descompterang">
         <xs:restriction base="xs:decimal">
             <xs:minInclusive value="1"></xs:minInclusive>
             <xs:fractionDigits value="2"></xs:fractionDigits>
