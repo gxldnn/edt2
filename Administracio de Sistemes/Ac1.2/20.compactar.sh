@@ -49,14 +49,14 @@ main(){
         fi
 
     elif [ -d "$input" ]; then # Si és un directori
-        read -p "Vols veure el contingut del directori? (s/n): " veure
+        read -p "Vols veure el contingut del directori? (s/n): " veure # demana si el vol veure
         if [ "$veure" = "s" ]; then
             ls -la "$input" | less
         fi
 
         read -p "Vols compactar aquest directori $input? (s/n): " compactardir  # demana si el vol compactar
         if [ "$compactardir" = "s" ]; then
-            read -p "A on el vols compactar? (enter per a directori actual): " pathcd
+            read -p "A on el vols compactar? (enter per a directori actual): " pathcd # demana on
             if [ -z "$pathcd" ]; then
                 pathcd="$(pwd)"
             fi
