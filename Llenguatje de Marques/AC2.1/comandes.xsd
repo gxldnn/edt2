@@ -16,10 +16,9 @@
                 <xs:element name="productes">
                     <xs:complexType>
                         <xs:sequence>
-                            
+                            <xs:element name="preu" type="xs:decimal"></xs:element>
                         </xs:sequence>
                     </xs:complexType>
-                    <xs:element name="preu" type="xs:decimal"></xs:element>
 
                 </xs:element>
                 <xs:element name="producte"></xs:element>
