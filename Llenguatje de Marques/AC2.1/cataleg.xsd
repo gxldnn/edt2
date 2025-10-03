@@ -5,7 +5,9 @@
             <xs:sequence>
                 <xs:element name="llibre" type="xs:string" minOccurs="0" maxOccurs="unbounded">
                     <xs:complexType>
-                        xs
+                        <xs:sequence>
+                            
+                        </xs:sequence>
                     </xs:complexType>    
             </xs:element>
             </xs:sequence>
