@@ -54,13 +54,12 @@
                 <xs:maxExclusive value="100"></xs:maxExclusive>
             </xs:restriction>
         </xs:simpleType>
-
         <xs:simpleType name="quantitatrang">
             <xs:restriction base="xs:integer">
                 <xs:minInclusive value="1"></xs:minInclusive>
             </xs:restriction>
         </xs:simpleType>
-        
+    
         <xs:simpleType name="PagamentRang">
             <xs:restriction base="xs:string">
                 <xs:enumeration value="Bizum"></xs:enumeration>
