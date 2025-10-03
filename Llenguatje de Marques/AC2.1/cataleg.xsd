@@ -34,10 +34,3 @@
         </xs:complexType>
     </xs:element>
 </xs:schema>
-<xs:simpleType name="moneda">
-    <xs:restriction>
-        <xs:enumeration value="EUR"/>
-        <xs:enumeration value="USD"/>
-        <xs:enumeration value="GBP"/>
-    </xs:restriction>
-</xs:simpleType>
