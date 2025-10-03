@@ -23,7 +23,7 @@
                                         <xs:element name="descompte"  type="xs:decimal"></xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="codi" type="xs:ID"></xs:attribute>
-                                    <xs:attribute name="quantitat" type="xs:ID"></xs:attribute>
+                                    <xs:attribute name="quantitat" type="xs"></xs:attribute>
                                 </xs:complexType>
                             </xs:element>
 
