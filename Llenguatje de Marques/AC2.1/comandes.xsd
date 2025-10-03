@@ -65,7 +65,7 @@
         </xs:restriction>
     </xs:simpleType>
     
-    <xs:simpleType name="quantitatrang">
+    <xs:simpleType name="Pagament">
         <xs:restriction base="xs:decimal">
             <xs:minInclusive value="1"></xs:minInclusive>
         </xs:restriction>
