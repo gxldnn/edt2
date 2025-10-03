@@ -21,7 +21,7 @@ input=$(locate -r "/$name$" | grep -v "Trash") # Buscar el fitxer o directori tr
 echo $input
 
 main(){
-    if [[ "$input" == *.tar.gz ]]; then
+    if [[ "$input" == *.tar.gz ]]; then 
         read -p "Vols descomprimir aquesta arxiu?" decomp
         if [ $decomp = "s" ];then
             read -p "A on el vols, no escriguis res per a compactarlo aqui " pathdecomp
