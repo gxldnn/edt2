@@ -1,11 +1,17 @@
 #!/bin/bash
 
-read -p "Introdueix algo jejeej: " algo
+echo "Prem una tecla i et diré què és (lletra, número o caràcter especial):"
 
-if [ -z "$algo" ]; then
-    echo "No has introduit res"
-elif [ "$algo" -eq "$algo" ] 2>/dev/null; then
-    echo "Has introduit un numero"
+# Llegir una tecla sense mostrar-la a la pantalla
+read -n1 tecla
+
+# Comprovar si és lletra
+if [[ $tecla =~ [a-zA-Z] ]]; then
+    echo -e "\nLa tecla '$tecla' és una LLETRA."
+# Comprovar si és número
+elif [[ $tecla =~ [0-9] ]]; then
+    echo -e "\nLa tecla '$tecla' és un NÚMERO."
+# Si no és cap de les anteriors, és caràcter especial
 else
-    echo "Has introduit un text"
+    echo -e "\nLa tecla '$tecla' és un CARÀCTER ESPECIAL."
 fi
