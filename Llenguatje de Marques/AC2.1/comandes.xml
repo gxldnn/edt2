@@ -5,7 +5,6 @@
     <adreça>C/ Major 45, Barcelona</adreça>
     <cp>08001</cp>
   </client>
-
   <productes>
     <producte codi="P1001" quantitat="2">
       <nom>Cafetera</nom>
@@ -17,8 +16,6 @@
       <preu>29.50</preu>
     </producte>
   </productes>
-
   <pagament>Targeta</pagament>
   <total>109.48</total>
 </comanda>
-    
