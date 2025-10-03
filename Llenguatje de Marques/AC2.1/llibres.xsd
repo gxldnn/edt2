@@ -9,9 +9,7 @@
             <xs:element name="nom" type="xs:string"></xs:element>
             <xs:element name="edat" type="edatrang"></xs:element>
             <xs:element name="telefon" type="xs:string" minOccurs="1" maxOccurs="3">
-              <xs:complexType>
-                <xs:attribute name="tipus" type="telefonrang"></xs:attribute>
-              </xs:complexType>
+              
             </xs:element>
           </xs:sequence>
           <xs:attribute name="id" type="xs:ID" ></xs:attribute>
