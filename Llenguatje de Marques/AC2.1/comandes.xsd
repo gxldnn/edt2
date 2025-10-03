@@ -68,7 +68,7 @@
     <xs:simpleType name="PagamentRang">
         <xs:restriction base="xs:string">
             <xs:enumeration value="Bizum"></xs:enumeration>
-            <xs:enumeration value="Bizum"></xs:enumeration>
+            <xs:enumeration value="Targeta"></xs:enumeration>
             <xs:enumeration value="Bizum"></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>
