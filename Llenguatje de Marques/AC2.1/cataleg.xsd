@@ -5,10 +5,11 @@
             <xs:sequence>
                 <xs:element name="llibre" minOccurs="0" maxOccurs="unbounded">
                     <xs:complexType>
-                        <xs:attribute name="id" type="xs:string" use="required"/>
                         <xs:sequence>
 
                         </xs:sequence>
+                                                <xs:attribute name="id" type="xs:string" use="required"/>
+
                     </xs:complexType>    
             </xs:element>
             </xs:sequence>
