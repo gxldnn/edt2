@@ -25,7 +25,7 @@ for((i=$lownum; i<=$topnum; i++)); do  # Agafem cada numero dins del rang
 
    for((x=2; x<=$i; x++)); do # For que va des del 2 fins al numero introduit per cada numero del for principal
        if [ $(($i  % $x)) -eq 0 ]; then # Si la divisio no es exaxcta "-eq 0" no es compta
-           (( count++ ))
+           (( count++ )) # Sumem 1 al comptador
        fi 
    done
    if [ $count = 1 ]; then
