@@ -18,6 +18,8 @@
                                         <xs:simpleType name="moneda">
                                             <xs:restriction>
                                                 <xs:enumeration value="EUR"></xs:enumeration>
+                                                <xs:enumeration value="EUR"></xs:enumeration>
+                                                <xs:enumeration value="EUR"></xs:enumeration>
                                             </xs:restriction>
                                         </xs:simpleType>
                                     </xs:attribute>
