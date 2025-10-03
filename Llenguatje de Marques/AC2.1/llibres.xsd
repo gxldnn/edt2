@@ -5,7 +5,7 @@
       <xs:sequence>
         <xs:element name="contacte">
          <xs:complexType>
-          
+          xs
          </xs:complexType> 
         </xs:element>
       </xs:sequence>
