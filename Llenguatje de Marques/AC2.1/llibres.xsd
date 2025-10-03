@@ -4,7 +4,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element name="contacte">
-         <xs:complexType></xs:complexType> 
+         <xs:complexType>ç<xs</xs:all></xs:complexType> 
         </xs:element>
       </xs:sequence>
     </xs:complexType>
