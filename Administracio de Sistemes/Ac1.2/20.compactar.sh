@@ -17,7 +17,7 @@ fi
 # Sol·licitar el nom del fitxer o directori
 read -p "Introdueix un fitxer o directori o tar.gz (El seu nom EXACTE): " name
 sudo updatedb # Actualitzar la base de dades de locate
-input=$(locate -r "/$name$" | grep -v "Trash")
+input=$(locate -r "/$name$" | grep -v "Trash") # Buscar el fitxer o directori ter
 echo $input
 
 main(){
