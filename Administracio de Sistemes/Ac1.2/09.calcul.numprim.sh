@@ -29,10 +29,10 @@ for((i=$lownum; i<=$topnum; i++)); do  # Agafem cada numero dins del rang
        fi 
    done
    if [ $count = 1 ]; then # Si el comptador es 1 es prim
-       primlist+=(" $i")
+       primlist+=(" $i") # Afegim el numero a l'array primlist
       
    fi
 done
 IFS=","
 
-echo "Els numeros prims dins del rang $lownum - $topnum: ${primlist[*]}"
+echo "Els numeros prims dins del rang $lownum - $topnum: ${primlist[*]}" # Mostrem la llista de numeros prims
