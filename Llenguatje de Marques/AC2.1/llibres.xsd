@@ -16,4 +16,6 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+
+  <xs:simpleType name="edatrang"></xs:simpleType>
 </xs:schema>
