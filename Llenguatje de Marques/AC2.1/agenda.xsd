@@ -12,7 +12,7 @@
               <xs:element name="telefon" minOccurs="1" maxOccurs="3">
                 <xs:complexType>
                   <xs:simpleContent>
-                    <xs:extension base="xs:string">
+                    <xs:extension base="xs:integer">
                       <xs:attribute name="tipus" type="telefonrang" use="required"/>
                     </xs:extension>
                   </xs:simpleContent>
