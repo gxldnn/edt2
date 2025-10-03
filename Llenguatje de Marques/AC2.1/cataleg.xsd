@@ -3,7 +3,7 @@
     <xs:element name="cataleg">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="llibre" type="xs:string" minOccurs="1"/>
+                <xs:element name="llibre" type="xs:string" minOccurs="0"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
