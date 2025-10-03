@@ -13,7 +13,9 @@
                             <xs:element name="preu" type="xs:decimal"/>
                             <xs:element name="categories" minOccurs="0" maxOccurs="1">
                                     <xs:complexType>
-                                        xs
+                                        <xs:sequence>
+                                            
+                                        </xs:sequence>
                                     </xs:complexType>
                             </xs:element>
                         </xs:sequence>
