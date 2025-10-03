@@ -1,17 +1,17 @@
 #!/bin/bash
 
-echo "Prem una tecla i et diré què és (lletra, número o caràcter especial):"
+echo "Prem una input i et diré què és (lletra, número o caràcter especial):"
 
-# Llegir una tecla sense mostrar-la a la pantalla
-read -n 1 tecla
+# Llegir una input sense mostrar-la a la pantalla
+read -n 1 input
 
 # Comprovar si és lletra
-if [[ $tecla =~ [a-zA-Z] ]]; then
-    echo -e "\nLa tecla '$tecla' és una LLETRA."
+if [[ $input =~ [a-zA-Z] ]]; then
+    echo -e "\nLa input '$input' és una LLETRA."
 # Comprovar si és número
-elif [[ $tecla =~ [0-9] ]]; then
-    echo -e "\nLa tecla '$tecla' és un NÚMERO."
+elif [[ $input =~ [0-9] ]]; then
+    echo -e "\nLa input '$input' és un NÚMERO."
 # Si no és cap de les anteriors, és caràcter especial
 else
-    echo -e "\nLa tecla '$tecla' és un CARÀCTER ESPECIAL."
+    echo -e "\nLa input '$input' és un CARÀCTER ESPECIAL."
 fi
