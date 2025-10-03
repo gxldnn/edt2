@@ -21,5 +21,5 @@ done
 echo "" # espaiar
 
 for i in ${nums[@]}; do
-    echo -e "$nummenos * $i = $(($i * $nummenos))" 
+    echo -e "$nummenos * $i = $(($i * $nummenos))"  # for que recorre amb un numero menys
 done
