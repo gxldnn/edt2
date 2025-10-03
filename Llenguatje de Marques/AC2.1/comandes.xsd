@@ -14,6 +14,9 @@
                 </xs:element>
                 
                 <xs:element name="productes">
+                    <xs:complexType>
+                        xs
+                    </xs:complexType>
                     <xs:element name="preu" type="xs:decimal"></xs:element>
 
                 </xs:element>
