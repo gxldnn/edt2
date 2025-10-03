@@ -15,13 +15,7 @@
                                 <xs:simpleContent>
                                   <xs:extension base="xs:decimal">
                                     <xs:attribute name="moneda" type="xs:string" use="required">
-                                        <xs:simpleType name="moneda">
-                                            <xs:restriction>
-                                                <xs:enumeration value="EUR"/>
-                                                <xs:enumeration value="USD"/>
-                                                <xs:enumeration value="GBP"/>
-                                            </xs:restriction>
-                                        </xs:simpleType>
+                                        
                                     </xs:attribute>
                                     
                                   </xs:extension>
