@@ -3,7 +3,9 @@
   <xs:element name="agenda">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="contacte" ty></xs:element>
+        <xs:element name="contacte">
+          
+        </xs:element>
       </xs:sequence>
     </xs:complexType>
     
