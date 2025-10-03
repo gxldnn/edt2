@@ -8,7 +8,7 @@
           <xs:sequence>
             <xs:element name="nom" type="xs:string"></xs:element>
             <xs:element name="edat" type="edatrang"></xs:element>
-            <xs:element></xs:element>
+            <xs:element name="telefon"></xs:element>
           </xs:sequence>
           <xs:attribute name="id" type="xs:ID" ></xs:attribute>
           <xs:attribute name="destacat" type="xs:boolean"></xs:attribute>
