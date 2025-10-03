@@ -10,7 +10,7 @@ if ! [[ "$num" =~ ^[0-9]+$ ]] || [ "$num" -le 0 ]; then ## mirar si es text 0 si
 fi
 
 
-nummas=$(($num + 1)) # Calcula el numero mes gran 
+nummas=$(($num + 1)) # Calcula el numero mes 1 
 nummenos=$(($num - 1)) # Calcula el numero mes ¡ petit  
 
 for i in ${nums[@]}; do
