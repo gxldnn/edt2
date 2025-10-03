@@ -15,9 +15,9 @@ detallat=()
 while [ $num -ne 0 ]; do # Mentres num no sigui 0 fes:
     result=$(($result * $num)) # Multiplica el resultat per num
     detallat+=("$num")  # Afegim el numero a l'array detallat
-    (( num-- ))
+    (( num-- )) # Resta 1 a num
 
 done
 
 IFS="*" # Es una forma de posar un separador de linea m'ho ha dit chatGPT IFS vol dir Internal Field Separator y s'ha de definitr per a poder usarlo en el detallat[*]
-echo "El factorial de $savenum es ${detallat[*]} = $result"
+echo "El factorial de $savenum es ${detallat[*]} = $result" # Mostra el resultat
