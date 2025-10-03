@@ -13,7 +13,7 @@
                             <xs:element name="preu">
                               <xs:complexType>
                                 <xs:simpleContent>
-                                  <xs:extension base="xs:decimal">
+                                  <xs:extension base="PreuRang">
                                     <xs:attribute name="moneda" type="MonedaTipo" use="required"/>                                    
                                   </xs:extension>
                                 </xs:simpleContent>
