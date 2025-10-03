@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<agenda>
-  <contacte id="C1" destacat="true">
-    <nom>Anna Puig</nom>
-    <edat>28</edat>
-    <telefon tipus="mòbil">600123456</telefon>
-    <telefon tipus="feina">934445566</telefon>
-    <email>anna@example.com</email>
-  </contacte>
+import xml.etree.ElementTree as ET
 
-  <contacte id="C2" destacat="false">
-    <nom>Pere Martí</nom>
-    <edat>35</edat>
-    <telefon tipus="fix">933334455</telefon>
-  </contacte>
-</agenda>
+tree = ET.parse('/home/gxldnn/Documents/edt2/Llenguatje de Marques/AC2.1/llibres.xml')
+root = tree.getroot()
+
+for contacte in root.findall('contacte'):
+    print("ID:", contacte.get('id'))
+    print("Destacat:", contacte.get('destacat'))
+    print("Nom:", contacte.find('nom').text)
+    print("Edat:", contacte.find('edat').text)
+    for telefon in contacte.findall('telefon'):
+        print("Telèfon ({}): {}".format(telefon.get('tipus'), telefon.text))
+    email = contacte.find('email')
+    if email is not None:
+        print("Email:", email.text)
+    print("---")
