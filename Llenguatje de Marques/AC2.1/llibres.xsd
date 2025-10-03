@@ -6,7 +6,7 @@
         <xs:element name="contacte" minOccurs="1" maxOccurs="unbounded">
          <xs:complexType>
           <xs:sequence>
-            <xs:element name="nom" type="xs"></xs:element>
+            <xs:element name="nom" type="xs:string"></xs:element>
 
           </xs:sequence>
           <xs:attribute name="id" type="xs:ID" ></xs:attribute>
