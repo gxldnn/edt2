@@ -54,7 +54,6 @@
     <xs:simpleType name="descompterang">
         <xs:restriction base="xs:integer">
             <xs:minInclusive value="1"></xs:minInclusive>
-            <xs:fractionDigits value="2"></xs:fractionDigits>
         </xs:restriction>
     </xs:simpleType>
 
