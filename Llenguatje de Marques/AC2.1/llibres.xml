@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <agenda>
     <contacte id="C1" destacat="true">
-    <nom>Anna Puig</nom>
-    <edat>28</edat>
-    <telefon tipus="mòbil">600123456</telefon>
-    <telefon tipus="feina">934445566</telefon>
-    <email>anna@example.com</email>
+        <nom>Anna Puig</nom>
+        <edat>28</edat>
+        <telefon tipus="mòbil">600123456</telefon>
+        <telefon tipus="feina">934445566</telefon>
+        <email>anna@example.com</email>
     </contacte>
     <contacte id="C2" destacat="false">
     <nom>Pere Martí</nom>
