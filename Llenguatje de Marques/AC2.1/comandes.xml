@@ -14,6 +14,7 @@
 		<producte codi="P2003" quantitat="1">
 			<nom>Torradora</nom>
 			<preu>29.50</preu>
+            			<descompte>10</descompte>
 		</producte>
 	</productes>
 	<pagament>Targeta</pagament>
