@@ -13,5 +13,5 @@ elif [[ $tecla =~ [0-9] ]]; then
     echo -e "\nLa tecla '$tecla' es un numero."
 # Si no es cap de les anteriors, es caracter especial
 else
-    echo -e "\nLa tecla '$tecla' es un caracter especial."
+    echo -e "\nLa tecla '$tecla es un caracter especial."
 fi
