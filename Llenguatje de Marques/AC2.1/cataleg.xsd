@@ -5,6 +5,8 @@
             <xs:sequence>
                 <xs:element name="llibre" minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
+                            <xs:attribute name="id" type="xs:string" use="required"/>
+
                         <xs:sequence>
                             <xs:element name="titol" type="xs:string"/>
                             <xs:element name="autor" type="xs:string"/>
@@ -26,8 +28,6 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:attribute name="id" type="xs:string" use="required"/>
-
                         </xs:sequence>
                     </xs:complexType>    
             </xs:element>
