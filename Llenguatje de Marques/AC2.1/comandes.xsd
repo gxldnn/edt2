@@ -63,7 +63,7 @@
             <xs:minInclusive value="1"></xs:minInclusive>
         </xs:restriction>
     </xs:simpleType>
-    
+
     <xs:simpleType name="PagamentRang">
         <xs:restriction base="xs:string">
             <xs:enumeration value="Bizum"></xs:enumeration>
@@ -71,4 +71,5 @@
             <xs:enumeration value="Efectiu"></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>
+    
 </xs:schema>
