@@ -50,6 +50,7 @@
             <xs:fractionDigits value="2"></xs:fractionDigits>
         </xs:restriction>
     </xs:simpleType>
+    
     <xs:simpleType name="quantitatrang">
         <xs:restriction base="xs:decimal">
             <xs:minInclusive value="1"></xs:minInclusive>
