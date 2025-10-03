@@ -23,7 +23,7 @@
                                     <xs:complexType>
                                         <xs:sequence>
                                             <xs:element name="categoria" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
-                                        </xs:sequence
+                        </xs:sequence>
                                     </xs:complexType>
                             </xs:element>
                         </xs:sequence>
