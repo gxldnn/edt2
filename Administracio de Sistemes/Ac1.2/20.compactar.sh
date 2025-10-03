@@ -21,18 +21,20 @@ input=$(locate -r "/$name$" | grep -v "Trash") # Buscar el fitxer o directori tr
 echo $input
 
 main(){
-    if [[ "$input" == *.tar.gz ]]; then # si es un tar.gz
-        read -p "Vols descomprimir aquesta arxiu?" decomp
-        if [ $decomp = "s" ];then # si vol descomprimir
-            read -p "A on el vols, no escriguis res per a compactarlo aqui " pathdecomp # demana on
-            if [ -z $pathdecomp ]; then # si no diu res el descomprimeix en el directori actual
-                tar -zxvf "$input" -C "$(pwd)" # descomprimeix en el directori actual
-            else
-                tar -zxvf -C $pathdecomp # descomprimeix en el directori que ha dit
-            fi
+    if [[ "$input" == *.tar.gz ]]; then
+    read -p "Vols descomprimir aquest arxiu? (s/n) " decomp
+    if [[ "$decomp" == "s" ]]; then
+        read -p "A on el vols, no escriguis res per a compactarlo aqui: " pathdecomp
+        if [[ -z "$pathdecomp" ]]; then
+            pathdecomp="$(pwd)/${name%.tar.gz}"  # crea carpeta amb el nom del tar
+        else
+            pathdecomp="$pathdecomp/${name%.tar.gz}"
         fi
-        exit 0
+        mkdir -p "$pathdecomp"              # crea la carpeta
+        tar -zxvf "$input" -C "$pathdecomp" # descomprimeix dins d’aquesta carpeta
     fi
+fi
+
     if [ -f "$input" ]; then # Si és un fitxer
         read -p "Vols llegir el contingut del fitxer? (s/n): " llegir #     demana si el vol llegir
         if [ "$llegir" = "s" ]; then
