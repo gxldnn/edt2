@@ -5,9 +5,7 @@
             <xs:sequence>
                 <xs:element name="article"  minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
-                        <xs:simpleContent>
-                            
-                        </xs:simpleContent>
+
                         <xs:sequence>
                             <xs:element name="titol"></xs:element>
                             <xs:element name="autor">
