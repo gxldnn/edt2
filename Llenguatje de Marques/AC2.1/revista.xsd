@@ -10,7 +10,9 @@
     </xs:element>
 
     <xs:simpleType name="hola">
-        <xs:restriction></xs:restriction>
+        <xs:restriction>
+            <xs:enumeration value="1"></xs:enumeration>
+        </xs:restriction>
     </xs:simpleType>
 
 </xs:schema>
