@@ -39,8 +39,7 @@
 
     <xs:simpleType name="article-enter">
         <xs:restriction>
-            <xs:minInclusive value="
-            "></xs:minInclusive>
+            <xs:minInclusive value=""></xs:minInclusive>
         </xs:restriction>
     </xs:simpleType>
 
