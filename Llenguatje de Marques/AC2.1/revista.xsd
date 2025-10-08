@@ -10,7 +10,7 @@
                             <xs:element name="autor">
                                 <xs:complexType>
                                     <xs:simpleContent>
-                                        <xs:extension base=""></xs:extension>
+                                        <xs:extension base="xs:string"></xs:extension>
                                     </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
