@@ -6,7 +6,10 @@
                 <xs:element name="article"  minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:simpleContent>
-                            <xs:extension base="xs:s"></xs:extension>
+                            <xs:extension base="xs:string">
+                        <xs:attribute name="publicat" type="xs:boolean"></xs:attribute>
+
+                            </xs:extension>
                         </xs:simpleContent>
                         <xs:sequence>
                             <xs:element name="titol"></xs:element>
