@@ -5,7 +5,9 @@
             <xs:sequence>
                 <xs:element name="article">
                     <xs:complexType>
-                        xs
+                        <xs:sequence>
+                            
+                        </xs:sequence>
                     </xs:complexType>
                     <xs:element name="titol"></xs:element>
                     <xs:element name="autor">
