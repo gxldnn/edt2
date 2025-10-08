@@ -28,7 +28,7 @@
                             </xs:element>
                         </xs:sequence>                   
                     </xs:complexType>
-                                            <xs:simpleContent>
+                        <xs:simpleContent>
                             <xs:extension base="xs:string">
                                 <xs:attribute name="publicat" type="xs:boolean"></xs:attribute>
                             </xs:extension>
