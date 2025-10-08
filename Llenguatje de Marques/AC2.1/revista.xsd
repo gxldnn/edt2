@@ -7,12 +7,7 @@
 
                 
                 </xs:element>
-                <xs:element name="titol"></xs:element>
-                <xs:element name="autor">
-                    <xs:complexType>
-                        <xs:attribute name="email"></xs:attribute>
-                    </xs:complexType>
-                </xs:element>
+
             </xs:sequence>
             <xs:attribute name="any" type="AnyRang"></xs:attribute>
         </xs:complexType>
