@@ -27,7 +27,6 @@
                 </xs:element>
             </xs:sequence>
             <xs:attribute name="any" type="AnyRang"></xs:attribute>
-            
         </xs:complexType>
     </xs:element>
 
