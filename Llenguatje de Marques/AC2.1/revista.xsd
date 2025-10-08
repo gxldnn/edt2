@@ -9,7 +9,11 @@
                             <xs:element name="titol"></xs:element>
                             <xs:element name="autor">
                                 <xs:complexType>
-                                    
+                                    <xs:sequence>
+                                        xs:eñ<xs:element>
+                                        
+                                        </xs:element>
+                                    </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="dataPublicacio"></xs:element>
