@@ -4,7 +4,7 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="titol"></xs:element>
-                <xs:element name="autor"></xs:element>
+                <xs:element name="autor" type></xs:element>
             </xs:sequence>
             <xs:attribute name="any" type="AnyRang"></xs:attribute>
         </xs:complexType>
