@@ -9,7 +9,7 @@
         </xs:complexType>
     </xs:element>
 
-    <xs:simpleType name="
+    <xs:simpleType name="hola
     "></xs:simpleType>
 
 </xs:schema>
