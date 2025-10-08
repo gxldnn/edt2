@@ -42,7 +42,7 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="revista-enter">
+    <xs:simpleType name="valoracio-decimal">
         <xs:restriction base="xs:integer">
             <xs:minInclusive value="1"></xs:minInclusive>
         </xs:restriction>
