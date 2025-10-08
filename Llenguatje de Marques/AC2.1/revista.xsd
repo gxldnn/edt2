@@ -24,7 +24,7 @@
                             </xs:element>
                         </xs:sequence>
                         <xs:attribute name="id" type="xs:ID"></xs:attribute>
-                        <xs:attribute name="publicat"></xs:attribute>
+                        <xs:attribute name="publicat" type="xs:boolean"></xs:attribute>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
