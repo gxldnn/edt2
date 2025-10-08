@@ -9,7 +9,9 @@
                             <xs:element name="titol"></xs:element>
                             <xs:element name="autor">
                                 <xs:complexType>
-                                    xs:sim
+                                    <xs:simpleContent>
+                                        <xs:extension base=""></xs:extension>
+                                    </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="dataPublicacio"></xs:element>
