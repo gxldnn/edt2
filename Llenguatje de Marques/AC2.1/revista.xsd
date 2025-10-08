@@ -10,7 +10,7 @@
                             <xs:element name="autor">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        xs:ele
+                                        <xs:element></xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
