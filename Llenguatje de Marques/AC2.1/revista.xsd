@@ -45,7 +45,7 @@
     <xs:simpleType name="valoracio-decimal">
         <xs:restriction base="xs:integer">
             <xs:minInclusive value="0"></xs:minInclusive>
-            xs
+            <xs:maxInclusive value="5"></xs:maxInclusive>
         </xs:restriction>
     </xs:simpleType>
 
