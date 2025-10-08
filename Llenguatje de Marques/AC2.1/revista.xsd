@@ -12,7 +12,7 @@
                                     <xs:attribute name="email"></xs:attribute>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="dataPubl"></xs:element>
+                            <xs:element name="dataPublicacio"></xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
