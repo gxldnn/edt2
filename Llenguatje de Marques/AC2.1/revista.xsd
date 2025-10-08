@@ -3,7 +3,7 @@
     <xs:element name="revista">
         <xs:complexType>
             <xs:sequence>
-                xs:ar
+                <xs:element></xs:element>
                 <xs:element name="titol"></xs:element>
                 <xs:element name="autor">
                     <xs:complexType>
