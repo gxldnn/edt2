@@ -4,6 +4,7 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="article">
+                    xs
                     <xs:element name="titol"></xs:element>
                     <xs:element name="autor">
                         <xs:complexType>
