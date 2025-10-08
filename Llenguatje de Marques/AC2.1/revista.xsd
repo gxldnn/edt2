@@ -27,12 +27,7 @@
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>                   
-                    </xs:complexType>
-                    <xs:simpleContent>
-                        <xs:extension base="xs:string">
-                            <xs:attribute name="publicat" type="xs:boolean"></xs:attribute>
-                        </xs:extension>
-                    </xs:simpleContent>     
+                    </xs:complexType>   
                 </xs:element>
             </xs:sequence>
             <xs:attribute name="any" type="AnyRang"></xs:attribute>
