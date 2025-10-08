@@ -18,7 +18,7 @@
                             <xs:element name="etiquetes" >
                                 <xs:complexType>
                                     <xs:sequence>
-                                        
+                                        <xs:element></xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
