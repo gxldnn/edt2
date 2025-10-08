@@ -38,7 +38,7 @@
 
 
 
-    <xs:simpleType name="AnyRang">
+    <xs:simpleType name="revista-emter">
         <xs:restriction base="xs:integer">
             <xs:minInclusive value="1"></xs:minInclusive>
         </xs:restriction>
