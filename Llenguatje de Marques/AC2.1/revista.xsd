@@ -13,7 +13,7 @@
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="dataPublicacio"></xs:element>
-                            <xs:element name=""></xs:element>
+                            <xs:element name="cos"></xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
