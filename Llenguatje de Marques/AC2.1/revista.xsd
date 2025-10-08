@@ -36,7 +36,7 @@
         </xs:complexType>
     </xs:element>
 
-    <xs:simpleType name="article-enter">
+    <xs:simpleType name="revisyt-enter">
         <xs:restriction base="xs:integer">
             <xs:minInclusive value="1"></xs:minInclusive>
         </xs:restriction>
