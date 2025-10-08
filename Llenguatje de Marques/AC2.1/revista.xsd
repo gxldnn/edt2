@@ -46,6 +46,7 @@
         <xs:restriction base="xs:integer">
             <xs:minInclusive value="0"></xs:minInclusive>
             <xs:maxInclusive value="5"></xs:maxInclusive>
+            <xs:fractionDigits value=""></xs:fractionDigits>
         </xs:restriction>
     </xs:simpleType>
 
