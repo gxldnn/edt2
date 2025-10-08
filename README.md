@@ -1,7 +1,7 @@
 # 📚 Repositorio de Tareas de Clase
 
 ¡Bienvenid@ al repositorio oficial de tareas de clase!  
-Aquí encontrarás apuntes, ejercicios resueltos, tareas y recursos útiles para sobrevivir el curso sin perder la cabeza 😅.
+Aquí encontrarás apuntes, ejercicios resueltos😅.
 
 ---
 
