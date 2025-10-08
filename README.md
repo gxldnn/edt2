@@ -1,6 +1,6 @@
 # 📚 Repositorio de Tareas de Clase
 
-¡Bienvenid@ al repositorio oficial de tareas de clase!  
+¡Repositorio oficial de tareas de clase!  
 Aquí encontrarás apuntes, ejercicios resueltos😅.
 
 ---
