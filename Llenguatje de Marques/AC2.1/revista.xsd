@@ -6,7 +6,7 @@
                 <xs:element name="titol"></xs:element>
                 <xs:element name="autor">
                     <xs:complexType>
-                        xs
+                        <xs:attribute></xs:attribute>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
