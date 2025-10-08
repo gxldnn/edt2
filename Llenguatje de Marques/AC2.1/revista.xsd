@@ -9,10 +9,11 @@
         </xs:complexType>
     </xs:element>
 
-    <xs:simpleType name="hola">
-        <xs:restriction>
-            <xs:enumeration value="1"></xs:enumeration>
+    <xs:simpleType name="quantitatrang">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"></xs:minInclusive>
         </xs:restriction>
     </xs:simpleType>
+
 
 </xs:schema>
