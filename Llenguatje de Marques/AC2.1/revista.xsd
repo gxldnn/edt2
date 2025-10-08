@@ -26,9 +26,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                        
-                        </xs:sequence>
-                        
+                        </xs:sequence>                        
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
