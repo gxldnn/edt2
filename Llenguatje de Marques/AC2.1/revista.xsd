@@ -39,7 +39,7 @@
 
     <xs:simpleType name="article-enter">
         <xs:restriction>
-            cd
+            xs:min
         </xs:restriction>
     </xs:simpleType>
 
