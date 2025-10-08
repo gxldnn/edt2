@@ -15,7 +15,9 @@
                             <xs:element name="dataPublicacio"></xs:element>
                             <xs:element name="cos"></xs:element>
                             <xs:element name="valoracio"></xs:element>
-                            <xs:element name="etiquetes" ></xs:element>
+                            <xs:element name="etiquetes" >
+                                xs
+                            </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
