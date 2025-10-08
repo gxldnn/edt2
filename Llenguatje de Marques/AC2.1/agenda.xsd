@@ -7,7 +7,7 @@
         <xs:element name="contacte" minOccurs="1" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="nom" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+              <xs:element name="nom" type="xs:string" minOccurs="1" maxOccurs="1/>
               <xs:element name="edat" type="edatrang"/>
               <xs:element name="telefon" minOccurs="1" maxOccurs="3">
                 <xs:complexType>
