@@ -32,7 +32,7 @@
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
-            <xs:attribute name="any" type="revista"></xs:attribute>
+            <xs:attribute name="any" type="revista-enter"></xs:attribute>
         </xs:complexType>
     </xs:element>
 
