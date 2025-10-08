@@ -12,7 +12,7 @@
                                     <xs:attribute name="email"></xs:attribute>
                                 </xs:complexType>
                             </xs:element>
-                            
+                            xs
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
