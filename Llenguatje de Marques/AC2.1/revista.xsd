@@ -38,7 +38,9 @@
 
 
     <xs:simpleType name="article-enter">
-        xs:re
+        <xs:restriction>
+            cd
+        </xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="AnyRang">
