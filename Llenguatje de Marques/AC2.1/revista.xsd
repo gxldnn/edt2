@@ -19,7 +19,7 @@
                             <xs:element name="dataPublicacio"></xs:element>
                             <xs:element name="cos"></xs:element>
                             <xs:element name="valoracio"></xs:element>
-                            <xs:element name="etiquetes"minOccurs="1">
+                            <xs:element name="etiquetes"minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="etiqueta" minOccurs="1" maxOccurs="unbounded"></xs:element>
