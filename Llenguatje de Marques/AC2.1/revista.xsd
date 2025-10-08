@@ -37,7 +37,7 @@
     </xs:element>
 
 
-    <xs:simpleType name="article"></xs:simpleType>
+    <xs:simpleType name="article-enter"></xs:simpleType>
 
     <xs:simpleType name="AnyRang">
         <xs:restriction base="xs:integer">
