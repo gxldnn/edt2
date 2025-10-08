@@ -5,7 +5,7 @@
             <xs:sequence>
 
             </xs:sequence>
-            <xs:attribute name="any"></xs:attribute>
+            <xs:attribute name="any" type=""></xs:attribute>
         </xs:complexType>
     </xs:element>
 
