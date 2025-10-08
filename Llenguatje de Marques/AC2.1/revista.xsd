@@ -6,7 +6,12 @@
                 <xs:element name="article">
                     <xs:complexType>
                         <xs:sequence>
-                            
+                            <xs:element name="titol"></xs:element>
+                    <xs:element name="autor">
+                        <xs:complexType>
+                            <xs:attribute name="email"></xs:attribute>
+                        </xs:complexType>
+                    </xs:element>
 
                         </xs:sequence>
                     </xs:complexType>
