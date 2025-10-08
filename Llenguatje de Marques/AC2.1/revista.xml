@@ -10,8 +10,8 @@
         <etiqueta>tecnologia</etiqueta>
         <etiqueta>IA</etiqueta>
         </etiquetes>
-        </article>
-        <article id="A2" publicat="false">
+    </article>
+    <article id="A2" publicat="false">
         <titol>El futur de la robòtica</titol>
         <autor email="marc@revista.cat">Marc Solà</autor>
         <dataPublicacio>2025-04-01</dataPublicacio>
