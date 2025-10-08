@@ -3,7 +3,7 @@
     <xs:element name="revista">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="article" -enter" minOccurs="1" maxOccurs="unbounded">
+                <xs:element name="article"  minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="titol"></xs:element>
