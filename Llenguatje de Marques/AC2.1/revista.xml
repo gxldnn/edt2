@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<revista any="2025">
+<article id="A1" publicat="true">
+<titol>La intel·ligència artificial avui</titol>
+<autor email="laura@revista.cat">Laura Riera</autor>
+<dataPublicacio>2025-03-15</dataPublicacio>
+<cos>Contingut de l'article sobre IA...</cos>
+<valoracio>4.5</valoracio>
+<etiquetes>
+<etiqueta>tecnologia</etiqueta>
+<etiqueta>IA</etiqueta>
+</etiquetes>
+</article>
+<article id="A2" publicat="false">
+<titol>El futur de la robòtica</titol>
+<autor email="marc@revista.cat">Marc Solà</autor>
+<dataPublicacio>2025-04-01</dataPublicacio>
+<cos>Contingut sobre robòtica...</cos>
+<valoracio>5.0</valoracio>
+</article>
+</revista>
