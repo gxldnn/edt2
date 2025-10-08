@@ -9,7 +9,9 @@
         </xs:complexType>
     </xs:element>
 
-    <xs:simpleType name="Anyrang">
+
+    
+    <xs:simpleType name="AnyRang">
         <xs:restriction base="xs:integer">
             <xs:minInclusive value="1"></xs:minInclusive>
         </xs:restriction>
