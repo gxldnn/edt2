@@ -8,7 +8,7 @@
                         <xs:sequence>
                             <xs:element name="titol"></xs:element>
                             <xs:element name="autor">
-                                
+                                xs:
                             </xs:element>
                             <xs:element name="dataPublicacio"></xs:element>
                             <xs:element name="cos"></xs:element>
