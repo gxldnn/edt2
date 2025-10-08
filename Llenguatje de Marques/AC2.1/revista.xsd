@@ -23,7 +23,7 @@
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
-                        xs
+                        <xs:attribute></xs:attribute>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
