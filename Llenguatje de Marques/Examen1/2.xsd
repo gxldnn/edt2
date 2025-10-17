@@ -25,7 +25,9 @@
                             <xs:element name="places" type="placesRang"></xs:element>
                             <xs:element name="visitesIncloses">
                                 <xs:complexType>
-                                    xs
+                                    <xs:sequence>
+                                        <xs:element name="visita" minOccurs="1" maxOccurs="unbounded"></xs:element>
+                                    </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence> 
