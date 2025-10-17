@@ -20,4 +20,23 @@
             </inscrit>
         </inscrits>
     </classe>
+        <classe codi="Hola2" activa="false">
+        <nomClasse>Spinning</nomClasse> 
+        <monitor>Laura</monitor>
+        <horari>18:00</horari>
+        <duracio>40</duracio>
+        <capacitat>20</capacitat>
+        <preu periode="menusal">1.20</preu>
+        <dia>Dimarts</dia>
+        <especialitats>
+            <especialitat>Hola</especialitat>
+            <especialitat>Hola2</especialitat>
+        </especialitats>
+        <inscrits>
+            <inscrit soci="Soci1">
+                <nomSoci>Juan</nomSoci>
+                <dataInscripcio>2025-03-15</dataInscripcio>
+            </inscrit>
+        </inscrits>
+    </classe>
 </gimnas>
