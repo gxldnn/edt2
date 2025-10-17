@@ -16,5 +16,6 @@
 <!ELEMENT visitesIncloses (visita+)>
 <!ELEMENT visita (#PCDATA)>
 <!ELEMENT reserves (reserva*)>
+<!ELEMENT reserva ()>
 <!ATTLIST reserva codi ID #REQUIRED>
 <!ELEMENT element-name (#PCDATA)>
