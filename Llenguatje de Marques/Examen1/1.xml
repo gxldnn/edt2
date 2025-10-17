@@ -13,6 +13,8 @@
             <especialitat>Hola</especialitat>
             <especialitat>Hola2</especialitat>
         </especialitats>
-        <inscrits></inscrits>
+        <inscrits>
+            <inscrit soci="Soci1"></inscrit>
+        </inscrits>
     </classe>
 </gimnas>
