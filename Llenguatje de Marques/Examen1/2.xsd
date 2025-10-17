@@ -5,7 +5,7 @@
             <xs:sequence>
                 <xs:element name="viatge"></xs:element>
             </xs:sequence>
-            <xs:attribute></xs:attribute>
+            <xs:attribute name="cif" use="required"></xs:attribute>
         </xs:complexType>
     </xs:element>
 </xs:schema>
