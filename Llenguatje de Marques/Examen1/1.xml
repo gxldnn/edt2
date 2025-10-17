@@ -2,6 +2,7 @@
 <!DOCTYPE gimnas SYSTEM "1.dtd">
 <gimnas>
     <classe codi="Hola1" activa="false">
-
+        <nomClasse>Spinning</nomClasse> 
+        
     </classe>
 </gimnas>
