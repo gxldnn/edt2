@@ -6,4 +6,5 @@
 <!ELEMENT desti (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
 <!ELEMENT transports (Avió|Tren|Bus)>
-<!ELEMENT allotjament (Apartament|Hostal)>
+<!ELEMENT allotjament (Hotel|Apartament|Hostal)>
+!
