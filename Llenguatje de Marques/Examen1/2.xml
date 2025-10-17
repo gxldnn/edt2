@@ -34,12 +34,7 @@
         <places>40</places>
 
         <reserves>
-            <reserva codi="R2">
-                <client>Juan</client>
-                <numPersones>7</numPersones>
-                <dataReserva>2025-05-09</dataReserva>
-                <confirmada>true</confirmada>
-            </reserva>
+
         </reserves>
     </viatge>
 
