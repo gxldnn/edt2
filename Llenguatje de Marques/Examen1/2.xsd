@@ -27,6 +27,7 @@
         </xs:restriction>
     </xs:simpleType>
 
-    xs:si
-
+    <xs:simpleType name="allotjamentRang">
+        xs
+    </xs:simpleType>
 </xs:schema>
