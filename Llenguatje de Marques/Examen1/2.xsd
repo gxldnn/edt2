@@ -9,6 +9,7 @@
                             <xs:element name="desti" type="xs:string"></xs:element>
                             <xs:element name="pais" type="xs:string"></xs:element>
                             <xs:element name="transport" type="transportRang"></xs:element>
+                            
                         </xs:sequence>
                         <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
                         <xs:attribute name="disponible" type="xs:boolean" use="required"></xs:attribute>
@@ -30,8 +31,8 @@
     <xs:simpleType name="allotjamentRang">
         <xs:restriction base="xs:string">
             <xs:enumeration value="Hotel"></xs:enumeration>
-            <xs:enumeration value=""></xs:enumeration>
-            <xs:enumeration value=""></xs:enumeration>
+            <xs:enumeration value="Apartament"></xs:enumeration>
+            <xs:enumeration value="Hostal"></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
