@@ -4,3 +4,6 @@
 <!ATTLIST viatge id ID #REQUIRED>
 <!ATTLIST viatge disponible (true|false) #REQUIRED>
 <!ELEMENT desti (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+
+<!ELEMENT allotjament (#PCDATA)>
