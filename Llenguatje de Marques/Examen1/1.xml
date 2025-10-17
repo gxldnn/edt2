@@ -38,8 +38,9 @@
     </xs:simpleType>
 
     <xs:simpleType name="preuType">
-        <xs:restriction>
-            
+        <xs:restriction base="xs:decimal">
+
+
         </xs:restriction>
     </xs:simpleType>
 
