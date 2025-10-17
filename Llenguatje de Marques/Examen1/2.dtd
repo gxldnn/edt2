@@ -1,5 +1,5 @@
 <!ELEMENT agencia (viatge+)>
 <!ATTLIST agencia cif ID #REQUIRED>
-<!ELEMENT viatge (desti, pais, transport, allotjament, dataSortida, dataRetorn, )>
+<!ELEMENT viatge (desti, pais, transport, allotjament, dataSortida, dataRetorn, preu, places, visi)>
 <!ATTLIST viatge id ID #REQUIRED>
 <!ATTLIST viatge disponible (true|false) #REQUIRED>
