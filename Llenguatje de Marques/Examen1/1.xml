@@ -31,7 +31,7 @@
                             <xs:element name="inscrits" minOccurs="0" maxOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element></xs:element>
+                                        <xs:element name="inscrit"></xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
