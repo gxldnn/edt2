@@ -7,7 +7,7 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="nomClasse"></xs:element>
-                            <xs:element name=""></xs:element>
+                            <xs:element name="monitor" type="xs:string"></xs:element>
                         </xs:sequence>
                         <xs:attribute name="codi" type="xs:ID"></xs:attribute>
                         <xs:attribute name="activa" type="xs:boolean"></xs:attribute>
