@@ -13,3 +13,4 @@
 <!ELEMENT especialitat (#PCDATA)>
 <!ELEMENT inscrits (inscrit*)>
 <!ELEMENT inscrit (nomSoci, dataInscripcio)>
+<!ATTLIST element-name attribute-name ID #REQUIRED>
