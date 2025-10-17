@@ -37,6 +37,10 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name=""></xs:simpleType>
+    <xs:simpleType name="preuType">
+        <xs:restriction>
+            
+        </xs:restriction>
+    </xs:simpleType>
 
 </xs:schema>
