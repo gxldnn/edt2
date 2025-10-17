@@ -16,6 +16,6 @@
 <!ELEMENT visitesIncloses (visita+)>
 <!ELEMENT visita (#PCDATA)>
 <!ELEMENT reserves (reserva*)>
-<!ELEMENT reserva (client, numpersones)>
+<!ELEMENT reserva (client, numPersones, dataReserva, confirmada)>
 <!ATTLIST reserva codi ID #REQUIRED>
 <!ELEMENT element-name (#PCDATA)>
