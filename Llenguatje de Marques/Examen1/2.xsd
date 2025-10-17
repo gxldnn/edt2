@@ -23,7 +23,8 @@
         <xs:restriction base="xs:string">
             <xs:enumeration value="Avió"></xs:enumeration>
             <xs:enumeration value="Tren"></xs:enumeration>
-            <xs:enumeration value="Avió"></xs:enumeration>
+            <xs:enumeration value="Bus"></xs:enumeration>
+
         </xs:restriction>
     </xs:simpleType>
 
