@@ -20,8 +20,8 @@
     </xs:element>
 
     <xs:simpleType name="transportRang">
-        <xs:restriction>
-            xs
+        <xs:restriction base="xs:string">
+            <xs:annotation></xs:annotation>
         </xs:restriction>
     </xs:simpleType>
 
