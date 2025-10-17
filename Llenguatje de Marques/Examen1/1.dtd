@@ -1,4 +1,5 @@
 <!ELEMENT gimnas (classe+)>
+<!ATTLIST element-name attribute-name ID #REQUIRED>
 <!ELEMENT nomClasse (#PCDATA)>
 <!ELEMENT monitor (#PCDATA)>
 <!ELEMENT duracio (#PCDATA)>
