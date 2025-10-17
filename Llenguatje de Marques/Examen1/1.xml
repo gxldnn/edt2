@@ -20,14 +20,14 @@
             </inscrit>
         </inscrits>
     </classe>
-        <classe codi="Hola2" activa="false">
+        <classe codi="Hola2" activa="true">
         <nomClasse>Spinning</nomClasse> 
         <monitor>Laura</monitor>
         <horari>18:00</horari>
         <duracio>40</duracio>
         <capacitat>20</capacitat>
-        <preu periode="menusal">1.20</preu>
-        <dia>Dimarts</dia>
+        <preu periode="menusal">3.00</preu>
+        <dia>Dimecres</dia>
         <especialitats>
             <especialitat>Hola</especialitat>
             <especialitat>Hola2</especialitat>
