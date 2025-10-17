@@ -34,7 +34,7 @@
                                         <xs:element name="inscrit" minOccurs="0" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
-
+                                                    <xs:element name=""></xs:element>
                                                 </xs:sequence>
                                                 <xs:attribute name="soci" type="xs:ID" use="required"></xs:attribute>
                                             </xs:complexType>
