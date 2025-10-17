@@ -16,3 +16,4 @@
 <!ATTLIST inscrit soci ID #REQUIRED>
 <!ELEMENT nomSoci (#PCDATA)>
 <!ELEMENT dataInscripcio (#PCDATA)>
+
