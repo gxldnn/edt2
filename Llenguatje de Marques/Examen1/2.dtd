@@ -11,4 +11,5 @@
 <!ELEMENT dataRetorn (#PCDATA)>
 <!ELEMENT preu (#PCDATA)>
 <!ATTLIST preu moneda (EUR|USD|GBP) #REQUIRED>
-<!ATTLIST preu iva (inclòs|noinclòs) #>
+<!ATTLIST preu iva (inclòs|noinclòs) #REQUIRED>
+
