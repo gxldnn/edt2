@@ -23,4 +23,26 @@
         </reserves>
     </viatge>
 
+    <viatge id="A1" disponible="true">
+        <desti>Paris</desti>
+        <pais>França</pais>
+        <transport>Tren</transport>
+        <allotjament>Hotel</allotjament>
+        <dataSortida>2025-01-09</dataSortida>
+        <dataRetorn>2025-01-16</dataRetorn>
+        <preu moneda="EUR" iva="inclòs">1.20</preu>
+        <places>40</places>
+        <visitesIncloses>
+            <visita>Si</visita>
+        </visitesIncloses>
+        <reserves>
+            <reserva codi="A2">
+                <client>Juan</client>
+                <numPersones>7</numPersones>
+                <dataReserva>2025-05-09</dataReserva>
+                <confirmada>true</confirmada>
+            </reserva>
+        </reserves>
+    </viatge>
+
 </agencia>  
