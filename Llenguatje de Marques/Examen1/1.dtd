@@ -7,4 +7,5 @@
 <!ELEMENT capacitat (#PCDATA)>
 <!ELEMENT preu (#PCDATA)>
 <!ATTLIST preu periode (sessió|menusal|trimestral) #REQUIRED>
-<!ELEMENT dia ()>
+<!ELEMENT dia (Dilluns|Dimarts|Dimecres)>
+<!ELEMENT element-name (#PCDATA)>
