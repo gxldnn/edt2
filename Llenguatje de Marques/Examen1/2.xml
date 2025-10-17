@@ -26,7 +26,7 @@
         <desti>Paris</desti>
         <pais>França</pais>
         <transport>bus</transport>
-        <allotjament>hostal</allotjament>
+        <allotjament></allotjament>
         <dataSortida>2025-01-09</dataSortida>
         <dataRetorn>2025-01-16</dataRetorn>
         <preu moneda="EUR" iva="inclòs">1.20</preu>
