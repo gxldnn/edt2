@@ -33,7 +33,10 @@
                                     <xs:sequence>
                                         <xs:element name="inscrit" minOccurs="0" maxOccurs="unbounded">
                                             <xs:complexType>
-                                                <xs:sequence></xs:sequence>
+                                                <xs:sequence>
+
+                                                </xs:sequence>
+                                                <xs:attribute name="soci"></xs:attribute>
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
