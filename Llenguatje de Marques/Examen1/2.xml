@@ -7,6 +7,6 @@
         <transport>Tren</transport>
         <allotjament>Hotel</allotjament>
         <dataSortida>2025-01-09</dataSortida>
-        
+        <dataRetorn></dataRetorn>
     </viatge>
 </agencia>  
