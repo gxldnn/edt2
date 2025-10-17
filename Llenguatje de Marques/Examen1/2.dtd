@@ -15,4 +15,5 @@
 <!ELEMENT places (#PCDATA)>
 <!ELEMENT visitesIncloses (visita+)>
 <!ELEMENT visita (#PCDATA)>
-<!ELEMENT reserves (reserva)>
+<!ELEMENT reserves (reserva*)>
+<!ATTLIST reserva codi ID #REQUIRED>
