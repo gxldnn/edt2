@@ -25,7 +25,7 @@
 
     <viatge id="A2" disponible="false">
         <desti>California</desti>
-        <pais>França</pais>
+        <pais>USA</pais>
         <transport>Tren</transport>
         <allotjament>Hotel</allotjament>
         <dataSortida>2025-01-09</dataSortida>
