@@ -10,6 +10,7 @@
                             <xs:element name="monitor" type="xs:string"></xs:element>
                             <xs:element name="horari" type="xs:string"></xs:element>
                             <xs:element name="duracio" type="rangDuracio"></xs:element>
+                            <xs:element></xs:element>
                         </xs:sequence>
                         <xs:attribute name="codi" type="xs:ID"></xs:attribute>
                         <xs:attribute name="activa" type="xs:boolean"></xs:attribute>
@@ -29,7 +30,7 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="rangDuracio">
+    <xs:simpleType name="capacitatRang">
         <xs:restriction base="xs:int">
             <xs:minInclusive value="30"></xs:minInclusive>
             <xs:maxInclusive value="120"></xs:maxInclusive>
