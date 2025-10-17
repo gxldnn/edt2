@@ -72,9 +72,10 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="ivaType">
-        <xs:restriction base="xs:string">
+    <xs:simpleType name="placesrang">
+        <xs:restriction base="xs:int">
             <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:maxInclusive value="100"></xs:maxInclusive>
         </xs:restriction>
     </xs:simpleType>
 
