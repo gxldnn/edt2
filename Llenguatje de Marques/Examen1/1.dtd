@@ -1,4 +1,5 @@
 <!ELEMENT gimnas (classe+)>
+<!ELEMENT classe ()>
 <!ATTLIST classe codi ID #REQUIRED>
 <!ATTLIST classe activa (false|true) #REQUIRED>
 <!ELEMENT nomClasse (#PCDATA)>
