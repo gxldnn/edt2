@@ -1,1 +1,2 @@
-<!ELEMENT agencia (viatge)>
+<!ELEMENT agencia (viatge+)>
+<!ATTLIST ele attribute-name ID #REQUIRED>
