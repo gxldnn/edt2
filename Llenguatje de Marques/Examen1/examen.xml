@@ -3,7 +3,7 @@
     <xs:element name="gimnas">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="classe"></xs:element>
+                <xs:element name="classe" m></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
