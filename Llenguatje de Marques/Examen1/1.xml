@@ -21,8 +21,8 @@
     </xs:element>
 
     <xs:simpleType name="rangDuracio">
-        <xs:restriction>
-            <xs:maxInclusive value=""></xs:maxInclusive>
+        <xs:restriction base="xs:int">
+            <xs:maxInclusive value="120"></xs:maxInclusive>
         </xs:restriction>
     </xs:simpleType>
 
