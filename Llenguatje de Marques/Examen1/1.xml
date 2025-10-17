@@ -10,7 +10,7 @@
                             <xs:element name="monitor" type="xs:string"></xs:element>
                             <xs:element name="horari" type="xs:string"></xs:element>
                             <xs:element name="duracio" type="rangDuracio"></xs:element>
-                            <xs:element></xs:element>
+                            <xs:element name="capacitat" type="capacitatRang"></xs:element>
                         </xs:sequence>
                         <xs:attribute name="codi" type="xs:ID"></xs:attribute>
                         <xs:attribute name="activa" type="xs:boolean"></xs:attribute>
