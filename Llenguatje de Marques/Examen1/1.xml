@@ -32,9 +32,11 @@
 
     <xs:simpleType name="capacitatRang">
         <xs:restriction base="xs:int">
-            <xs:minInclusive value="30"></xs:minInclusive>
-            <xs:maxInclusive value="120"></xs:maxInclusive>
+            <xs:minInclusive value="5"></xs:minInclusive>
+            <xs:maxInclusive value="50"></xs:maxInclusive>
         </xs:restriction>
     </xs:simpleType>
+
+    <xs:simpleType name=""></xs:simpleType>
 
 </xs:schema>
