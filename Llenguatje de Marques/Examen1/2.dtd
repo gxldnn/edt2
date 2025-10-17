@@ -21,4 +21,4 @@
 <!ELEMENT client (#PCDATA)>
 <!ELEMENT numPersones (#PCDATA)>
 <!ELEMENT dataReserva (#PCDATA)>
-<!ELEMENT confirmada (#PCDATA)>
+<!ELEMENT confirmada (true|false)>
