@@ -1,4 +1,4 @@
 <!ELEMENT gimnas (classe+)>
 <!ELEMENT nomClasse (#PCDATA)>
 <!ELEMENT monitor (#PCDATA)>
-<!ELEMENT element-name (#PCDATA)>
+<!ELEMENT duracio (#PCDATA)>
