@@ -22,7 +22,7 @@
                                     </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="places" type=""></xs:element>
+                            <xs:element name="places" type="placesRang"></xs:element>
                         </xs:sequence> 
                         <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
                         <xs:attribute name="disponible" type="xs:boolean" use="required"></xs:attribute>
