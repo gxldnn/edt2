@@ -1,1 +1,2 @@
 <!ELEMENT gimnas (classe+)>
+<!ELEMENT nomClasse (#PCDATA)>
