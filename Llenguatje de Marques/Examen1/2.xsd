@@ -72,10 +72,9 @@
         </xs:restriction>
     </xs:simpleType>
 
-        <xs:simpleType name="ivaType">
+    <xs:simpleType name="ivaType">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="inclòs"></xs:enumeration>
-            <xs:enumeration value="noinclòs"></xs:enumeration>
+            <xs:minInclusive value="1"></xs:minInclusive>
         </xs:restriction>
     </xs:simpleType>
 
