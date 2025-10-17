@@ -36,7 +36,7 @@
                                         <xs:element name="reserva" minOccurs="0" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
-
+                                                    <xs:element name="client"></xs:element>
                                                 </xs:sequence>
                                                 <xs:attribute name="codi" type="xs:ID" use="required"></xs:attribute>
                                             </xs:complexType>
