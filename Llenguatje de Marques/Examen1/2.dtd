@@ -3,3 +3,4 @@
 <!ELEMENT viatge (desti, pais, transport, allotjament, dataSortida, dataRetorn, preu, places, visitesIncloses?, reserves?)>
 <!ATTLIST viatge id ID #REQUIRED>
 <!ATTLIST viatge disponible (true|false) #REQUIRED>
+<!ELEMENT desti (#PCDATA)>
