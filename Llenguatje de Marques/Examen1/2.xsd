@@ -12,7 +12,7 @@
                             <xs:element name="allotjament" type="allotjamentRang"></xs:element>
                             <xs:element name="dataSortida" type="xs:date"></xs:element>
                             <xs:element name="dataRetorn" type="xs:date"></xs:element>
-                            <xs:element name="preu" typ></xs:element>
+                            <xs:element name="preu" type=""></xs:element>
                         </xs:sequence> 
                         <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
                         <xs:attribute name="disponible" type="xs:boolean" use="required"></xs:attribute>
