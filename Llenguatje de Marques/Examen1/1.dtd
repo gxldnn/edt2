@@ -14,4 +14,5 @@
 <!ELEMENT inscrits (inscrit*)>
 <!ELEMENT inscrit (nomSoci, dataInscripcio)>
 <!ATTLIST inscrit soci ID #REQUIRED>
-<!ELEMENT element-name (#PCDATA)>
+<!ELEMENT nomSoci (#PCDATA)>
+
