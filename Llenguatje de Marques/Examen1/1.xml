@@ -8,7 +8,7 @@
                         <xs:sequence>
                             <xs:element name="nomClasse" type="xs:string"></xs:element>
                             <xs:element name="monitor" type="xs:string"></xs:element>
-                            xs
+                            <xs:element name="horari"></xs:element>
                         </xs:sequence>
                         <xs:attribute name="codi" type="xs:ID"></xs:attribute>
                         <xs:attribute name="activa" type="xs:boolean"></xs:attribute>
