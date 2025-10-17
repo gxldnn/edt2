@@ -55,7 +55,8 @@
     </xs:simpleType>
 
     <xs:simpleType name="periodeType">
-        xs
+        <xs:list>
+        </xs:list>
     </xs:simpleType>
 
 </xs:schema>
