@@ -3,6 +3,7 @@
 <gimnas>
     <classe codi="Hola1" activa="false">
         <nomClasse>Spinning</nomClasse> 
+        <monitor>Laura</monitor>
         
     </classe>
 </gimnas>
