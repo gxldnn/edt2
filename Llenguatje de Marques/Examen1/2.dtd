@@ -11,7 +11,7 @@
 <!ELEMENT dataRetorn (#PCDATA)>
 <!ELEMENT preu (#PCDATA)>
 <!ATTLIST preu moneda (EUR|USD|GBP) #REQUIRED>
-<!ATTLIST preu iva (inclòs|noinclòs) #REQUIRED>
+<!ATTLIST preu iva (inclòs|noinclòs) #OPTIONAL>
 <!ELEMENT places (#PCDATA)>
 <!ELEMENT visitesIncloses (visita+)>
 <!ELEMENT visita (#PCDATA)>
