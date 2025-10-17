@@ -10,4 +10,4 @@
 <!ELEMENT dataSortida (#PCDATA)>
 <!ELEMENT dataRetorn (#PCDATA)>
 <!ELEMENT preu (#PCDATA)>
-<!ATTLIST preu moneda ID #REQUIRED>
+<!ATTLIST preu moneda (EUR|USD|GBP) #REQUIRED>
