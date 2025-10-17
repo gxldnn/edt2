@@ -4,7 +4,7 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="classe" minOccurs="1" maxOccurs="unbounded">
-                    xs
+                    
                 </xs:element>
             </xs:sequence>
             <xs:attribute name="nom" use="required"></xs:attribute>
