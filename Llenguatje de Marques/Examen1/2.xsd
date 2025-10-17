@@ -16,7 +16,7 @@
                                 <xs:complexType>
                                     <xs:simpleContent>
                                         <xs:extension base="preuType">
-                                            <xs:attribute name="moneda"></xs:attribute>
+                                            <xs:attribute name="moneda" type="monedaType"></xs:attribute>
                                         </xs:extension>
                                     </xs:simpleContent>
                                 </xs:complexType>
@@ -46,4 +46,17 @@
             <xs:enumeration value="Hostal"></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>
+
+
+
+
+        <xs:simpleType name="allotjamentRang">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Hotel"></xs:enumeration>
+            <xs:enumeration value="Apartament"></xs:enumeration>
+            <xs:enumeration value="Hostal"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+
 </xs:schema>
