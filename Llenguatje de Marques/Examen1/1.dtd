@@ -5,4 +5,4 @@
 <!ELEMENT monitor (#PCDATA)>
 <!ELEMENT duracio (#PCDATA)>
 <!ELEMENT capacitat (#PCDATA)>
-<!ELEMENT element-name (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
