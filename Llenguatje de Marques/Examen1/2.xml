@@ -33,8 +33,7 @@
         <preu moneda="EUR" iva="inclòs">1.20</preu>
         <places>40</places>
 
-        <reserves>
-        </reserves>
+        <reserves></reserves>
     </viatge>
 
 </agencia>  
