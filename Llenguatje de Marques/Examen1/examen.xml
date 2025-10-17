@@ -3,7 +3,7 @@
     <xs:element name="gimnas">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="classe" maxOccurs="unbounded"></xs:element>
+                <xs:element name="classe" minmaxOccurs="unbounded"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
