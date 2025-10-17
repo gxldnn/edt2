@@ -6,4 +6,5 @@
 <!ELEMENT duracio (#PCDATA)>
 <!ELEMENT capacitat (#PCDATA)>
 <!ELEMENT preu (#PCDATA)>
-<!ATTLIST preu periode (sessió|menusal|trimestral) #REQUIERED>
+<!ATTLIST preu periode (sessió|menusal|trimestral) #REQUIRED>
+<!ELEMENT element-name (#PCDATA)>
