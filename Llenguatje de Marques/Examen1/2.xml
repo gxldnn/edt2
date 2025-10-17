@@ -32,9 +32,7 @@
         <preu moneda="EUR">1.20</preu>
         <places>40</places>
 
-        <reserves>
-
-            </reserva>
+        <reserves></reserva>
         </reserves>
     </viatge>
 </agencia>  
