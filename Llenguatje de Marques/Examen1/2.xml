@@ -6,6 +6,6 @@
         <pais>França</pais>
         <transport>Tren</transport>
         <allotjament>Hotel</allotjament>
-        
+        <dataSortida></dataSortida>
     </viatge>
 </agencia>  
