@@ -36,6 +36,7 @@
                                         <xs:element name="reserva" minOccurs="0" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:simpleContent>
+                                                    
                                                     <xs:extension base=""></xs:extension>
                                                 </xs:simpleContent>
                                             </xs:complexType>
