@@ -28,5 +28,11 @@
             <xs:maxInclusive value="120"></xs:maxInclusive>
         </xs:restriction>
     </xs:simpleType>
+        <xs:simpleType name="rangDuracio">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="30"></xs:minInclusive>
+            <xs:maxInclusive value="120"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
 
 </xs:schema>
