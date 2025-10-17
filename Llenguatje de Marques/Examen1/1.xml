@@ -54,6 +54,8 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name=""></xs:simpleType>
+    <xs:simpleType name="periodeType">
+        xs
+    </xs:simpleType>
 
 </xs:schema>
