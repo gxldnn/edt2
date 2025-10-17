@@ -47,14 +47,14 @@
         </xs:restriction>
     </xs:simpleType>
 
+    
 
 
-
-        <xs:simpleType name="allotjamentRang">
+        <xs:simpleType name="monedatype">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="Hotel"></xs:enumeration>
-            <xs:enumeration value="Apartament"></xs:enumeration>
-            <xs:enumeration value="Hostal"></xs:enumeration>
+            <xs:enumeration value="EUR"></xs:enumeration>
+            <xs:enumeration value="USD"></xs:enumeration>
+            <xs:enumeration value="GBP"></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>
 
