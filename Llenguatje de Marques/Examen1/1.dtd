@@ -1,4 +1,5 @@
 <!ELEMENT gimnas (classe+)>
+<!ATTLIST gimnas nom ID #REQUIRED>
 <!ELEMENT classe (nomClasse, monitor, horari, duracio, capacitat, preu, dia, especialitats?, inscrits?)>
 <!ATTLIST classe codi ID #REQUIRED>
 <!ATTLIST classe activa (false|true) #REQUIRED>
