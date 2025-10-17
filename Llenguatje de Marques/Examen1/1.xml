@@ -8,6 +8,7 @@
         <duracio>40</duracio>
         <capacitat>20</capacitat>
         <preu periode="menusal">1.20</preu>
-        DIA
+        <dia>Dilluns</dia>
+        
     </classe>
 </gimnas>
