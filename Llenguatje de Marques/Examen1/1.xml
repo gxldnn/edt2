@@ -11,6 +11,8 @@
         <dia>Dimarts</dia>
         <especialitats>
             <especialitat>Hola</especialitat>
+            <especialitat>Hola2</especialitat>
         </especialitats>
+        <inscrits></inscrits>
     </classe>
 </gimnas>
