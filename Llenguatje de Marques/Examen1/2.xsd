@@ -18,4 +18,11 @@
             <xs:attribute name="cif" use="required"></xs:attribute>
         </xs:complexType>
     </xs:element>
+
+    <xs:simpleType name="transportRang">
+        <xs:restriction>
+            xs
+        </xs:restriction>
+    </xs:simpleType>
+
 </xs:schema>
