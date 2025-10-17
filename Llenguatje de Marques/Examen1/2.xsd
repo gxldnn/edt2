@@ -12,11 +12,11 @@
                             <xs:element name="allotjament" type="allotjamentRang"></xs:element>
                             <xs:element name="dataSortida" type="xs:date"></xs:element>
                             <xs:element name="dataRetorn" type="xs:date"></xs:element>
-                            <xs:element name="preu" type="preuType">
+                            <xs:element name="preu" >
                                 <xs:complexType>
                                     <xs:simpleContent>
-                                        <xs:extension base="">
-                                            
+                                        <xs:extension base="preuType">
+                                            <xs:attribute></xs:attribute>
                                         </xs:extension>
                                     </xs:simpleContent>
                                 </xs:complexType>
