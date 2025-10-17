@@ -4,6 +4,7 @@
 <!ATTLIST classe activa (false|true) #REQUIRED>
 <!ELEMENT nomClasse (#PCDATA)>
 <!ELEMENT monitor (#PCDATA)>
+<!ELEMENT element-name (#PCDATA)>
 <!ELEMENT duracio (#PCDATA)>
 <!ELEMENT capacitat (#PCDATA)>
 <!ELEMENT preu (#PCDATA)>
@@ -16,4 +17,3 @@
 <!ATTLIST inscrit soci ID #REQUIRED>
 <!ELEMENT nomSoci (#PCDATA)>
 <!ELEMENT dataInscripcio (#PCDATA)>
-
