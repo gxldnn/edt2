@@ -13,4 +13,4 @@
 <!ATTLIST preu moneda (EUR|USD|GBP) #REQUIRED>
 <!ATTLIST preu iva (inclòs|noinclòs) #REQUIRED>
 <!ELEMENT places (#PCDATA)>
-
+<!ELEMENT visitesIncloses (visita)>
