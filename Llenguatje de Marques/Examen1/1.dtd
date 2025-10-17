@@ -11,3 +11,4 @@
 <!ELEMENT dia (Dilluns|Dimarts|Dimecres)>
 <!ELEMENT especialitats (especialitat+)>
 <!ELEMENT especialitat (#PCDATA)>
+
