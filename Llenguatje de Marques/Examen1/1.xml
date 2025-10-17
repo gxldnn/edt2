@@ -20,7 +20,7 @@
                                     </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="dia" minOccurs="1"maxOccurs="unbounded"></xs:element>
+                            <xs:element name="dia" minOccurs="1" maxOccurs="unbounded" type=""></xs:element>
 
                         </xs:sequence>
                         <xs:attribute name="codi" type="xs:ID"></xs:attribute>
