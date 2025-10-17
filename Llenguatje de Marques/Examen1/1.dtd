@@ -1,8 +1,8 @@
 <!ELEMENT gimnas (classe+)>
 <!ATTLIST classe codi ID #REQUIRED>
-<!ATTLIST classe activa (false) #REQUIRED>
+<!ATTLIST classe activa (false|true) #REQUIRED>
 <!ELEMENT nomClasse (#PCDATA)>
 <!ELEMENT monitor (#PCDATA)>
 <!ELEMENT duracio (#PCDATA)>
 <!ELEMENT capacitat (#PCDATA)>
-!ELEE
+<!ELEMENT element-name (#PCDATA)>
