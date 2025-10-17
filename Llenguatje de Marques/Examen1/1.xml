@@ -63,9 +63,9 @@
         </xs:restriction>
     </xs:simpleType>
 
-        <xs:simpleType name="periodeType">
+    <xs:simpleType name="diaType">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="sessió"></xs:enumeration>
+            <xs:enumeration value="Dilluns"></xs:enumeration>
             <xs:enumeration value="menusal"></xs:enumeration>
             <xs:enumeration value="trimestral"></xs:enumeration>
         </xs:restriction>
