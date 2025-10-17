@@ -25,7 +25,7 @@
     <viatge id="A2" disponible="false">
         <desti>Paris</desti>
         <pais>França</pais>
-        <transport>bus</transport>
+        <transport>Bus</transport>
         <allotjament>Hostal</allotjament>
         <dataSortida>2025-01-09</dataSortida>
         <dataRetorn>2025-01-16</dataRetorn>
