@@ -5,6 +5,8 @@
         <nomClasse>Spinning</nomClasse> 
         <monitor>Laura</monitor>
         <horari>18:00</horari>
-        <duracio></duracio>
+        <duracio>40</duracio>
+        <capacitat>20</capacitat>
+        <preu periode="menusal">1.</preu>
     </classe>
 </gimnas>
