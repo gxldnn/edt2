@@ -4,6 +4,6 @@
     <viatge id="A1" disponible="true">
         <desti>Paris</desti>
         <pais>França</pais>
-        <transport>Avió</transport>
+        <transport>Tren</transport>
     </viatge>
 </agencia>  
