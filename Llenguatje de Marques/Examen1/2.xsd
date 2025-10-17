@@ -66,8 +66,8 @@
 
     <xs:simpleType name="ivaType">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="incl"></xs:enumeration>
-            <xs:enumeration value="USD"></xs:enumeration>
+            <xs:enumeration value="inclòs"></xs:enumeration>
+            <xs:enumeration value="noinclòs"></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>
 
