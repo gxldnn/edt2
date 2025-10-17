@@ -21,7 +21,9 @@
 
     <xs:simpleType name="transportRang">
         <xs:restriction base="xs:string">
-            <xs:annotation></xs:annotation>
+            <xs:enumeration value="Avió"></xs:enumeration>
+            <xs:enumeration value="Tren"></xs:enumeration>
+            <xs:enumeration value="Avió"></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>
 
