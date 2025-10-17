@@ -10,7 +10,7 @@
         <preu periode="menusal">1.20</preu>
         <dia>Dimarts</dia>
         <especialitats>
-            <especialitat></especialitat>
+            <especialitat>Hola</especialitat>
         </especialitats>
     </classe>
 </gimnas>
