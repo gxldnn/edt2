@@ -22,7 +22,7 @@
                                     </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element></xs:element>
+                            <xs:element name="places" type=""></xs:element>
                         </xs:sequence> 
                         <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
                         <xs:attribute name="disponible" type="xs:boolean" use="required"></xs:attribute>
@@ -66,6 +66,13 @@
     </xs:simpleType>
 
     <xs:simpleType name="ivaType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="inclòs"></xs:enumeration>
+            <xs:enumeration value="noinclòs"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+        <xs:simpleType name="ivaType">
         <xs:restriction base="xs:string">
             <xs:enumeration value="inclòs"></xs:enumeration>
             <xs:enumeration value="noinclòs"></xs:enumeration>
