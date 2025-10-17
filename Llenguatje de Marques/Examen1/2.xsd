@@ -48,7 +48,9 @@
     </xs:simpleType>
 
     <xs:simpleType name="preuType">
-        xs:re
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0"></xs:minInclusive>
+        </xs:restriction>
     </xs:simpleType>
 
 
