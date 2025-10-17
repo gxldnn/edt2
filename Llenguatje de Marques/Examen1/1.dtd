@@ -11,5 +11,5 @@
 <!ELEMENT dia (Dilluns|Dimarts|Dimecres)>
 <!ELEMENT especialitats (especialitat+)>
 <!ELEMENT especialitat (#PCDATA)>
-<!ELEMENT inscrits (insc)>
+<!ELEMENT inscrits (inscrit*)>
 <!ELEMENT inscrit (#PCDATA)>
