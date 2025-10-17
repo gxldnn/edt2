@@ -9,6 +9,8 @@
         <capacitat>20</capacitat>
         <preu periode="menusal">1.20</preu>
         <dia>Dimarts</dia>
-        <especialitats></especialitats>
+        <especialitats>
+            <especialitat></especialitat>
+        </especialitats>
     </classe>
 </gimnas>
