@@ -4,3 +4,4 @@
 <!ELEMENT nomClasse (#PCDATA)>
 <!ELEMENT monitor (#PCDATA)>
 <!ELEMENT duracio (#PCDATA)>
+<!ELEMENT element-name (#PCDATA)>
