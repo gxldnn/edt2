@@ -3,8 +3,9 @@
     <xs:element name="agencia">
         <xs:complexType>
             <xs:sequence>
-                <xs:element></xs:element>
+                <xs:element name="viatge"></xs:element>
             </xs:sequence>
+            <xs:attribute></xs:attribute>
         </xs:complexType>
     </xs:element>
 </xs:schema>
