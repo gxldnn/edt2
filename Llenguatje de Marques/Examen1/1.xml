@@ -13,7 +13,9 @@
                             <xs:element name="capacitat" type="capacitatRang"></xs:element>
                             <xs:element name="preu" type="preuType">
                                 <xs:complexType>
-                                    xs
+                                    <xs:simpleContent>
+                                        <xs:extension base="preutype"></xs:extension>
+                                    </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
 
