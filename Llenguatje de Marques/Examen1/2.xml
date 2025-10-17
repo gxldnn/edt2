@@ -24,7 +24,7 @@
     </viatge>
 
     <viatge id="A2" disponible="false">
-        <desti>Paris</desti>
+        <desti>Alemania</desti>
         <pais>França</pais>
         <transport>Tren</transport>
         <allotjament>Hotel</allotjament>
