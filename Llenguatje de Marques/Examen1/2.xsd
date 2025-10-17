@@ -28,6 +28,10 @@
     </xs:simpleType>
 
     <xs:simpleType name="allotjamentRang">
-        xs
+        <xs:restriction base="">
+            <xs:enumeration value=""></xs:enumeration>
+            <xs:enumeration value=""></xs:enumeration>
+            <xs:enumeration value=""></xs:enumeration>
+        </xs:restriction>
     </xs:simpleType>
 </xs:schema>
