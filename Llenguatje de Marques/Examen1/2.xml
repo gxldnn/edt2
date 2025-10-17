@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE agencia SYSTEM "2.dtd">
 <agencia cif="GDJA1">
-    <viatge id="1" disponible="true"></viatge>
+    <viatge id="A1" disponible="true"></viatge>
 </agencia>
