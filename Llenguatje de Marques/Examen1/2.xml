@@ -17,7 +17,8 @@
             <reserva codi="A2">
                 <client>Juan</client>
                 <numPersones>7</numPersones>
-                <dataReserva>2025-05-</dataReserva>
+                <dataReserva>2025-05-09</dataReserva>
+                
             </reserva>
         </reserves>
     </viatge>
