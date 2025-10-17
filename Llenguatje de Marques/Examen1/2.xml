@@ -3,5 +3,6 @@
 <agencia cif="GDJA1">
     <viatge id="A1" disponible="true">
         <desti>Paris</desti>
+
     </viatge>
-</agencia>
+</agencia>  
