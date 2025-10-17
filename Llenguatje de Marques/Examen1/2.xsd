@@ -38,6 +38,7 @@
                                                 <xs:sequence>
                                                     <xs:element name="client"></xs:element>
                                                     <xs:element name="numPersones" type="personesRang"></xs:element>
+                                                    <xs:element></xs:element>
                                                 </xs:sequence>
                                                 <xs:attribute name="codi" type="xs:ID" use="required"></xs:attribute>
                                             </xs:complexType>
@@ -105,7 +106,7 @@
     <xs:simpleType name="personesRang">
         <xs:restriction base="xs:int">
             <xs:minInclusive value="1"></xs:minInclusive>
-            <xs:maxInclusive value="100"></xs:maxInclusive>
+            <xs:maxInclusive value="10"></xs:maxInclusive>
         </xs:restriction>
     </xs:simpleType>
 
