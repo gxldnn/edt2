@@ -2,4 +2,4 @@
 <!ATTLIST agencia cif ID #REQUIRED>
 <!ELEMENT viatge ()>
 <!ATTLIST viatge id ID #REQUIRED>
-<!ATTLIST viatge disponible ID #REQUIRED>
+<!ATTLIST viatge disponible CDATA () #REQUIRED>
