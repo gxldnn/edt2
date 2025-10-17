@@ -2,6 +2,6 @@
 <!DOCTYPE agencia SYSTEM "2.dtd">
 <agencia cif="GDJA1">
     <viatge id="A1" disponible="true">
-        <desti></desti>
+        <desti>Paris</desti>
     </viatge>
 </agencia>
