@@ -56,7 +56,9 @@
 
     <xs:simpleType name="periodeType">
         <xs:restriction base="xs:string">
-            <xs:enumeration value=""></xs:enumeration>
+            <xs:enumeration value="sessió"></xs:enumeration>
+            <xs:enumeration value="menusal"></xs:enumeration>
+            <xs:enumeration value="trimestral"></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>
 
