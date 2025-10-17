@@ -21,10 +21,10 @@
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="dia" minOccurs="1" maxOccurs="unbounded" type="diaType"></xs:element>
-                            <xs:element name="especialitat" type="xs:string" minOccurs="0" maxOccurs="1">
+                            <xs:element name="especialitat"  minOccurs="0" maxOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name=""></xs:element>
+                                        <xs:element name="especialitat" ></xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
