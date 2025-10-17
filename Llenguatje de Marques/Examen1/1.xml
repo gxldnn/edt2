@@ -11,7 +11,7 @@
                             <xs:element name="horari" type="xs:string"></xs:element>
                             <xs:element name="duracio" type="rangDuracio"></xs:element>
                             <xs:element name="capacitat" type="capacitatRang"></xs:element>
-                            <xs:element name="preu"></xs:element>
+                            <xs:element name="preu" type="preuType"></xs:element>
                         </xs:sequence>
                         <xs:attribute name="codi" type="xs:ID"></xs:attribute>
                         <xs:attribute name="activa" type="xs:boolean"></xs:attribute>
