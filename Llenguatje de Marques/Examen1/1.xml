@@ -4,6 +4,7 @@
     <classe codi="Hola1" activa="false">
         <nomClasse>Spinning</nomClasse> 
         <monitor>Laura</monitor>
-        <horari></horari>
+        <horari>18:00</horari>
+        <duracio></duracio>
     </classe>
 </gimnas>
