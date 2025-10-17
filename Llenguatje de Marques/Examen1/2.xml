@@ -16,7 +16,8 @@
         <reserves>
             <reserva codi="A2">
                 <client>Juan</client>
-                <numPersones></numPersones>
+                <numPersones>7</numPersones>
+                
             </reserva>
         </reserves>
     </viatge>
