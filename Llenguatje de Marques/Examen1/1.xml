@@ -28,7 +28,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-
+                            <xs:element name="inscrits"></xs:element>
                         </xs:sequence>
                         <xs:attribute name="codi" type="xs:ID"></xs:attribute>
                         <xs:attribute name="activa" type="xs:boolean"></xs:attribute>
