@@ -5,6 +5,6 @@
         <desti>Paris</desti>
         <pais>França</pais>
         <transport>Tren</transport>
-        
+        <allotjament></allotjament>
     </viatge>
 </agencia>  
