@@ -31,9 +31,7 @@
         <dataRetorn>2025-01-16</dataRetorn>
         <preu moneda="EUR">1.20</preu>
         <places>40</places>
-        <visitesIncloses>
-            <visita>Si</visita>
-        </visitesIncloses>
+
         <reserves>
             <reserva codi="A2">
                 <client>Juan</client>
