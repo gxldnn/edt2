@@ -15,7 +15,8 @@
         </visitesIncloses>
         <reserves>
             <reserva codi="A2">
-                <client></client>
+                <client>Juan</client>
+                
             </reserva>
         </reserves>
     </viatge>
