@@ -14,7 +14,7 @@
             <visita>Si</visita>
         </visitesIncloses>
         <reserves>
-            <reserva codi="R2">
+            <reserva codi="R1">
                 <client>Juan</client>
                 <numPersones>7</numPersones>
                 <dataReserva>2025-05-09</dataReserva>
