@@ -1,2 +1,3 @@
 <!ELEMENT agencia (viatge+)>
 <!ATTLIST agencia cif ID #REQUIRED>
+<!ELEMENT viatge )>
