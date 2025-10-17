@@ -35,7 +35,7 @@
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="nomSoci" type="xs:string"></xs:element>
-                                                    <xs:element name="dataInscripcio" ></xs:element>
+                                                    <xs:element name="dataInscripcio" type="xs:date"></xs:element>
                                                 </xs:sequence>
                                                 <xs:attribute name="soci" type="xs:ID" use="required"></xs:attribute>
                                             </xs:complexType>
