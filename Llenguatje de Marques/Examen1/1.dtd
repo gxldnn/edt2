@@ -1,1 +1,1 @@
-<!ELEMENT gimnas (#PCDATA)>
+<!ELEMENT gimnas ()>
