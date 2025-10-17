@@ -19,4 +19,8 @@
             <xs:attribute name="nom" use="required"></xs:attribute>
         </xs:complexType>
     </xs:element>
+
+    <xs:simpleType name="rangDuracio"></xs:simpleType>
+
+
 </xs:schema>
