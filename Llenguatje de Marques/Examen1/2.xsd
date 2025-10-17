@@ -33,7 +33,10 @@
                             <xs:element name="reserves" minOccurs="0" maxOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="reserva" minOccurs="1"></xs:element>
+                                        <xs:element name="reserva" minOccurs="0" maxOccurs="unbounded">
+                                            
+                                        </xs:element>
+
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
