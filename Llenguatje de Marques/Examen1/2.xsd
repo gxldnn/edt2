@@ -47,7 +47,9 @@
         </xs:restriction>
     </xs:simpleType>
 
-    
+    <xs:simpleType name="preuType">
+        xs:re
+    </xs:simpleType>
 
 
         <xs:simpleType name="monedatype">
