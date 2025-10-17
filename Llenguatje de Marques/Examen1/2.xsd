@@ -56,7 +56,7 @@
     </xs:simpleType>
 
 
-        <xs:simpleType name="monedaType">
+    <xs:simpleType name="monedaType">
         <xs:restriction base="xs:string">
             <xs:enumeration value="EUR"></xs:enumeration>
             <xs:enumeration value="USD"></xs:enumeration>
@@ -64,11 +64,10 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="monedaType">
+    <xs:simpleType name="ivaType">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="EUR"></xs:enumeration>
+            <xs:enumeration value="incl"></xs:enumeration>
             <xs:enumeration value="USD"></xs:enumeration>
-            <xs:enumeration value="GBP"></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>
 
