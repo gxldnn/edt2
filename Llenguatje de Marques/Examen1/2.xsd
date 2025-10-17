@@ -23,6 +23,7 @@
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="places" type="placesRang"></xs:element>
+                            
                         </xs:sequence> 
                         <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
                         <xs:attribute name="disponible" type="xs:boolean" use="required"></xs:attribute>
@@ -72,7 +73,7 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="placesrang">
+    <xs:simpleType name="placesRang">
         <xs:restriction base="xs:int">
             <xs:minInclusive value="1"></xs:minInclusive>
             <xs:maxInclusive value="100"></xs:maxInclusive>
