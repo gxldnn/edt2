@@ -4,7 +4,7 @@
 <!ATTLIST classe activa (false|true) #REQUIRED>
 <!ELEMENT nomClasse (#PCDATA)>
 <!ELEMENT monitor (#PCDATA)>
-<!ELEMENT element-name (#PCDATA)>
+<!ELEMENT horari (#PCDATA)>
 <!ELEMENT duracio (#PCDATA)>
 <!ELEMENT capacitat (#PCDATA)>
 <!ELEMENT preu (#PCDATA)>
