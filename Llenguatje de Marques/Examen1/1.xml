@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE gimnas SYSTEM "1.dtd">
-<gimnas>
+<gimnas nom>
     <classe codi="Hola1" activa="false">
         <nomClasse>Spinning</nomClasse> 
         <monitor>Laura</monitor>
