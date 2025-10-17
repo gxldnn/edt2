@@ -10,7 +10,7 @@
         <dataRetorn>2025-01-16</dataRetorn>
         <preu moneda="EUR" iva="inclòs">1.20</preu>
         <places>40</places>
-        
+        <visitesIncloses></visitesIncloses>
 
     </viatge>
 </agencia>  
