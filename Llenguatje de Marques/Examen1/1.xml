@@ -15,7 +15,7 @@
                                 <xs:complexType>
                                     <xs:simpleContent>
                                         <xs:extension base="preuType">
-                                            <xs:attribute name=""></xs:attribute>
+                                            <xs:attribute name="periode" use="required" type=""></xs:attribute>
                                         </xs:extension>
                                     </xs:simpleContent>
                                 </xs:complexType>
