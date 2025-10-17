@@ -7,4 +7,5 @@
 <!ELEMENT pais (#PCDATA)>
 <!ELEMENT transports (Avió|Tren|Bus)>
 <!ELEMENT allotjament (Hotel|Apartament|Hostal)>
-!
+<!ELEMENT dataSortida (#PCDATA)>
+<!ELEMENT dataSortida (#PCDATA)>
