@@ -14,7 +14,9 @@
             <visita>Si</visita>
         </visitesIncloses>
         <reserves>
-            <reserva codi=""></reserva>
+            <reserva codi="A2">
+                
+            </reserva>
         </reserves>
     </viatge>
 </agencia>  
