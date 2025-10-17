@@ -23,7 +23,7 @@
         </reserves>
     </viatge>
 
-    <viatge id="A1" disponible="true">
+    <viatge id="A2" disponible="true">
         <desti>Paris</desti>
         <pais>França</pais>
         <transport>Tren</transport>
