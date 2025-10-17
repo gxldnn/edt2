@@ -12,4 +12,4 @@
 <!ELEMENT especialitats (especialitat+)>
 <!ELEMENT especialitat (#PCDATA)>
 <!ELEMENT inscrits (inscrit*)>
-<!ELEMENT inscrit (#PCDATA)>
+<!ELEMENT inscrit (nomSoci, dataInscripcio)>
