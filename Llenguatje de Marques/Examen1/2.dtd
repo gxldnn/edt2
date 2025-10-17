@@ -5,7 +5,7 @@
 <!ATTLIST viatge disponible (true|false) #REQUIRED>
 <!ELEMENT desti (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
-<!ELEMENT transports (Avió|Tren|Bus)>
+<!ELEMENT transport (Avió|Tren|Bus)>
 <!ELEMENT allotjament (Hotel|Apartament|Hostal)>
 <!ELEMENT dataSortida (#PCDATA)>
 <!ELEMENT dataRetorn (#PCDATA)>
