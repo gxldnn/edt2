@@ -21,7 +21,9 @@
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="dia" minOccurs="1" maxOccurs="unbounded" type="diaType"></xs:element>
-                            <xs:element name="especialitat" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+                            <xs:element name="especialitat" type="xs:string" minOccurs="0" maxOccurs="1">
+                                
+                            </xs:element>
 
                         </xs:sequence>
                         <xs:attribute name="codi" type="xs:ID"></xs:attribute>
