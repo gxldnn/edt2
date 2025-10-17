@@ -55,8 +55,9 @@
     </xs:simpleType>
 
     <xs:simpleType name="periodeType">
-        <xs:list>
-        </xs:list>
+        <xs:restriction>
+            <xs:enumeration value=""></xs:enumeration>
+        </xs:restriction>
     </xs:simpleType>
 
 </xs:schema>
