@@ -39,7 +39,7 @@
 
     <xs:simpleType name="preuType">
         <xs:restriction base="xs:decimal">
-
+            <xs:minIxclusive value="0"></xs:minExclusive>
 
         </xs:restriction>
     </xs:simpleType>
