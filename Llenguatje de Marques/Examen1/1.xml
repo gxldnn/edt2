@@ -20,7 +20,7 @@
                                     </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="dia" minOccurs="1" maxOccurs="unbounded" type=""></xs:element>
+                            <xs:element name="dia" minOccurs="1" maxOccurs="unbounded" type="diaType"></xs:element>
 
                         </xs:sequence>
                         <xs:attribute name="codi" type="xs:ID"></xs:attribute>
@@ -56,6 +56,14 @@
     </xs:simpleType>
 
     <xs:simpleType name="periodeType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="sessió"></xs:enumeration>
+            <xs:enumeration value="menusal"></xs:enumeration>
+            <xs:enumeration value="trimestral"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+        <xs:simpleType name="periodeType">
         <xs:restriction base="xs:string">
             <xs:enumeration value="sessió"></xs:enumeration>
             <xs:enumeration value="menusal"></xs:enumeration>
