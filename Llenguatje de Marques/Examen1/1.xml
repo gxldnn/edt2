@@ -11,10 +11,12 @@
                             <xs:element name="horari" type="xs:string"></xs:element>
                             <xs:element name="duracio" type="rangDuracio"></xs:element>
                             <xs:element name="capacitat" type="capacitatRang"></xs:element>
-                            <xs:element name="preu" type="preuType">
+                            <xs:element name="preu">
                                 <xs:complexType>
                                     <xs:simpleContent>
-                                        <xs:extension base="preutype"></xs:extension>
+                                        <xs:extension base="preutype">
+                                            <xs:attribute></xs:attribute>
+                                        </xs:extension>
                                     </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
