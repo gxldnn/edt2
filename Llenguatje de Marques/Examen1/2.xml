@@ -22,17 +22,5 @@
             </reserva>
         </reserves>
     </viatge>
-    <viatge id="C2" disponible="false">
-        <desti>Paris</desti>
-        <pais>França</pais>
-        <transport>Bus</transport>
-        <allotjament>Hostal</allotjament>
-        <dataSortida>2025-01-09</dataSortida>
-        <dataRetorn>2025-01-16</dataRetorn>
-        <preu moneda="EUR">1.20</preu>
-        <places>40</places>
 
-        <reserves></reserves>
-        </reserves>
-    </viatge>
 </agencia>  
