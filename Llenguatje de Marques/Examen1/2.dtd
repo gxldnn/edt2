@@ -18,4 +18,5 @@
 <!ELEMENT reserves (reserva*)>
 <!ELEMENT reserva (client, numPersones, dataReserva, confirmada)>
 <!ATTLIST reserva codi ID #REQUIRED>
+<!ELEMENT client (#PCDATA)>
 <!ELEMENT element-name (#PCDATA)>
