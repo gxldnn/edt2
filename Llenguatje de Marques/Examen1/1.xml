@@ -20,7 +20,11 @@
         </xs:complexType>
     </xs:element>
 
-    <xs:simpleType name="rangDuracio"></xs:simpleType>
+    <xs:simpleType name="rangDuracio">
+        <xs:restriction>
+            <xs:maxInclusive value=""></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
 
 
 </xs:schema>
