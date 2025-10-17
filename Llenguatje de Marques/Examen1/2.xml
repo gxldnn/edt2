@@ -26,8 +26,8 @@
     <viatge id="A2" disponible="false">
         <desti>California</desti>
         <pais>USA</pais>
-        <transport>Tren</transport>
-        <allotjament>Hotel</allotjament>
+        <transport>Avió</transport>
+        <allotjament>Ho</allotjament>
         <dataSortida>2025-01-09</dataSortida>
         <dataRetorn>2025-01-16</dataRetorn>
         <preu moneda="EUR" iva="inclòs">1.20</preu>
