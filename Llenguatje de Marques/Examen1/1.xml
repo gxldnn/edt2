@@ -33,9 +33,9 @@
             <especialitat>Hola2</especialitat>
         </especialitats>
         <inscrits>
-            <inscrit soci="Soci1">
-                <nomSoci>Juan</nomSoci>
-                <dataInscripcio>2025-03-15</dataInscripcio>
+            <inscrit soci="Soci2">
+                <nomSoci>peter</nomSoci>
+                <dataInscripcio>2025-01-09</dataInscripcio>
             </inscrit>
         </inscrits>
     </classe>
