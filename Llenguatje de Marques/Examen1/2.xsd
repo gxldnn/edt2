@@ -102,7 +102,7 @@
         </xs:restriction>
     </xs:simpleType>
     
-    <xs:simpleType name="placesRang">
+    <xs:simpleType name="personesRang">
         <xs:restriction base="xs:int">
             <xs:minInclusive value="1"></xs:minInclusive>
             <xs:maxInclusive value="100"></xs:maxInclusive>
