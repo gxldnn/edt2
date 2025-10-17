@@ -6,7 +6,6 @@
                 <xs:element name="classe" minOccurs="1" maxOccurs="unbounded"></xs:element>
             </xs:sequence>
             <xs:attribute name="nom" use="required"></xs:attribute>
-            
         </xs:complexType>
     </xs:element>
 </xs:schema>
