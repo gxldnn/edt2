@@ -29,6 +29,7 @@ button{
 
 a.button {
   display: inline-block;
+  cursor: pointer;
   background-color: transparent;
   color: white;
   margin-top: 4rem;
@@ -37,6 +38,7 @@ a.button {
 }
 a.buttoninvert {
   display: inline-block;
+  cursor: pointer;
   background-color: transparent;
   color: white;
   margin-top: 1rem;
