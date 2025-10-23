@@ -10,7 +10,6 @@ body::before {
   background-size: cover;
   background-position: center;
   transform: scaleX(-1); /* 👈 Flips horizontally */
-  z-index: -1; /* 👈 Keeps it behind everything */
 }
 
 img.imgprr{
