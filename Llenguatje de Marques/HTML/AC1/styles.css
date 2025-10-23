@@ -4,7 +4,7 @@ body{
 }
 
 .invert{
-    transform: scaleX(-1); /* 👈 Flips horizontally */
+transform: scaleX(-1); /* 👈 Flips horizontally */
   z-index: -1; /* 👈 Keeps it behind everything */
 
 }
