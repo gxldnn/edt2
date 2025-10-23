@@ -5,15 +5,15 @@ body{
 }
 
 
-body{
+body.flipped-bg::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url(https://uploads.dailydot.com/2024/07/dababy-convertible.jpg?q=65&auto=format&w=1600&ar=2:1&fit=crop);
+  background-image: inherit;
   background-size: cover;
   background-position: center;
-  transform: scaleX(-1); /* 👈 Flips horizontally */
-  z-index: -1; /* 👈 Keeps it behind everything */
+  transform: scaleX(-1);
+  z-index: -1;
 }
 
 img.imgprr{
