@@ -26,33 +26,22 @@ button{
     padding-left: 4rem;
     height: -30rem;
 }
-a {
-  text-decoration: none;
-  color: inherit;
-}
 
-/* 👇 La manito solo aparece al pasar el ratón */
-a:hover {
-  cursor: pointer;
-}
-
-/* Botón normal */
 a.button {
   display: inline-block;
+  cursor: pointer;
   background-color: transparent;
   color: white;
   margin-top: 4rem;
   padding: 2rem 2rem;
   margin-left: 95rem;
 }
-
-/* Botón invertido */
 a.buttoninvert {
   display: inline-block;
+  cursor: pointer;
   background-color: transparent;
   color: white;
   margin-top: 1rem;
   padding: 2rem 2rem;
   margin-left: 7rem;
 }
-
