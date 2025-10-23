@@ -30,6 +30,6 @@ button{
 }
 
 button.invert{
-
+    position: relative;
 
 }
