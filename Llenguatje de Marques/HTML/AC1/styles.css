@@ -26,7 +26,7 @@ button{
     padding-left: 4rem;
     height: -30rem;
 }
-
+a{}
 a.button {
   display: inline-block;
   cursor: pointer;
