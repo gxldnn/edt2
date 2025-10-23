@@ -5,7 +5,7 @@ body{
 }
 
 
-body::before {
+body.invert {
   content: "";
   position: absolute;
   inset: 0;
