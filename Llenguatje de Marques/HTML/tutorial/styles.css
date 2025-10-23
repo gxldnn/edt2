@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+.paragrafGran{
+    font-size: 6rem;
+}
+
+#quart{
+    color: orange;
+}
+
+section > h1 {
+    text-align: center;
+} 
