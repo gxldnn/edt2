@@ -35,7 +35,7 @@ a.button {
   padding: 2rem 2rem;
   margin-left: rem;
 }
-a.button {
+a.buttoninvert {
   display: inline-block;
   background-color: blue;
   color: white;
