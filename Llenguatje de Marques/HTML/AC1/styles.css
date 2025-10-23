@@ -26,7 +26,7 @@ button{
     padding-left: 4rem;
     height: -30rem;
 }
-a::hover{
+a:hover{
     cursor: pointer;
 }
 a.button {
