@@ -3,7 +3,10 @@ body{
     background-size: cover;
 }
 
-.invert
+.invert{
+  z-index: -1; /* 👈 Keeps it behind everything */
+
+}
 
 img.imgprr{
     width: 200px;
