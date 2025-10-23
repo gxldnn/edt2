@@ -5,7 +5,7 @@ body{
 }
 
 
-body.flipped-bg::before {
+body.invert-bg::before {
   content: "";
   position: absolute;
   inset: 0;
