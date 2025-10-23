@@ -35,3 +35,11 @@ a.button {
   padding: 2rem 2rem;
   margin-left: rem;
 }
+a.button {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  margin-top: 4rem;
+  padding: 2rem 2rem;
+  margin-left: rem;
+}
