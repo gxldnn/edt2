@@ -29,7 +29,7 @@ button{
 
 a.button {
   display: inline-block;
-  background-color: #0078ff;
+  background-color: transparent;
   color: white;
   margin-top: 4rem;
   padding: 2rem 2rem;
