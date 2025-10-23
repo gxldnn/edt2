@@ -37,7 +37,7 @@ a.button {
 }
 a.buttoninvert {
   display: inline-block;
-  background-color: blue;
+  background-color: transparent;
   color: white;
   margin-top: 1rem;
   padding: 2rem 2rem;
