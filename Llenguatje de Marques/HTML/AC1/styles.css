@@ -1,47 +1,73 @@
-body{
-    background-image: url(https://uploads.dailydot.com/2024/07/dababy-convertible.jpg?q=65&auto=format&w=1600&ar=2:1&fit=crop);
-    background-size: cover;
-    
+/* Fondo principal */
+body {
+	background-image: url(https://uploads.dailydot.com/2024/07/dababy-convertible.jpg?q=65&auto=format&w=1600&ar=2:1&fit=crop);
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	color: black;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+	padding: 2rem;
 }
 
-
+/* Fondo invertido */
 body.invert::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: inherit;
-  background-size: cover;
-  background-position: center;
-  transform: scaleX(-1);
-  z-index: -1;
+	content: "";
+	position: absolute;
+	inset: 0;
+	background-image: inherit;
+	background-size: cover;
+	background-position: center;
+	transform: scaleX(-1);
+	z-index: -1;
 }
 
-img.imgprr{
-    width: 200px;
+/* Encabezados */
+h1, h2, h3 {
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
 }
 
-button{
-    margin-left: 95rem;
-    padding-bottom: 6rem;
-    padding-left: 4rem;
-    height: -30rem;
-}º
+/* Párrafos */
+p {
+	margin-bottom: 1rem;
+}
 
+/* Imágenes */
+img.imgprr {
+	width: 200px;
+	border-radius: 8px;
+	margin-bottom: 1rem;
+	box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+
+/* Botones invisibles (manteniendo tus coordenadas exactas) */
 a.button {
-  display: inline-block;
-  cursor: pointer;
-  background-color: transparent;
-  color: white;
-  margin-top: 4rem;
-  padding: 2rem 2rem;
-  margin-left: 95rem;
+	position: absolute;
+	top: 24rem;
+	left: 108rem;
+	width: 80px;
+	height: 80px;
+	background-color: transparent;
+	cursor: pointer;
+	z-index: 10;
 }
+
 a.buttoninvert {
-  display: inline-block;
-  cursor: pointer;
-  background-color: transparent;
-  color: white;
-  margin-top: 1rem;
-  padding: 2rem 2rem;
-  margin-left: 7rem;
+	position: absolute;
+	top: 23rem;
+	left: 7rem;
+	width: 80px;
+	height: 80px;
+	background-color: transparent;
+	cursor: pointer;
+	z-index: 10;
+}
+
+/* Enlaces */
+a {
+	color: #ffd966;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
