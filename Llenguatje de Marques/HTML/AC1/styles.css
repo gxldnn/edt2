@@ -16,7 +16,7 @@ body.invert::before {
 	background-image: inherit;
 	background-size: cover;
 	background-position: center;
-	transform: scaleX(-1);
+	transform: scaleX(-1); /* Invierte la imagen */
 	z-index: -1;
 }
 
@@ -39,7 +39,7 @@ img.imgprr {
 	box-shadow: 0 0 6px rgba(0,0,0,0.3);
 }
 
-/* Botones invisibles (manteniendo tus coordenadas exactas) */
+/* Botones invisibles */
 a.button {
 	position: absolute;
 	top: 24rem;
