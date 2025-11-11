@@ -1,5 +1,5 @@
 nav h1{
-    display: ;
+    display: flex;
     color: orange;
     justify-content: flex-end;
 }
