@@ -1,7 +1,7 @@
 nav h1{
     display: flex;
     color: orange;
-    justify-content: flex-end;
+    justify-content: center;
 }
 nav ul {
     display: flex;
