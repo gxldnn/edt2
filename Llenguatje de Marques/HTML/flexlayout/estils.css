@@ -13,6 +13,7 @@ nav ul {
     border-style: solid;
 }
 article h1{
-    display
+    display: flex;
+    
 
 }
