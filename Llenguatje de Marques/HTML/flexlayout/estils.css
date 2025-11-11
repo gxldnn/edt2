@@ -31,4 +31,7 @@ article ul li {
     border-width: 0.5rem;
 }
 
-article + article ul
+article + article ul{
+    
+
+}
