@@ -21,7 +21,7 @@ article:first-of-type ul {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
 }
-article:firs ul li {
+article:first-of-type ul li {
     padding: 8rem;
     display: grid;
     background-color: grey;
