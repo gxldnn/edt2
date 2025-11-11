@@ -8,7 +8,7 @@ nav h1{
 }
 nav ul {
     display: flex;
-    mari
+    margin: 
     justify-content:  space-around;
     border-style: solid;
     list-style-type: none;
