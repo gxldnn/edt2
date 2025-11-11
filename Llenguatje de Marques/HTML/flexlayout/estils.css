@@ -19,6 +19,6 @@ article h1{
 }
 article ul {
     display :flex;
-    grid-template-columns:  ;
+    grid-template-columns: 2rem 2rem ;
 
 }
