@@ -21,3 +21,7 @@ article ul {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
 }
+article ul li {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
