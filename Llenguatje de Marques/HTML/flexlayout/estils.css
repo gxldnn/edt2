@@ -20,6 +20,7 @@ article h1{
 article ul {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+    align-items: ;
 }
 article ul li {
     padding: 2rem;
