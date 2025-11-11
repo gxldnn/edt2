@@ -18,7 +18,7 @@ article h1{
     justify-content: center;
 }
 article ul {
-    display :flex;
+    display :gri;
     grid-template-columns: 2 ;
     grid-template-rows: ;
 
