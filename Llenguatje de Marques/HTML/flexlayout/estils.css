@@ -22,7 +22,7 @@ article ul {
     grid-template-columns: auto auto auto auto auto;
 }
 article ul li {
-    padding:10rem;
+    padding: 8rem;
     display: grid;
     background-color: grey;
     text-align: center;
