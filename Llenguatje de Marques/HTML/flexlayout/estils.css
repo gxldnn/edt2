@@ -1,4 +1,4 @@
 nav {
     display: flex;
-    flex;
+    flex-direction: row;
 }
