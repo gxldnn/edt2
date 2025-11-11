@@ -33,7 +33,7 @@ article ul li {
 
 /*Segon article???*/
 
-footer{
+footer ul{
     display: flex;
     justify-content: row;
 
