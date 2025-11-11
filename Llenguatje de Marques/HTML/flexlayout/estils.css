@@ -32,6 +32,6 @@ article ul li {
 }
 
 article + article ul{
-    display: flex;
-    
+    display: flex !important;
+
 }
