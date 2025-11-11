@@ -37,6 +37,6 @@ footer ul{
     display: flex;
     justify-content: space-around;
     border-style: solid;
-    border-color: black
+    border-color: black;
 
 }
