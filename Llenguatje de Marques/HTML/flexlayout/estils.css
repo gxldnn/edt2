@@ -36,6 +36,6 @@ article ul li {
 footer ul{
     display: flex;
     justify-content: space-around;
-    border
+    border-style: solid black;
 
 }
