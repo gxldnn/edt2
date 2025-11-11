@@ -11,7 +11,7 @@ nav ul {
     justify-content:  space-around;
     border-style: solid;
     list-style-type: none;
-    outline: ;
+    outline: 10px;
 }
 article h1{
     padding-top: 3rem;
