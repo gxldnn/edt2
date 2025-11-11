@@ -1,5 +1,6 @@
 nav h1{
     color: orange;
+    justify-content: center;
 }
 nav ul {
     display: flex;
