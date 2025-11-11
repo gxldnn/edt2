@@ -17,7 +17,7 @@ article:first-of-type h1{
     display: flex;
     justify-content: center;
 }
-article:firs ul {
+article:first-of-type ul {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
 }
