@@ -34,6 +34,6 @@ article ul li {
 /*Segon article???*/
 
 footer{
-  display: flex;
-
+    display: flex;
+    align-items: ;
 }
