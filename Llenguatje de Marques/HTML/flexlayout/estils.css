@@ -35,6 +35,6 @@ article ul li {
 
 footer ul{
     display: flex;
-    justify-content: row;
+    justify-content: space-around;
 
 }
