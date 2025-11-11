@@ -32,7 +32,7 @@ article:first-of-type ul li {
 }
 
 article:nth-of-type(2) h1{
-    color:
+    color: magenta
     padding-top: 3rem;
     display: flex;
     justify-content: center;
