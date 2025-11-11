@@ -20,5 +20,6 @@ article h1{
 article ul {
     display :flex;
     grid-template-columns: 2 ;
+    grid-template-rows: ;
 
 }
