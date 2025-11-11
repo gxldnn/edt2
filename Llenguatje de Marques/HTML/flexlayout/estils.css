@@ -6,5 +6,6 @@ nav h1{
 nav ul {
     display: flex;
     justify-content:  space-around;
-border: 1cap;    border-color: black;
+border: 1cap;
+    border-color: black;
 }
