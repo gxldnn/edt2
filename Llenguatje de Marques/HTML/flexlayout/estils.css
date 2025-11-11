@@ -31,9 +31,4 @@ article ul li {
     border-width: 0.5rem;
 }
 
-article + article ul{
-  background-color: transparent;
-  border: none;
-  padding: 0;
-
-}
+Segon article???
