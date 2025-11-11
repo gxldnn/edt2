@@ -9,7 +9,6 @@ nav h1{
 nav ul {
     display: flex;
     justify-content:  space-around;
-    border: 1px;
     border-style: solid;
     list-style-type: none;
 }
