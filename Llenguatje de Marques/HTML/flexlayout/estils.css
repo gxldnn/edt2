@@ -6,7 +6,7 @@ nav h1{
 nav ul {
     display: flex;
     justify-content:  space-around;
-    border: ;
+    border: 10p;
     border-color: black;
     border-width: 1px;
 }
