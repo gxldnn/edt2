@@ -12,12 +12,12 @@ nav ul {
     border-style: solid;
     list-style-type: none;
 }
-article:fit h1{
+article:first-of-type h1{
     padding-top: 3rem;
     display: flex;
     justify-content: center;
 }
-article ul {
+article: ul {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
 }
