@@ -29,5 +29,6 @@ article ul li {
     border-style: solid;
     border-color: white;
     border-width: 0.5rem;
-
 }
+
+article + article ul
