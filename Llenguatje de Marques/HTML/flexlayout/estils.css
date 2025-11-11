@@ -31,8 +31,11 @@ article:first-of-type ul li {
     border-width: 0.5rem;
 }
 
-/*Segon article???*/
-
+article:nth-of-type h1{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
 
 footer ul{
     display: flex;
