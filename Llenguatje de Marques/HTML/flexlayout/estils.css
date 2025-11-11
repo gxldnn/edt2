@@ -24,4 +24,5 @@ article ul {
 article ul li {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+    
 }
