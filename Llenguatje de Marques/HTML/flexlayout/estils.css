@@ -30,7 +30,7 @@ article:first-of-type ul li {
     display: grid;
     background-color: grey;
     text-align: center;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 article:nth-of-type(2) h1{
