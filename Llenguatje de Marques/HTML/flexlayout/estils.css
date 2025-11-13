@@ -30,9 +30,6 @@ article:first-of-type ul li {
     display: grid;
     background-color: grey;
     text-align: center;
-    border-style: solid;
-    border-color: white;
-    border-width: 0.5rem;
 }
 
 article:nth-of-type(2) h1{
