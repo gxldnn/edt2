@@ -42,7 +42,7 @@ section.sec1 {
 }
 sub.subflex {
     display: grid;
-    grid-template-columns: 1fr 1;
+    grid-template-columns: 1fr 15rem;
     justify-content: space-between;
     text-align: justify;
     height: fit-content;
