@@ -54,4 +54,5 @@ section.sec2{
 
 footer{
     justify-content: flex-end;
+    margin-top: auto;
 }
