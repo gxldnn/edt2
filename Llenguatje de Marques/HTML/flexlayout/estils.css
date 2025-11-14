@@ -49,7 +49,9 @@ sub.subflex {
     text-align: justify;
     height: fit-content;
 }
-
+sub.subflex span {
+    margin: 1rem 5rem 0 4rem; /* mueve el contenedor, no la imagen */
+}
 /* IMAGEN GRANDE DE SEC1 */
 sub.subflex span img {
     width: 100%;
