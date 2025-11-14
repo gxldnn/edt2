@@ -40,12 +40,13 @@ section.sec1 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     height: max-content;
+    
 }
 
 section.sec2 {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    
+
 }
 
 /* IMAGES */
