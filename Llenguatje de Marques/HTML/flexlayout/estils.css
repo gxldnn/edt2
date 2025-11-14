@@ -55,7 +55,6 @@ sub.subflex span img {
     width: 100%;
     height: auto;
     max-height: none;   /* ← ESTO es lo importante */
-    margin: 1rem 5rem 0px 4rem; 
 }
 
 /* SEC2 */
