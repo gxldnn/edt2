@@ -45,7 +45,7 @@ sub.subflex {
     flex-direction: row;
     justify-content: space-between;
     text-align: justify;
-    height: ;
+    height: fit-content;
 
 }
 sub.subflex img{
