@@ -49,8 +49,6 @@ sub.subflex {
 
 }
 sub.subflex span img{
-    align-self: flex-start;
-    margin: 1rem 5rem 0px 4rem; 
 }
 
 
