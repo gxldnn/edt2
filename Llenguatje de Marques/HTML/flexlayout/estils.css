@@ -52,12 +52,12 @@ sub.subflex {
 sub.subflex span {
     margin: 1rem 5rem 0 4rem; /* mueve el contenedor, no la imagen */
 }
+
 /* IMAGEN GRANDE DE SEC1 */
 sub.subflex span img {
     width: 100%;
     height: auto;
     max-height: none;   /* ← ESTO es lo importante */
-    margin: 1rem 1rem 1rem 1rem;
     object-fit: contain;
 }
 
