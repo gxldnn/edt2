@@ -41,7 +41,7 @@ section.sec1 {
     grid-template-rows: 1fr 1fr 1fr;    
 }
 sub.subflex {
-    display: flex;
+    display: grid;
     flex-direction: row;
     justify-content: space-between;
     text-align: justify;
