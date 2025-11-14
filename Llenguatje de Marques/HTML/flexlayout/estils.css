@@ -79,7 +79,10 @@ section.sec2 {
     border-radius: 5px;
 }
 
-.subinfo:hover
+.subinfo:hover{
+
+    
+}
 
 img {
     max-height: 3rem;
