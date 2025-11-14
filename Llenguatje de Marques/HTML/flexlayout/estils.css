@@ -61,6 +61,7 @@ sub.subflex span img {
     max-height: none;
     display: block;
     border-radius: 6px;
+    animation: glitch 2s infinite;
 }
 
 section.sec2 {
