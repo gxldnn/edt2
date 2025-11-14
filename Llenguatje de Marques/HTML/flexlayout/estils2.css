@@ -12,3 +12,15 @@ header {
     padding: 0;
     background: linear-gradient(174deg, rgba(204,117,250,1) 0%, rgba(38,6,56,1) 81%);
 }
+
+header.header1 {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+header.header1 h1 {
+    margin: 0;
+    text-shadow: 2px 2px rgba(230,184,255,0.423);
+}
