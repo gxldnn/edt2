@@ -51,7 +51,7 @@ sub.subflex {
 sub.subflex span img{
     margin: 1rem 5rem 0px 4rem; 
     min-width:auto;
-    min-height: ;
+    min-height: auto;
 }
 
 
