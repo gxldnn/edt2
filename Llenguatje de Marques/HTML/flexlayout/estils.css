@@ -82,7 +82,7 @@ section.sec2 {
 .subinfo::before{
     padding: 1rem;
     font-size: 1.1rem;
-    background: image();
+    background: url(img/cursedgif.gif);
     border-radius: 5px;
 }
 
