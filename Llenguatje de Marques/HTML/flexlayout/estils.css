@@ -47,8 +47,8 @@ sub.subflex {
 
 }
 sub.subflex img{
-    align-self: flex-start
-    ;   
+    align-self: flex-start;
+    height: 10rem;   
 }
 
 
