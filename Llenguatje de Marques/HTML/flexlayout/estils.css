@@ -46,7 +46,7 @@ sub.subflex {
 
 }
 sub.subflex img{
-    align-items: center;
+    align-items: flex-start;
    
 }
 
