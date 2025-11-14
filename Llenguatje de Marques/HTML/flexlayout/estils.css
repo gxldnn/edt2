@@ -81,7 +81,7 @@ section.sec2 {
 .subinfo:hover {
     padding: 1rem;
     font-size: 1.1rem;
-    background: url();
+    background: url(img/cursedgif.gif);
     border-radius: 5px;
 }
 
