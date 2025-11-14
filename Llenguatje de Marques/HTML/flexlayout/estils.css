@@ -45,6 +45,7 @@ section.sec1 {
 section.sec2 {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    
 }
 
 /* IMAGES */
@@ -61,7 +62,7 @@ footer {
 
 .sec1 p {
     margin: 1rem;
-    
+
     font-family: 'Love LetterTW', sans-serif;  
     font-size: small;  
 }
