@@ -40,46 +40,43 @@ section.sec1 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;    
 }
+
+/* CONTENEDOR PRINCIPAL */
 sub.subflex {
     display: grid;
     grid-template-columns: 1fr 20rem;
     justify-content: space-between;
     text-align: justify;
     height: fit-content;
-
 }
-sub.subflex span img{
+
+/* IMAGEN GRANDE DE SEC1 */
+sub.subflex span img {
+    width: 100%;
+    height: auto;
+    max-height: none;   /* ← ESTO es lo importante */
     margin: 1rem 5rem 0px 4rem; 
-    max-width:auto;
-    max-height: auto;
-}
-.imagenlainsec1{
-    
-
 }
 
-
+/* SEC2 */
 section.sec2 {
     display: grid;
     grid-template-rows: 1fr 1fr;
-
 }
 
-/* IMAGES */
+/* IMÁGENES GENERALES (LOGOS ETC.) */
 img {
-    max-height: 3rem;
+    max-height: 3rem;  /* Se mantiene para el logo */
     align-self: center;
 }
 
-/* FOOTER FIXED AT BOTTOM WHEN CONTENT IS SHORT */
-
+/* FOOTER */
 footer {
   min-height: 50px;
 }
 
 .sec1 p {
     margin: 1rem;
-
     font-family: 'Love LetterTW', sans-serif;  
     font-size: small;  
 }
