@@ -54,7 +54,8 @@ img {
 }
 
 /* FOOTER FIXED AT BOTTOM WHEN CONTENT IS SHORT */
+
 footer {
-    margin-top: auto;
-    padding: 1rem;
+  min-height: 50px;
+  background: PapayaWhip;
 }
