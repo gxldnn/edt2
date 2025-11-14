@@ -57,7 +57,7 @@ sub.subflex span {
 sub.subflex span img {
     width: 100%;
     height: auto;
-    max-height: none;   /* ← ESTO es lo importante */
+    max-height: none;  
     object-fit: contain;
 }
 
@@ -69,7 +69,7 @@ section.sec2 {
 
 /* IMÁGENES GENERALES (LOGOS ETC.) */
 img {
-    max-height: 3rem;  /* Se mantiene para el logo */
+    max-height: 3rem;  
     align-self: center;
 }
 
