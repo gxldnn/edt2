@@ -49,7 +49,7 @@ sub.subflex {
 sub.subflex img{
     align-self: flex-start;
     min-height: 10rem; 
-    margin: 
+    margin: 10%; 
 }
 
 
