@@ -41,6 +41,8 @@ section.sec1 {
     grid-template-rows: 1fr 1fr 1fr;    
 }
 
+
+
 section.sec2 {
     display: grid;
     grid-template-rows: 1fr 1fr;
