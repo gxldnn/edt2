@@ -1,5 +1,15 @@
 @import url('https://fonts.cdnfonts.com/css/love-letter-tw');
 
+
+    @keyframes glitch {
+      0% { transform: translate(0); filter: none; }
+      20% { transform: translate(-2px, 2px); filter: hue-rotate(20deg); }
+      40% { transform: translate(2px, -2px); filter: contrast(200%); }
+      60% { transform: translate(-1px, 1px); filter: brightness(200%); }
+      80% { transform: translate(1px, -1px); filter: saturate(300%); }
+      100% { transform: translate(0); filter: none; }
+    }
+
 body {
   min-height: 100vh;
   margin: 0;
