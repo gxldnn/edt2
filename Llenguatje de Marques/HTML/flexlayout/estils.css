@@ -50,7 +50,7 @@ sub.subflex {
 }
 sub.subflex img{
     align-self: flex-start;
-    height: ; 
+    height: max-content; 
     margin: 1rem 5rem 0px 4rem; 
 }
 
