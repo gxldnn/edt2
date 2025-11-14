@@ -43,6 +43,7 @@ section.sec1 {
 sub.subflex {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
 }
 sub.subflex img{
