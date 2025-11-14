@@ -50,7 +50,7 @@ sub.subflex {
     height: fit-content;
 }
 sub.subflex span {
-    margin: 0rem 1rem 0 4rem; /* mueve el contenedor, no la imagen */
+    margin: 0rem 1.5rem 0 4rem; /* mueve el contenedor, no la imagen */
 }
 
 /* IMAGEN GRANDE DE SEC1 */
