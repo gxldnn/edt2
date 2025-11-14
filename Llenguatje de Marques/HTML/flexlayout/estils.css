@@ -43,6 +43,11 @@ section.sec1 {
 sub.subflex {
     display: flex;
     flex-direction: row;
+
+}
+sub.subflex {
+    display: flex;
+    flex-direction: row;
     
 }
 
