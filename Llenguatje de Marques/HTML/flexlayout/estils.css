@@ -67,7 +67,7 @@ section.sec2 {
     grid-template-rows: 1fr 1fr;
 }
 
-/* IMÁGENES GENERALES (LOGOS ETC.) */
+
 img {
     max-height: 3rem;  
     align-self: center;
