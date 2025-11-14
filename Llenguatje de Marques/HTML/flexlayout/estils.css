@@ -45,10 +45,9 @@ sub.subflex {
     flex-direction: row;
 
 }
-sub.subflex {
-    display: flex;
-    flex-direction: row;
+sub.subflex img{
     
+   
 }
 
 
