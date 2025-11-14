@@ -79,6 +79,8 @@ section.sec2 {
     border-radius: 5px;
 }
 
+.subinfo:hover
+
 img {
     max-height: 3rem;
     align-self: center;
