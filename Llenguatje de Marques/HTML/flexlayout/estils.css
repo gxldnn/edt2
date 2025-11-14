@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/love-letter-tw');
 
 body {
-  min-height: 100%;
+  min-height: 100vh;
   margin: 0;
   display: grid;
   grid-template-rows: auto 1fr auto;
