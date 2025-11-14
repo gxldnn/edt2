@@ -80,7 +80,10 @@ section.sec2 {
 }
 
 .subinfo::before{
-
+    padding: 1rem;
+    font-size: 1.1rem;
+    background: rgba(255,255,255,0.1);
+    border-radius: 5px;
 
 }
 
