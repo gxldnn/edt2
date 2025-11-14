@@ -42,7 +42,6 @@ section.sec1 {
 }
 sub.subflex {
     display: grid;
-    flex-direction: row;
     justify-content: space-between;
     text-align: justify;
     height: fit-content;
