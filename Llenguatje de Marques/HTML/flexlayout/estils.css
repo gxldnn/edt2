@@ -5,17 +5,14 @@ body {
   margin: 0;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  background: #0e0e14;
+  color: white;
+  font-family: 'Love LetterTW', sans-serif;
 }
 
-/* HEADER */
 header {
-    font-family: 'Love LetterTW', sans-serif;    
     padding: 0;
-    background: linear-gradient(
-        174deg,
-        rgba(204, 117, 250, 1) 0%,
-        rgba(38, 6, 56, 1) 81%
-    );
+    background: linear-gradient(174deg, rgba(204,117,250,1) 0%, rgba(38,6,56,1) 81%);
 }
 
 header.header1 {
@@ -26,60 +23,74 @@ header.header1 {
 }
 
 header.header1 h1 {
-    text-shadow: 2px 2px rgba(230, 184, 255, 0.423);
+    margin: 0;
+    text-shadow: 2px 2px rgba(230,184,255,0.423);
 }
 
-/* MAIN LAYOUT */
 main {
     display: grid;
-    flex: 1;
     grid-template-columns: 1fr 1fr;
 }
 
 section.sec1 {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;    
+    grid-template-rows: 1fr;
+    align-items: center;
 }
 
-/* CONTENEDOR PRINCIPAL */
 sub.subflex {
     display: grid;
-    grid-template-columns: 1fr 20rem;
-    justify-content: space-between;
+    grid-template-columns: 1fr 22rem;
+    align-items: center;
     text-align: justify;
-    height: fit-content;
-}
-sub.subflex span {
-    margin: 1rem 1.5rem 0 4rem; /* mueve el contenedor, no la imagen */
 }
 
-/* IMAGEN GRANDE DE SEC1 */
+sub.subflex p {
+    margin: 2rem;
+    font-size: 0.95rem;
+    line-height: 1.6rem;
+}
+
+sub.subflex span {
+    padding: 1rem 2rem 1rem 0;
+}
+
 sub.subflex span img {
     width: 100%;
     height: auto;
-    max-height: none;  
-    object-fit: contain;
+    max-height: none;
+    display: block;
+    border-radius: 6px;
 }
 
-/* SEC2 */
 section.sec2 {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
 }
 
+.subinfo {
+    padding: 1rem;
+    font-size: 1.1rem;
+    background: rgba(255,255,255,0.1);
+    border-radius: 5px;
+}
 
 img {
-    max-height: 3rem;  
+    max-height: 3rem;
     align-self: center;
 }
 
-/* FOOTER */
 footer {
-  min-height: 50px;
-}
-
-.sec1 p {
-    margin: 1rem;
-    font-family: 'Love LetterTW', sans-serif;  
-    font-size: small;  
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #15051c;
+  color: #d8b0ff;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
 }
