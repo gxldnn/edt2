@@ -33,7 +33,7 @@ header.header1 h1 {
 main {
     display: grid;
     flex: 1;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 section.sec1 {
