@@ -78,7 +78,7 @@ section.sec2 {
     background: rgba(255,255,255,0.1);
     border-radius: 5px;
 }
-.subinfo {
+.subinfo::hover {
     padding: 1rem;
     font-size: 1.1rem;
     background: rgba(255,255,255,0.1);
