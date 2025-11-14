@@ -1,0 +1,14 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background: #0e0e14;
+  color: white;
+  font-family: 'Love LetterTW', sans-serif;
+}
+
+header {
+    padding: 0;
+    background: linear-gradient(174deg, rgba(204,117,250,1) 0%, rgba(38,6,56,1) 81%);
+}
