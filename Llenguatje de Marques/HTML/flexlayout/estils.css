@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/love-letter-tw');
 
-/*Una animacion del gpy*/
+/*Una animacion del GPT*/
 @keyframes glitch {
   0% { transform: translate(0); filter: none; }
   20% { transform: translate(-2px, 2px); filter: hue-rotate(20deg); }
