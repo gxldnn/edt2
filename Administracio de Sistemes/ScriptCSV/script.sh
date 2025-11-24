@@ -14,6 +14,13 @@
 # (Aquesta us la dono feta, és una bona pràctica)
 
 DATE=`date +%y/%m/%d_%H:%M:%S` # data actual
+LOG_DIR="$(pwd)/auto"
+LOGFILE="$LOG_DIR/logfile.log"
+ERRFILE="$LOG_DIR/errfile.log" # Log per a errors bonics :)
+DETAILOG="$LOG_DIR/detailederror.log" # Log per a errors literals de terminal
+mkdir -p "$LOG_DIR"
+touch "$LOGFILE" "$ERRFILE"
+
 func_check_root()
 {
    echo "[*] Verificant privilegis..."
@@ -32,12 +39,7 @@ fi
 
 
 
-LOG_DIR="$(pwd)/auto"
-LOGFILE="$LOG_DIR/logfile.log"
-ERRFILE="$LOG_DIR/errfile.log" # Log per a errors bonics :)
-DETAILOG="$LOG_DIR/detailederror.log" # Log per a errors literals de terminal
-mkdir -p "$LOG_DIR"
-touch "$LOGFILE" "$ERRFILE"
+
 
 
 
