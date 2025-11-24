@@ -1,0 +1,6 @@
+accio;username;nom_complet;shell;grup_primari;grups_secundaris
+CREAR;jperez;Joan Perez;/bin/bash;users;sudo,www-data
+CREAR;asantos;Ana Santos;/bin/bash;users;developers
+CREAR;vcoll;Victor Coll;/sbin/nologin;serveis;
+MODIFICAR_GRUPS;jperez;;;;sudo,www-data,developers
+ESBORRAR;mgarcia;;;;
