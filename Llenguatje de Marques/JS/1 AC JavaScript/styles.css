@@ -2,7 +2,13 @@
     border-style: solid;
     text-align: center;
     font-size: xx-large;
+    justify-content: center;
+    min-height: 5rem;
 }
+
+
 div{
     display: flex;
+    width: 100%;
+    align-items: center;
 }
