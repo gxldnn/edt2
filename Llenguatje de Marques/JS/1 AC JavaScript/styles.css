@@ -1,0 +1,8 @@
+.box{
+    border-style: solid;
+    text-align: center;
+    font-size: xx-large;
+}
+div{
+    display: flex;
+}
