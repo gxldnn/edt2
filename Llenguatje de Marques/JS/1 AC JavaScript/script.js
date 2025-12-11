@@ -7,7 +7,12 @@ function canvicolor() {
 }
 
 function inputext(){
-  document.getElementById("outputext").textContent = document.getElementById("inputext").value
+  let output = document.getElementById("outputext")
+  output.textContent = document.getElementById("inputext").value
+}
+
+function mesmida(){
+  document.getElementById("mida").style.fontSize = (5 + parseInt(document.getElementById("mida").style.fontSize)) + "px";
 }
 
 function suma(){
@@ -15,12 +20,9 @@ function suma(){
 }
 
 function sumamasmas(){
-  document.getElementById("sumauno").textContent = 1 + Number(document.getElementById("sumauno").value)
+  document.getElementById("sumauno").textContent = 1 + Number(document.getElementById("sumauno").value);
 }
 
-//function mesmida() {
-//
-//}
 
 function getNelements(){
   document.getElementById("nelements").textContent = document.getElementsByTagName("article").length
@@ -35,5 +37,5 @@ function addli(){
 }
 
 function canvidetext(){
-  document.getElementById("head").textContent = "jaja hola"
+  document.getElementById("head").textContent = document.getElementById("head").textContent + " jaja hola"
 }
