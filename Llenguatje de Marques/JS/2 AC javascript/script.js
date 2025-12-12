@@ -1,17 +1,18 @@
 num = 0
 function postear(){
+    let parent = event.target.parentElement;
     num++;
-    let art1 = document.getElementById("a1");
+    let art1 = document.getElementById(parent.id);
     let post = document.createElement("article");
     let divimg = document.createElement("div");
     let divbox = document.createElement("div");
+    divimg.className = "imagentexto";
+    divbox.className = "box"
     let content = document.getElementById("contenttext");
     let name = document.getElementById("name");
     let postid = post.id = "postnew" + num;
     post.className = "post";
-    divimg.className = "imagentexto";
     let divimgid = divimg.id = "img" + num;
-    divbox.className = "box"
     let divboxid = divbox.id = "box" + num;
     
     // Creació del contenidor principal 
