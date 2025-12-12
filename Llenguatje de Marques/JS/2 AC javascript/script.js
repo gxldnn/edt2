@@ -32,4 +32,5 @@ function postear(){
 
     let postcontent = document.getElementById(divboxid).appendChild(document.createElement("p"))
     postcontent.textContent = content.value
+
 }
