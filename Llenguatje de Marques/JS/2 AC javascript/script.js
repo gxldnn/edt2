@@ -2,7 +2,7 @@ num = 0
 function postear(){
     let parent = event.target.parentElement;
     num++;
-    let art1 = document.getElementById(parent.id);
+    let art = document.getElementById(parent.id).firstElementChild;
     let post = document.createElement("article");
     let divimg = document.createElement("div");
     let divbox = document.createElement("div");
@@ -16,7 +16,7 @@ function postear(){
     let divboxid = divbox.id = "box" + num;
     
     // Creació del contenidor principal 
-    art1.appendChild(post);
+    art.appendChild(post);
 
     // Creació dels subcontenidors i subcontenidors
     let lastpost = document.getElementById(postid)
