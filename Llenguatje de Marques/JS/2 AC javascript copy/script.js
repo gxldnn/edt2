@@ -18,6 +18,7 @@ function postear(){
     post.appendChild(divimg);
     post.appendChild(divbox);
 
+
     // Definim contingut dels subcontenidors 
     let avatar = divimg.appendChild(document.createElement("img"));
     let post_nickname = divimg.appendChild(document.createElement("p"));
