@@ -1,0 +1,41 @@
+body{
+    display: flex;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+    max-height: max-content;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    ;
+}
+
+th.head {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-style: bold;
+}
+
+.Fire{
+    background-color: red;
+}
+.Water{
+    background-color: blue;
+}
+.Dark{
+    background-color: purple;
+}
+.Normal{
+    background-color: grey;
+}
+.Fighting{
+    background-color:coral
+}
+
+

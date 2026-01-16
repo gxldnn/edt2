@@ -3,6 +3,7 @@ services:
     image: ubuntu/squid
     container_name: squid_Jan
     ports:
-     - "3128:3128"
+      - "3128:3128"
     environment:
-    - TZ=UTC
+      - TZ=UTC
+    command: ["squid", "-N"]

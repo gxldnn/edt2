@@ -32,6 +32,18 @@ nav {
     list-style-type: none;
     
 }
+
+.articles{
+    margin-right: 3rem;
+
+}
+
+.borrar{
+    justify-content: center;
+    background: transparent;
+    border-color: transparent;
+    margin-left: 1rem;
+}
 nav a{
     text-decoration: none;
     color: black;
@@ -73,10 +85,10 @@ div.box{
     border-radius: 10px;
     margin-left: 1rem;  
     padding-right: 1rem;
-    margin-right: 5rem;
     background-color: grey;
 
 }
+textarea{}
 
 div.contacto{
     width: 100%;
