@@ -14,6 +14,8 @@
 
                     <xsl:for-each select="pokedex/pokemon[legendary='1.0']">
                         <tr>
+                        <xsl:template name="mostrarPokemon">
+                        <xsl:param name="pokemon"/>
                             <xsl:choose>
                                 <xsl:when test="type1='Fire'">
                                     <td class="Fire"><xsl:value-of select="name"/></td>
@@ -34,6 +36,7 @@
                                     <td><xsl:value-of select="name"/></td>
                                 </xsl:otherwise>
                             </xsl:choose>
+                        </xsl:template>
                         </tr>
                     </xsl:for-each>
                 </table>
@@ -58,7 +61,7 @@
                                     <td class="Normal"><xsl:value-of select="name"/></td>
                                 </xsl:when>
                                 <xsl:when test="type1='Fighting'">
-                                    <td class="Fighting"><xsl:value-of select="name"/></td>
+                                    <td class="Fightºing"><xsl:value-of select="name"/></td>
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <td><xsl:value-of select="name"/></td>
